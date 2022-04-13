@@ -1,0 +1,313 @@
+node160
+[DEBUG] PID: Mockito
+[DEBUG] VID: 2
+[DEBUG] DATA_DIR: /data/acp13jcd/TestGZoltar/Mockito/2/Mockito/developer/0/Mockito-2b-developer.0
+[DEBUG] TOOL: developer
+[DEBUG] TMP_DIR: /tmp/acp13jcd/run_gzoltar_94637_Mockito-2
+[DEBUG] DIR_PROJECT: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito
+[DEBUG] DIR_LOADED_CLASSES: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/relevant_tests
+[DEBUG] DIR_TRIGGER_TESTS: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/trigger_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -Xmx1024m
+java version "1.7.0_111"
+OpenJDK Runtime Environment (rhel-2.6.7.2.el6_8-x86_64 u111-b01)
+OpenJDK 64-Bit Server VM (build 24.111-b01, mixed mode)
+[INFO] Checking out Mockito-2 to /tmp/acp13jcd/run_gzoltar_94637_Mockito-2
+Check out 80452c7a to /tmp/acp13jcd/run_gzoltar_94637_Mockito-2............ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Use of implicit split to @_ is deprecated at /data/acp13jcd/FaultLocalization/defects4j/framework/util/rm_broken_tests.pl line 241.
+Use of implicit split to @_ is deprecated at /data/acp13jcd/FaultLocalization/defects4j/framework/util/rm_broken_tests.pl line 241.
+Use of implicit split to @_ is deprecated at /data/acp13jcd/FaultLocalization/defects4j/framework/util/rm_broken_tests.pl line 241.
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 80452c7a:d30450fa..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Mockito-2b...................................... OK
+[DEBUG] LOADED_CLASSES: org.mockito.internal.configuration.MockitoAnnotationsMockAnnotationProcessor:org.mockito.internal.util.collections.ListUtil:org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter:org.mockito.exceptions.misusing.CannotStubVoidMethodWithReturnValue:org.mockito.internal.configuration.SpyAnnotationEngine:org.mockito.Captor:org.mockito.internal.progress.ArgumentMatcherStorageImpl:org.mockito.internal.progress.MockingProgress:org.mockito.verification.Timeout:org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues:org.mockito.MockingDetails:org.mockito.exceptions.stacktrace.StackTraceCleaner:org.mockito.internal.verification.Times:org.mockito.internal.configuration.DefaultAnnotationEngine:org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter:org.mockito.invocation.Location:org.mockito.internal.configuration.injection.MockInjection:org.mockito.internal.util.Timer:org.mockito.exceptions.verification.TooLittleActualInvocations:org.mockito.internal.verification.VerificationOverTimeImpl:org.mockito.internal.progress.ThreadSafeMockingProgress:org.mockito.internal.configuration.DefaultInjectionEngine:org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues:org.mockito.invocation.InvocationOnMock:org.mockito.internal.invocation.MockitoMethod:org.mockito.exceptions.misusing.InvalidUseOfMatchersException:org.mockito.exceptions.misusing.NullInsteadOfMockException:org.mockito.internal.configuration.MockAnnotationProcessor:org.mockito.configuration.DefaultMockitoConfiguration:org.mockito.internal.configuration.plugins.PluginFinder:org.mockito.internal.invocation.realmethod.RealMethod:org.mockito.exceptions.verification.NeverWantedButInvoked:org.mockito.internal.exceptions.stacktrace.StackTraceFilter:org.mockito.exceptions.verification.VerificationInOrderFailure:org.mockito.internal.configuration.injection.PropertyAndSetterInjection:org.mockito.internal.configuration.plugins.DefaultPluginSwitch:org.mockito.internal.MockitoCore:org.mockito.internal.stubbing.defaultanswers.ReturnsMocks:org.mockito.internal.util.collections.Sets:org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler:org.mockito.internal.configuration.injection.scanner.InjectMocksScanner:org.mockito.MockitoAnnotations:org.mockito.mock.MockName:org.mockito.internal.util.StringJoiner:org.mockito.internal.invocation.AbstractAwareMethod:org.mockito.internal.util.ObjectMethodsGuru:org.mockito.Mockito:org.mockito.plugins.StackTraceCleanerProvider:org.mockito.internal.verification.VerificationModeFactory:org.mockito.exceptions.verification.TooManyActualInvocations:org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleaner:org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer:org.mockito.InOrder:org.mockito.internal.configuration.InjectingAnnotationEngine:org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:org.mockito.MockitoDebugger:org.mockito.internal.configuration.injection.scanner.MockScanner:org.mockito.verification.VerificationWithTimeout:org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls:org.mockito.internal.configuration.GlobalConfiguration:org.mockito.internal.util.collections.Iterables:org.mockito.exceptions.misusing.CannotVerifyStubOnlyMock:org.mockito.internal.util.reflection.FieldInitializer:org.mockito.exceptions.misusing.FriendlyReminderException:org.mockito.invocation.DescribedInvocation:org.mockito.Mock:org.mockito.verification.VerificationWrapper:org.mockito.exceptions.verification.WantedButNotInvoked:org.mockito.internal.configuration.plugins.PluginRegistry:org.mockito.internal.progress.MockingProgressImpl:org.mockito.exceptions.misusing.NotAMockException:org.mockito.internal.configuration.injection.filter.OngoingInjecter:org.mockito.verification.VerificationMode:org.mockito.Matchers:org.mockito.internal.creation.cglib.CglibMockMaker:org.mockito.exceptions.base.MockitoAssertionError:org.mockito.exceptions.Reporter:org.mockito.configuration.IMockitoConfiguration:org.mockito.internal.configuration.injection.ConstructorInjection:org.mockito.Answers:org.mockito.exceptions.misusing.WrongTypeOfReturnValue:org.mockito.stubbing.Answer:org.mockito.internal.verification.api.VerificationInOrderMode:org.mockito.plugins.MockMaker:org.mockito.exceptions.base.MockitoException:org.mockito.internal.configuration.plugins.PluginLoader:org.mockito.invocation.MockHandler:org.mockito.internal.util.Checks:org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider:org.mockito.exceptions.misusing.MockitoConfigurationException:org.mockito.exceptions.misusing.UnfinishedStubbingException:org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet:org.mockito.exceptions.verification.NoInteractionsWanted:org.mockito.exceptions.misusing.MissingMethodInvocationException:org.mockito.internal.stubbing.InvocationContainer:org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter:org.mockito.internal.configuration.injection.MockInjectionStrategy:org.mockito.exceptions.verification.SmartNullPointerException:org.mockito.invocation.Invocation:org.mockito.internal.configuration.FieldAnnotationProcessor:org.mockito.internal.util.MockUtil:org.mockito.internal.configuration.plugins.Plugins:org.mockito.internal.verification.api.VerificationDataInOrder:org.mockito.verification.After:org.mockito.internal.configuration.ClassPathLoader:org.mockito.internal.progress.ArgumentMatcherStorage:org.mockito.plugins.PluginSwitch:org.mockito.internal.configuration.CaptorAnnotationProcessor:org.mockito.configuration.AnnotationEngine:org.mockito.internal.verification.api.VerificationData:org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter:org.mockito.internal.stubbing.answers.CallsRealMethods:org.mockito.verification.VerificationAfterDelay:org.mockito.internal.configuration.injection.filter.MockCandidateFilter:org.mockito.exceptions.PrintableInvocation:org.mockito.exceptions.misusing.UnfinishedVerificationException:
+[DEBUG] LOADED_SUB_CLASSES: org.mockito.internal.configuration.MockitoAnnotationsMockAnnotationProcessor$*:org.mockito.internal.util.collections.ListUtil$*:org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter$*:org.mockito.exceptions.misusing.CannotStubVoidMethodWithReturnValue$*:org.mockito.internal.configuration.SpyAnnotationEngine$*:org.mockito.Captor$*:org.mockito.internal.progress.ArgumentMatcherStorageImpl$*:org.mockito.internal.progress.MockingProgress$*:org.mockito.verification.Timeout$*:org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues$*:org.mockito.MockingDetails$*:org.mockito.exceptions.stacktrace.StackTraceCleaner$*:org.mockito.internal.verification.Times$*:org.mockito.internal.configuration.DefaultAnnotationEngine$*:org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter$*:org.mockito.invocation.Location$*:org.mockito.internal.configuration.injection.MockInjection$*:org.mockito.internal.util.Timer$*:org.mockito.exceptions.verification.TooLittleActualInvocations$*:org.mockito.internal.verification.VerificationOverTimeImpl$*:org.mockito.internal.progress.ThreadSafeMockingProgress$*:org.mockito.internal.configuration.DefaultInjectionEngine$*:org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues$*:org.mockito.invocation.InvocationOnMock$*:org.mockito.internal.invocation.MockitoMethod$*:org.mockito.exceptions.misusing.InvalidUseOfMatchersException$*:org.mockito.exceptions.misusing.NullInsteadOfMockException$*:org.mockito.internal.configuration.MockAnnotationProcessor$*:org.mockito.configuration.DefaultMockitoConfiguration$*:org.mockito.internal.configuration.plugins.PluginFinder$*:org.mockito.internal.invocation.realmethod.RealMethod$*:org.mockito.exceptions.verification.NeverWantedButInvoked$*:org.mockito.internal.exceptions.stacktrace.StackTraceFilter$*:org.mockito.exceptions.verification.VerificationInOrderFailure$*:org.mockito.internal.configuration.injection.PropertyAndSetterInjection$*:org.mockito.internal.configuration.plugins.DefaultPluginSwitch$*:org.mockito.internal.MockitoCore$*:org.mockito.internal.stubbing.defaultanswers.ReturnsMocks$*:org.mockito.internal.util.collections.Sets$*:org.mockito.internal.configuration.injection.SpyOnInjectedFieldsHandler$*:org.mockito.internal.configuration.injection.scanner.InjectMocksScanner$*:org.mockito.MockitoAnnotations$*:org.mockito.mock.MockName$*:org.mockito.internal.util.StringJoiner$*:org.mockito.internal.invocation.AbstractAwareMethod$*:org.mockito.internal.util.ObjectMethodsGuru$*:org.mockito.Mockito$*:org.mockito.plugins.StackTraceCleanerProvider$*:org.mockito.internal.verification.VerificationModeFactory$*:org.mockito.exceptions.verification.TooManyActualInvocations$*:org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleaner$*:org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer$*:org.mockito.InOrder$*:org.mockito.internal.configuration.InjectingAnnotationEngine$*:org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs$*:org.mockito.MockitoDebugger$*:org.mockito.internal.configuration.injection.scanner.MockScanner$*:org.mockito.verification.VerificationWithTimeout$*:org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$*:org.mockito.internal.configuration.GlobalConfiguration$*:org.mockito.internal.util.collections.Iterables$*:org.mockito.exceptions.misusing.CannotVerifyStubOnlyMock$*:org.mockito.internal.util.reflection.FieldInitializer$*:org.mockito.exceptions.misusing.FriendlyReminderException$*:org.mockito.invocation.DescribedInvocation$*:org.mockito.Mock$*:org.mockito.verification.VerificationWrapper$*:org.mockito.exceptions.verification.WantedButNotInvoked$*:org.mockito.internal.configuration.plugins.PluginRegistry$*:org.mockito.internal.progress.MockingProgressImpl$*:org.mockito.exceptions.misusing.NotAMockException$*:org.mockito.internal.configuration.injection.filter.OngoingInjecter$*:org.mockito.verification.VerificationMode$*:org.mockito.Matchers$*:org.mockito.internal.creation.cglib.CglibMockMaker$*:org.mockito.exceptions.base.MockitoAssertionError$*:org.mockito.exceptions.Reporter$*:org.mockito.configuration.IMockitoConfiguration$*:org.mockito.internal.configuration.injection.ConstructorInjection$*:org.mockito.Answers$*:org.mockito.exceptions.misusing.WrongTypeOfReturnValue$*:org.mockito.stubbing.Answer$*:org.mockito.internal.verification.api.VerificationInOrderMode$*:org.mockito.plugins.MockMaker$*:org.mockito.exceptions.base.MockitoException$*:org.mockito.internal.configuration.plugins.PluginLoader$*:org.mockito.invocation.MockHandler$*:org.mockito.internal.util.Checks$*:org.mockito.internal.exceptions.stacktrace.DefaultStackTraceCleanerProvider$*:org.mockito.exceptions.misusing.MockitoConfigurationException$*:org.mockito.exceptions.misusing.UnfinishedStubbingException$*:org.mockito.internal.util.collections.HashCodeAndEqualsSafeSet$*:org.mockito.exceptions.verification.NoInteractionsWanted$*:org.mockito.exceptions.misusing.MissingMethodInvocationException$*:org.mockito.internal.stubbing.InvocationContainer$*:org.mockito.internal.exceptions.stacktrace.ConditionalStackTraceFilter$*:org.mockito.internal.configuration.injection.MockInjectionStrategy$*:org.mockito.exceptions.verification.SmartNullPointerException$*:org.mockito.invocation.Invocation$*:org.mockito.internal.configuration.FieldAnnotationProcessor$*:org.mockito.internal.util.MockUtil$*:org.mockito.internal.configuration.plugins.Plugins$*:org.mockito.internal.verification.api.VerificationDataInOrder$*:org.mockito.verification.After$*:org.mockito.internal.configuration.ClassPathLoader$*:org.mockito.internal.progress.ArgumentMatcherStorage$*:org.mockito.plugins.PluginSwitch$*:org.mockito.internal.configuration.CaptorAnnotationProcessor$*:org.mockito.configuration.AnnotationEngine$*:org.mockito.internal.verification.api.VerificationData$*:org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter$*:org.mockito.internal.stubbing.answers.CallsRealMethods$*:org.mockito.verification.VerificationAfterDelay$*:org.mockito.internal.configuration.injection.filter.MockCandidateFilter$*:org.mockito.exceptions.PrintableInvocation$*:org.mockito.exceptions.misusing.UnfinishedVerificationException$*:
+[DEBUG] RELEVANT_TESTS: org.mockito.internal.util.TimerTest:org.mockito.internal.verification.VerificationOverTimeImplTest:org.mockito.verification.NegativeDurationTest:org.mockito.verification.TimeoutTest:org.mockitointegration.NoJUnitDependenciesTest:org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest:org.mockitousage.bugs.TimeoutWithAtMostOrNeverShouldBeDisabledTest:org.mockitousage.verification.VerificationAfterDelayTest:org.mockitousage.verification.VerificationWithTimeoutTest:
+[DEBUG] TRIGGER_TESTS_FILE: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/trigger_tests/2
+[DEBUG] CP: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/lib/junit-4.11.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/lib/junit-4.11.jar:/tmp/acp13jcd/run_gzoltar_94637_Mockito-2/build/classes/main:/tmp/acp13jcd/run_gzoltar_94637_Mockito-2/build/classes/test:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+[DEBUG] CLASSES_DIR: build/classes/main
+[DEBUG] DIR_SRC_TESTS: test
+[INFO] Compiling Mockito-2
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running get coverage script to get the list of all test methods (info provided by Cobertura)
+Running ant (compile.tests)................................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.dev.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/acp13jcd/run_gzoltar_94637_Mockito-2/failing_tests)!
+       Lines total: 9
+     Lines covered: 9
+  Conditions total: 6
+Conditions covered: 3
+     Line coverage: 100.0%
+Condition coverage: 50.0%
+[INFO] Running JaCoCo coverage script to get the total number of lines
+[DEBUG] LOADED_CLASSES_FOR_XML: <include name="org/mockito/internal/configuration/MockitoAnnotationsMockAnnotationProcessor.class"/> <include name="org/mockito/internal/util/collections/ListUtil.class"/> <include name="org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter.class"/> <include name="org/mockito/exceptions/misusing/CannotStubVoidMethodWithReturnValue.class"/> <include name="org/mockito/internal/configuration/SpyAnnotationEngine.class"/> <include name="org/mockito/Captor.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorageImpl.class"/> <include name="org/mockito/internal/progress/MockingProgress.class"/> <include name="org/mockito/verification/Timeout.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.class"/> <include name="org/mockito/MockingDetails.class"/> <include name="org/mockito/exceptions/stacktrace/StackTraceCleaner.class"/> <include name="org/mockito/internal/verification/Times.class"/> <include name="org/mockito/internal/configuration/DefaultAnnotationEngine.class"/> <include name="org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.class"/> <include name="org/mockito/invocation/Location.class"/> <include name="org/mockito/internal/configuration/injection/MockInjection.class"/> <include name="org/mockito/internal/util/Timer.class"/> <include name="org/mockito/exceptions/verification/TooLittleActualInvocations.class"/> <include name="org/mockito/internal/verification/VerificationOverTimeImpl.class"/> <include name="org/mockito/internal/progress/ThreadSafeMockingProgress.class"/> <include name="org/mockito/internal/configuration/DefaultInjectionEngine.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.class"/> <include name="org/mockito/invocation/InvocationOnMock.class"/> <include name="org/mockito/internal/invocation/MockitoMethod.class"/> <include name="org/mockito/exceptions/misusing/InvalidUseOfMatchersException.class"/> <include name="org/mockito/exceptions/misusing/NullInsteadOfMockException.class"/> <include name="org/mockito/internal/configuration/MockAnnotationProcessor.class"/> <include name="org/mockito/configuration/DefaultMockitoConfiguration.class"/> <include name="org/mockito/internal/configuration/plugins/PluginFinder.class"/> <include name="org/mockito/internal/invocation/realmethod/RealMethod.class"/> <include name="org/mockito/exceptions/verification/NeverWantedButInvoked.class"/> <include name="org/mockito/internal/exceptions/stacktrace/StackTraceFilter.class"/> <include name="org/mockito/exceptions/verification/VerificationInOrderFailure.class"/> <include name="org/mockito/internal/configuration/injection/PropertyAndSetterInjection.class"/> <include name="org/mockito/internal/configuration/plugins/DefaultPluginSwitch.class"/> <include name="org/mockito/internal/MockitoCore.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.class"/> <include name="org/mockito/internal/util/collections/Sets.class"/> <include name="org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler.class"/> <include name="org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.class"/> <include name="org/mockito/MockitoAnnotations.class"/> <include name="org/mockito/mock/MockName.class"/> <include name="org/mockito/internal/util/StringJoiner.class"/> <include name="org/mockito/internal/invocation/AbstractAwareMethod.class"/> <include name="org/mockito/internal/util/ObjectMethodsGuru.class"/> <include name="org/mockito/Mockito.class"/> <include name="org/mockito/plugins/StackTraceCleanerProvider.class"/> <include name="org/mockito/internal/verification/VerificationModeFactory.class"/> <include name="org/mockito/exceptions/verification/TooManyActualInvocations.class"/> <include name="org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleaner.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.class"/> <include name="org/mockito/InOrder.class"/> <include name="org/mockito/internal/configuration/InjectingAnnotationEngine.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.class"/> <include name="org/mockito/MockitoDebugger.class"/> <include name="org/mockito/internal/configuration/injection/scanner/MockScanner.class"/> <include name="org/mockito/verification/VerificationWithTimeout.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.class"/> <include name="org/mockito/internal/configuration/GlobalConfiguration.class"/> <include name="org/mockito/internal/util/collections/Iterables.class"/> <include name="org/mockito/exceptions/misusing/CannotVerifyStubOnlyMock.class"/> <include name="org/mockito/internal/util/reflection/FieldInitializer.class"/> <include name="org/mockito/exceptions/misusing/FriendlyReminderException.class"/> <include name="org/mockito/invocation/DescribedInvocation.class"/> <include name="org/mockito/Mock.class"/> <include name="org/mockito/verification/VerificationWrapper.class"/> <include name="org/mockito/exceptions/verification/WantedButNotInvoked.class"/> <include name="org/mockito/internal/configuration/plugins/PluginRegistry.class"/> <include name="org/mockito/internal/progress/MockingProgressImpl.class"/> <include name="org/mockito/exceptions/misusing/NotAMockException.class"/> <include name="org/mockito/internal/configuration/injection/filter/OngoingInjecter.class"/> <include name="org/mockito/verification/VerificationMode.class"/> <include name="org/mockito/Matchers.class"/> <include name="org/mockito/internal/creation/cglib/CglibMockMaker.class"/> <include name="org/mockito/exceptions/base/MockitoAssertionError.class"/> <include name="org/mockito/exceptions/Reporter.class"/> <include name="org/mockito/configuration/IMockitoConfiguration.class"/> <include name="org/mockito/internal/configuration/injection/ConstructorInjection.class"/> <include name="org/mockito/Answers.class"/> <include name="org/mockito/exceptions/misusing/WrongTypeOfReturnValue.class"/> <include name="org/mockito/stubbing/Answer.class"/> <include name="org/mockito/internal/verification/api/VerificationInOrderMode.class"/> <include name="org/mockito/plugins/MockMaker.class"/> <include name="org/mockito/exceptions/base/MockitoException.class"/> <include name="org/mockito/internal/configuration/plugins/PluginLoader.class"/> <include name="org/mockito/invocation/MockHandler.class"/> <include name="org/mockito/internal/util/Checks.class"/> <include name="org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.class"/> <include name="org/mockito/exceptions/misusing/MockitoConfigurationException.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedStubbingException.class"/> <include name="org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.class"/> <include name="org/mockito/exceptions/verification/NoInteractionsWanted.class"/> <include name="org/mockito/exceptions/misusing/MissingMethodInvocationException.class"/> <include name="org/mockito/internal/stubbing/InvocationContainer.class"/> <include name="org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilter.class"/> <include name="org/mockito/internal/configuration/injection/MockInjectionStrategy.class"/> <include name="org/mockito/exceptions/verification/SmartNullPointerException.class"/> <include name="org/mockito/invocation/Invocation.class"/> <include name="org/mockito/internal/configuration/FieldAnnotationProcessor.class"/> <include name="org/mockito/internal/util/MockUtil.class"/> <include name="org/mockito/internal/configuration/plugins/Plugins.class"/> <include name="org/mockito/internal/verification/api/VerificationDataInOrder.class"/> <include name="org/mockito/verification/After.class"/> <include name="org/mockito/internal/configuration/ClassPathLoader.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorage.class"/> <include name="org/mockito/plugins/PluginSwitch.class"/> <include name="org/mockito/internal/configuration/CaptorAnnotationProcessor.class"/> <include name="org/mockito/configuration/AnnotationEngine.class"/> <include name="org/mockito/internal/verification/api/VerificationData.class"/> <include name="org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.class"/> <include name="org/mockito/internal/stubbing/answers/CallsRealMethods.class"/> <include name="org/mockito/verification/VerificationAfterDelay.class"/> <include name="org/mockito/internal/configuration/injection/filter/MockCandidateFilter.class"/> <include name="org/mockito/exceptions/PrintableInvocation.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedVerificationException.class"/> 
+[DEBUG] LOADED_SUB_CLASSES_FOR_XML: <include name="org/mockito/internal/configuration/MockitoAnnotationsMockAnnotationProcessor$*.class"/> <include name="org/mockito/internal/util/collections/ListUtil$*.class"/> <include name="org/mockito/internal/configuration/injection/filter/FinalMockCandidateFilter$*.class"/> <include name="org/mockito/exceptions/misusing/CannotStubVoidMethodWithReturnValue$*.class"/> <include name="org/mockito/internal/configuration/SpyAnnotationEngine$*.class"/> <include name="org/mockito/Captor$*.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorageImpl$*.class"/> <include name="org/mockito/internal/progress/MockingProgress$*.class"/> <include name="org/mockito/verification/Timeout$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues$*.class"/> <include name="org/mockito/MockingDetails$*.class"/> <include name="org/mockito/exceptions/stacktrace/StackTraceCleaner$*.class"/> <include name="org/mockito/internal/verification/Times$*.class"/> <include name="org/mockito/internal/configuration/DefaultAnnotationEngine$*.class"/> <include name="org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter$*.class"/> <include name="org/mockito/invocation/Location$*.class"/> <include name="org/mockito/internal/configuration/injection/MockInjection$*.class"/> <include name="org/mockito/internal/util/Timer$*.class"/> <include name="org/mockito/exceptions/verification/TooLittleActualInvocations$*.class"/> <include name="org/mockito/internal/verification/VerificationOverTimeImpl$*.class"/> <include name="org/mockito/internal/progress/ThreadSafeMockingProgress$*.class"/> <include name="org/mockito/internal/configuration/DefaultInjectionEngine$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues$*.class"/> <include name="org/mockito/invocation/InvocationOnMock$*.class"/> <include name="org/mockito/internal/invocation/MockitoMethod$*.class"/> <include name="org/mockito/exceptions/misusing/InvalidUseOfMatchersException$*.class"/> <include name="org/mockito/exceptions/misusing/NullInsteadOfMockException$*.class"/> <include name="org/mockito/internal/configuration/MockAnnotationProcessor$*.class"/> <include name="org/mockito/configuration/DefaultMockitoConfiguration$*.class"/> <include name="org/mockito/internal/configuration/plugins/PluginFinder$*.class"/> <include name="org/mockito/internal/invocation/realmethod/RealMethod$*.class"/> <include name="org/mockito/exceptions/verification/NeverWantedButInvoked$*.class"/> <include name="org/mockito/internal/exceptions/stacktrace/StackTraceFilter$*.class"/> <include name="org/mockito/exceptions/verification/VerificationInOrderFailure$*.class"/> <include name="org/mockito/internal/configuration/injection/PropertyAndSetterInjection$*.class"/> <include name="org/mockito/internal/configuration/plugins/DefaultPluginSwitch$*.class"/> <include name="org/mockito/internal/MockitoCore$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMocks$*.class"/> <include name="org/mockito/internal/util/collections/Sets$*.class"/> <include name="org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler$*.class"/> <include name="org/mockito/internal/configuration/injection/scanner/InjectMocksScanner$*.class"/> <include name="org/mockito/MockitoAnnotations$*.class"/> <include name="org/mockito/mock/MockName$*.class"/> <include name="org/mockito/internal/util/StringJoiner$*.class"/> <include name="org/mockito/internal/invocation/AbstractAwareMethod$*.class"/> <include name="org/mockito/internal/util/ObjectMethodsGuru$*.class"/> <include name="org/mockito/Mockito$*.class"/> <include name="org/mockito/plugins/StackTraceCleanerProvider$*.class"/> <include name="org/mockito/internal/verification/VerificationModeFactory$*.class"/> <include name="org/mockito/exceptions/verification/TooManyActualInvocations$*.class"/> <include name="org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleaner$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer$*.class"/> <include name="org/mockito/InOrder$*.class"/> <include name="org/mockito/internal/configuration/InjectingAnnotationEngine$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs$*.class"/> <include name="org/mockito/MockitoDebugger$*.class"/> <include name="org/mockito/internal/configuration/injection/scanner/MockScanner$*.class"/> <include name="org/mockito/verification/VerificationWithTimeout$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls$*.class"/> <include name="org/mockito/internal/configuration/GlobalConfiguration$*.class"/> <include name="org/mockito/internal/util/collections/Iterables$*.class"/> <include name="org/mockito/exceptions/misusing/CannotVerifyStubOnlyMock$*.class"/> <include name="org/mockito/internal/util/reflection/FieldInitializer$*.class"/> <include name="org/mockito/exceptions/misusing/FriendlyReminderException$*.class"/> <include name="org/mockito/invocation/DescribedInvocation$*.class"/> <include name="org/mockito/Mock$*.class"/> <include name="org/mockito/verification/VerificationWrapper$*.class"/> <include name="org/mockito/exceptions/verification/WantedButNotInvoked$*.class"/> <include name="org/mockito/internal/configuration/plugins/PluginRegistry$*.class"/> <include name="org/mockito/internal/progress/MockingProgressImpl$*.class"/> <include name="org/mockito/exceptions/misusing/NotAMockException$*.class"/> <include name="org/mockito/internal/configuration/injection/filter/OngoingInjecter$*.class"/> <include name="org/mockito/verification/VerificationMode$*.class"/> <include name="org/mockito/Matchers$*.class"/> <include name="org/mockito/internal/creation/cglib/CglibMockMaker$*.class"/> <include name="org/mockito/exceptions/base/MockitoAssertionError$*.class"/> <include name="org/mockito/exceptions/Reporter$*.class"/> <include name="org/mockito/configuration/IMockitoConfiguration$*.class"/> <include name="org/mockito/internal/configuration/injection/ConstructorInjection$*.class"/> <include name="org/mockito/Answers$*.class"/> <include name="org/mockito/exceptions/misusing/WrongTypeOfReturnValue$*.class"/> <include name="org/mockito/stubbing/Answer$*.class"/> <include name="org/mockito/internal/verification/api/VerificationInOrderMode$*.class"/> <include name="org/mockito/plugins/MockMaker$*.class"/> <include name="org/mockito/exceptions/base/MockitoException$*.class"/> <include name="org/mockito/internal/configuration/plugins/PluginLoader$*.class"/> <include name="org/mockito/invocation/MockHandler$*.class"/> <include name="org/mockito/internal/util/Checks$*.class"/> <include name="org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider$*.class"/> <include name="org/mockito/exceptions/misusing/MockitoConfigurationException$*.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedStubbingException$*.class"/> <include name="org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet$*.class"/> <include name="org/mockito/exceptions/verification/NoInteractionsWanted$*.class"/> <include name="org/mockito/exceptions/misusing/MissingMethodInvocationException$*.class"/> <include name="org/mockito/internal/stubbing/InvocationContainer$*.class"/> <include name="org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilter$*.class"/> <include name="org/mockito/internal/configuration/injection/MockInjectionStrategy$*.class"/> <include name="org/mockito/exceptions/verification/SmartNullPointerException$*.class"/> <include name="org/mockito/invocation/Invocation$*.class"/> <include name="org/mockito/internal/configuration/FieldAnnotationProcessor$*.class"/> <include name="org/mockito/internal/util/MockUtil$*.class"/> <include name="org/mockito/internal/configuration/plugins/Plugins$*.class"/> <include name="org/mockito/internal/verification/api/VerificationDataInOrder$*.class"/> <include name="org/mockito/verification/After$*.class"/> <include name="org/mockito/internal/configuration/ClassPathLoader$*.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorage$*.class"/> <include name="org/mockito/plugins/PluginSwitch$*.class"/> <include name="org/mockito/internal/configuration/CaptorAnnotationProcessor$*.class"/> <include name="org/mockito/configuration/AnnotationEngine$*.class"/> <include name="org/mockito/internal/verification/api/VerificationData$*.class"/> <include name="org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter$*.class"/> <include name="org/mockito/internal/stubbing/answers/CallsRealMethods$*.class"/> <include name="org/mockito/verification/VerificationAfterDelay$*.class"/> <include name="org/mockito/internal/configuration/injection/filter/MockCandidateFilter$*.class"/> <include name="org/mockito/exceptions/PrintableInvocation$*.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedVerificationException$*.class"/> 
+Picked up _JAVA_OPTIONS: -Xmx1024m
+Buildfile: /tmp/acp13jcd/run_gzoltar_94637_Mockito-2/jacoco-build.xml
+
+clean:
+
+test-suite:
+[jacoco:coverage] Enhancing junit with coverage
+    [junit] Picked up _JAVA_OPTIONS: -Xmx1024m
+    [junit] Running org.mockito.internal.util.TimerTest
+    [junit] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.269 sec
+    [junit] Test org.mockito.internal.util.TimerTest FAILED
+
+report:
+[jacoco:report] Loading execution data file /tmp/acp13jcd/run_gzoltar_94637_Mockito-2/.jacoco/jacoco.exec
+[jacoco:report] Writing bundle 'JaCoCo Ant Example' with 97 classes
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[INFO] Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Collecting classes under test
+* Collected 136 classes
+* Collecting test classes
+* Collected 9 test classes
+* Collected 1400 components
+* Performing analysis
+* Number of test cases to execute: 1
+* Started org.mockitointegration.NoJUnitDependenciesTest#pure_mockito_should_not_depend_JUnit
+* Finished org.mockitointegration.NoJUnitDependenciesTest#pure_mockito_should_not_depend_JUnit
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest#shouldSuccessfullyVerifyConcurrentInvocationsWithTimeout
+started 0
+* Finished org.mockitousage.bugs.ConcurrentModificationExceptionOnMultiThreadedVerificationTest#shouldSuccessfullyVerifyConcurrentInvocationsWithTimeout
+* Number of test cases executed: 1
+finished0
+* Number of test cases to execute: 1
+* Started org.mockitousage.bugs.TimeoutWithAtMostOrNeverShouldBeDisabledTest#shouldDisableTimeoutForNever
+* Finished org.mockitousage.bugs.TimeoutWithAtMostOrNeverShouldBeDisabledTest#shouldDisableTimeoutForNever
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.bugs.TimeoutWithAtMostOrNeverShouldBeDisabledTest#shouldDisableTimeoutForAtMost
+* Finished org.mockitousage.bugs.TimeoutWithAtMostOrNeverShouldBeDisabledTest#shouldDisableTimeoutForAtMost
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.verification.VerificationOverTimeImplTest#should_throw_mockito_assertion_error
+* Finished org.mockito.internal.verification.VerificationOverTimeImplTest#should_throw_mockito_assertion_error
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.verification.VerificationOverTimeImplTest#should_deal_with_junit_assertion_error
+* Finished org.mockito.internal.verification.VerificationOverTimeImplTest#should_deal_with_junit_assertion_error
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.verification.VerificationOverTimeImplTest#should_return_on_success
+* Finished org.mockito.internal.verification.VerificationOverTimeImplTest#should_return_on_success
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.verification.VerificationOverTimeImplTest#should_not_wrap_other_exceptions
+* Finished org.mockito.internal.verification.VerificationOverTimeImplTest#should_not_wrap_other_exceptions
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.NegativeDurationTest#should_throw_exception_when_duration_is_negative_for_after_method
+* Failure: It is forbidden to invoke Mockito.after() with negative value. | should_throw_exception_when_duration_is_negative_for_after_method(org.mockito.verification.NegativeDurationTest)
+--- org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_after_method
+java.lang.AssertionError: It is forbidden to invoke Mockito.after() with negative value.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.mockito.verification.NegativeDurationTest.should_throw_exception_when_duration_is_negative_for_after_method(NegativeDurationTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockito.verification.NegativeDurationTest#should_throw_exception_when_duration_is_negative_for_after_method
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.NegativeDurationTest#should_throw_exception_when_duration_is_negative_for_timeout_method
+* Failure: It is forbidden to invoke Mockito.timeout() with negative value. | should_throw_exception_when_duration_is_negative_for_timeout_method(org.mockito.verification.NegativeDurationTest)
+--- org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_timeout_method
+java.lang.AssertionError: It is forbidden to invoke Mockito.timeout() with negative value.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.mockito.verification.NegativeDurationTest.should_throw_exception_when_duration_is_negative_for_timeout_method(NegativeDurationTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockito.verification.NegativeDurationTest#should_throw_exception_when_duration_is_negative_for_timeout_method
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.TimeoutTest#should_pass_when_verification_passes
+* Finished org.mockito.verification.TimeoutTest#should_pass_when_verification_passes
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.TimeoutTest#should_pass_even_if_first_verification_fails
+* Finished org.mockito.verification.TimeoutTest#should_pass_even_if_first_verification_fails
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.TimeoutTest#should_fail_because_verification_fails
+* Finished org.mockito.verification.TimeoutTest#should_fail_because_verification_fails
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.TimeoutTest#should_try_to_verify_correct_number_of_times
+* Finished org.mockito.verification.TimeoutTest#should_try_to_verify_correct_number_of_times
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.verification.TimeoutTest#should_create_correctly_configured_timeout
+* Finished org.mockito.verification.TimeoutTest#should_create_correctly_configured_timeout
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Ignored: org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowTimeoutVerificationInOrder
+* Number of test cases executed: 0
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#shouldFailVerificationWithTimeout
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#shouldFailVerificationWithTimeout
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOtherModesWithTimeout
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOtherModesWithTimeout
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOnlyWithTimeoutAndFail
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOnlyWithTimeoutAndFail
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOtherModesWithTimeoutAndFail
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOtherModesWithTimeoutAndFail
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOnlyWithTimeout
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#shouldAllowMixingOnlyWithTimeout
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#canIgnoreInvocationsWithJunit
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#canIgnoreInvocationsWithJunit
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationWithTimeoutTest#shouldVerifyWithTimeout
+* Finished org.mockitousage.verification.VerificationWithTimeoutTest#shouldVerifyWithTimeout
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationAfterDelayTest#shouldStopEarlyIfTestIsDefinitelyFailed
+* Finished org.mockitousage.verification.VerificationAfterDelayTest#shouldStopEarlyIfTestIsDefinitelyFailed
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationAfterDelayTest#shouldFailVerificationWithWrongTimes
+* Finished org.mockitousage.verification.VerificationAfterDelayTest#shouldFailVerificationWithWrongTimes
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationAfterDelayTest#shouldVerifyNormallyWithSpecificTimes
+* Finished org.mockitousage.verification.VerificationAfterDelayTest#shouldVerifyNormallyWithSpecificTimes
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationAfterDelayTest#shouldVerifyNormallyWithAtLeast
+* Finished org.mockitousage.verification.VerificationAfterDelayTest#shouldVerifyNormallyWithAtLeast
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.verification.VerificationAfterDelayTest#shouldWaitTheFullTimeIfTheTestCouldPass
+* Finished org.mockitousage.verification.VerificationAfterDelayTest#shouldWaitTheFullTimeIfTheTestCouldPass
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.util.TimerTest#should_throw_friendly_reminder_exception_when_duration_is_negative
+* Failure: It is forbidden to create timer with negative value of timer's duration. | should_throw_friendly_reminder_exception_when_duration_is_negative(org.mockito.internal.util.TimerTest)
+--- org.mockito.internal.util.TimerTest::should_throw_friendly_reminder_exception_when_duration_is_negative
+java.lang.AssertionError: It is forbidden to create timer with negative value of timer's duration.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.mockito.internal.util.TimerTest.should_throw_friendly_reminder_exception_when_duration_is_negative(TimerTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockito.internal.util.TimerTest#should_throw_friendly_reminder_exception_when_duration_is_negative
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.util.TimerTest#should_return_false_when_time_run_out
+* Finished org.mockito.internal.util.TimerTest#should_return_false_when_time_run_out
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.util.TimerTest#should_return_true_if_task_is_in_acceptable_time_bounds
+* Finished org.mockito.internal.util.TimerTest#should_return_true_if_task_is_in_acceptable_time_bounds
+* Number of test cases executed: 1
+* Filtering test cases that do not cover any component
+* Writing coverage matrix to '/data/acp13jcd/TestGZoltar/Mockito/2/Mockito/developer/0/Mockito-2b-developer.0/matrix'
+* Performing fault localization
+* Running Ochiai
+* Writing spectra to '/data/acp13jcd/TestGZoltar/Mockito/2/Mockito/developer/0/Mockito-2b-developer.0/spectra'
+* Calculating metrics
+* Sending data to master
+* Closing connection with client
+[INFO] It tooks 00:01:44 to run GZoltar!
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+[DEBUG] TESTS OK
+[DEBUG] Same number of failing test cases reported by GZoltar (3) and by D4J (3)
+[DEBUG] Checking outcome of atomic test 'org.mockito.internal.util.TimerTest::should_throw_friendly_reminder_exception_when_duration_is_negative'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_timeout_method'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockito.verification.NegativeDurationTest::should_throw_exception_when_duration_is_negative_for_after_method'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] total number of atomic test cases reported by GZoltar (30) is equal or greater than the number of tests reported by Cobertura (30). fine.
+A sanity check on passing test cases cannot be performed as GZoltar (1400) and JaCoCo (1408) report different number of lines for the classes under test
+
+DONE!

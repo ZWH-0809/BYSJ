@@ -1,0 +1,124 @@
+* Checking out Lang-15 to /scratch/acp13jcd/run_gzoltar_24685_Lang-15
+* Compiling Lang-15
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetTypeArguments
+* Failure: expected:<2> but was:<0> | testGetTypeArguments(org.apache.commons.lang3.reflect.TypeUtilsTest)
+java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at org.apache.commons.lang3.reflect.TypeUtilsTest.testGetTypeArguments(TypeUtilsTest.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetTypeArguments
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsInstance
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsInstance
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsAssignable
+* Failure: type class org.apache.commons.lang3.reflect.TypeUtilsTest$Thing not assignable to org.apache.commons.lang3.reflect.TypeUtilsTest.org.apache.commons.lang3.reflect.TypeUtilsTest$This<java.lang.String, java.lang.String>! | testIsAssignable(org.apache.commons.lang3.reflect.TypeUtilsTest)
+java.lang.AssertionError: type class org.apache.commons.lang3.reflect.TypeUtilsTest$Thing not assignable to org.apache.commons.lang3.reflect.TypeUtilsTest.org.apache.commons.lang3.reflect.TypeUtilsTest$This<java.lang.String, java.lang.String>!
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.apache.commons.lang3.reflect.TypeUtilsTest.testIsAssignable(TypeUtilsTest.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsAssignable
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetPrimitiveArrayComponentType
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetPrimitiveArrayComponentType
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testTypesSatisfyVariables
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testTypesSatisfyVariables
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayTypeClasses
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayTypeClasses
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testDetermineTypeVariableAssignments
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testDetermineTypeVariableAssignments
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetRawType
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetRawType
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetArrayComponentType
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetArrayComponentType
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayGenericTypes
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayGenericTypes
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Lang/15/Lang/developer/0/Lang-15b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Lang/15/Lang/developer/0/Lang-15b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Lang/15/Lang/developer/0/Lang-15b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

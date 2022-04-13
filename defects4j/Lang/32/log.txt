@@ -1,0 +1,166 @@
+* Checking out Lang-32 to /scratch/acp13jcd/run_gzoltar_120564_Lang-32
+* Compiling Lang-32
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /data/acp13jcd/defects4j-artificial-faults/framework/projects/Lang/lib/junit/junit/4.7/junit-4.7.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testIntegerWithTransients
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testIntegerWithTransients
+* Started org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testFixture
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testFixture
+* Started org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testFixtureWithTransients
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testFixtureWithTransients
+* Started org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testInteger
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest#testInteger
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testCharArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testCharArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testObjectArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testObjectArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testCharArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testCharArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testFloatArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testFloatArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testInt
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testInt
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testByteArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testByteArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testFloat
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testFloat
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testShort
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testShort
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testSuper
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testSuper
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testByte
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testByte
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testChar
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testChar
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testLong
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testLong
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testFloatArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testFloatArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testIntArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testIntArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeEx1
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeEx1
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeEx2
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeEx2
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeEx3
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeEx3
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testBoolean
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testBoolean
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testBooleanArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testBooleanArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testDoubleArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testDoubleArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHierarchyHashCodeEx1
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHierarchyHashCodeEx1
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHierarchyHashCodeEx2
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHierarchyHashCodeEx2
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testConstructorEx1
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testConstructorEx1
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testConstructorEx2
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testConstructorEx2
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionObjectCycle
+* Failure: Expected: <null> but was: [] | testReflectionObjectCycle(org.apache.commons.lang3.builder.HashCodeBuilderTest)
+junit.framework.AssertionFailedError: Expected: <null> but was: []
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertNull(Assert.java:277)
+	at junit.framework.Assert.assertNull(Assert.java:268)
+	at junit.framework.TestCase.assertNull(TestCase.java:438)
+	at org.apache.commons.lang3.builder.HashCodeBuilderTest.testReflectionObjectCycle(HashCodeBuilderTest.java:524)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionObjectCycle
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHierarchyHashCode
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHierarchyHashCode
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testObjectArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testObjectArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testBooleanMultiArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testBooleanMultiArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testLongArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testLongArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testShortArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testShortArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testIntArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testIntArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testDouble
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testDouble
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testToHashCodeEqualsHashCode
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testToHashCodeEqualsHashCode
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCode
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCode
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testLongArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testLongArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testByteArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testByteArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeExcludeFields
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionHashCodeExcludeFields
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testShortArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testShortArrayAsObject
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testDoubleArray
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testDoubleArray
+* Started org.apache.commons.lang3.builder.HashCodeBuilderTest#testBooleanArrayAsObject
+* Finished org.apache.commons.lang3.builder.HashCodeBuilderTest#testBooleanArrayAsObject
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Lang/32/Lang/developer/0/Lang-32b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Lang/32/Lang/developer/0/Lang-32b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Lang/32/Lang/developer/0/Lang-32b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

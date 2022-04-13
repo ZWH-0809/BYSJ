@@ -1,0 +1,176 @@
+* Checking out Lang-42 to /scratch/acp13jcd/run_gzoltar_19090_Lang-42
+* Compiling Lang-42
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang.EntitiesTest#testEscapeNamedEntity
+* Finished org.apache.commons.lang.EntitiesTest#testEscapeNamedEntity
+* Started org.apache.commons.lang.EntitiesTest#testNumberOverflow
+* Finished org.apache.commons.lang.EntitiesTest#testNumberOverflow
+* Started org.apache.commons.lang.EntitiesTest#testPrimitiveIntMap
+* Finished org.apache.commons.lang.EntitiesTest#testPrimitiveIntMap
+* Started org.apache.commons.lang.EntitiesTest#testTreeIntMap
+* Finished org.apache.commons.lang.EntitiesTest#testTreeIntMap
+* Started org.apache.commons.lang.EntitiesTest#testHashIntMap
+* Finished org.apache.commons.lang.EntitiesTest#testHashIntMap
+* Started org.apache.commons.lang.EntitiesTest#testArrayIntMap
+* Finished org.apache.commons.lang.EntitiesTest#testArrayIntMap
+* Started org.apache.commons.lang.EntitiesTest#testUnescapeNamedEntity
+* Finished org.apache.commons.lang.EntitiesTest#testUnescapeNamedEntity
+* Started org.apache.commons.lang.EntitiesTest#testHtml40Nbsp
+* Finished org.apache.commons.lang.EntitiesTest#testHtml40Nbsp
+* Started org.apache.commons.lang.EntitiesTest#testBinaryIntMap
+* Finished org.apache.commons.lang.EntitiesTest#testBinaryIntMap
+* Started org.apache.commons.lang.EntitiesTest#testAddEntitiesArray
+* Finished org.apache.commons.lang.EntitiesTest#testAddEntitiesArray
+* Started org.apache.commons.lang.EntitiesTest#testUnescapeUnknownEntity
+* Finished org.apache.commons.lang.EntitiesTest#testUnescapeUnknownEntity
+* Started org.apache.commons.lang.EntitiesTest#testEntitiesXmlObject
+* Finished org.apache.commons.lang.EntitiesTest#testEntitiesXmlObject
+* Started org.apache.commons.lang.EntitiesTest#testUnescapeMiscellaneous
+* Finished org.apache.commons.lang.EntitiesTest#testUnescapeMiscellaneous
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testEscapePrimitive
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testEscapePrimitive
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testEscapeBinary
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testEscapeBinary
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testBuildPrimitive
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testBuildPrimitive
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testEscapeLookup
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testEscapeLookup
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeHash
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeHash
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeTree
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeTree
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testBuildArray
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testBuildArray
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeArray
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeArray
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeBinary
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testUnescapeBinary
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testEscapeHash
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testEscapeHash
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testEscapeTree
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testEscapeTree
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testBuildHash
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testBuildHash
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testBuildTree
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testBuildTree
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testEscapeArray
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testEscapeArray
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testLookupBinary
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testLookupBinary
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testLookupLookup
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testLookupLookup
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testLookupHash
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testLookupHash
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testLookupTree
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testLookupTree
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testLookupArray
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testLookupArray
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testBuildBinary
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testBuildBinary
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testBuildLookup
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testBuildLookup
+* Started org.apache.commons.lang.EntitiesPerformanceTest#testLookupPrimitive
+* Finished org.apache.commons.lang.EntitiesPerformanceTest#testLookupPrimitive
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeHtml
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeHtml
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeJava
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeJava
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testStandaloneAmphersand
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testStandaloneAmphersand
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtml
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtml
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeJava
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeJava
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeJavaWithSlash
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeJavaWithSlash
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testLang313
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testLang313
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeCsvString
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeCsvString
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeCsvWriter
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeCsvWriter
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtmlHighUnicode
+* Failure: High unicode was not escaped correctly expected:<&#[119650];> but was:<&#[55348;&#57186];> | testEscapeHtmlHighUnicode(org.apache.commons.lang.StringEscapeUtilsTest)
+junit.framework.ComparisonFailure: High unicode was not escaped correctly expected:<&#[119650];> but was:<&#[55348;&#57186];>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.TestCase.assertEquals(TestCase.java:261)
+	at org.apache.commons.lang.StringEscapeUtilsTest.testEscapeHtmlHighUnicode(StringEscapeUtilsTest.java:430)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtmlHighUnicode
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeHexCharsHtml
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeHexCharsHtml
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeJavaScript
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeJavaScript
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeCsvString
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeCsvString
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeCsvWriter
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeCsvWriter
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtmlVersions
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtmlVersions
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeUnknownEntity
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testUnescapeUnknownEntity
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeSql
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeSql
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testEscapeXml
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testEscapeXml
+* Started org.apache.commons.lang.StringEscapeUtilsTest#testConstructor
+* Finished org.apache.commons.lang.StringEscapeUtilsTest#testConstructor
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Lang/42/Lang/developer/0/Lang-42b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Lang/42/Lang/developer/0/Lang-42b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Lang/42/Lang/developer/0/Lang-42b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

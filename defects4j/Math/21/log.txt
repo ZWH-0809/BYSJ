@@ -1,0 +1,156 @@
+* Checking out Math-21 to /scratch/acp13jcd/run_gzoltar_74843_Math-21
+* Compiling Math-21
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_74843_Math-21/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testGLSEfficiency
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testGLSEfficiency
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#notEnoughData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#notEnoughData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testGLSOLSConsistency
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testGLSOLSConsistency
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testYVariance
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testYVariance
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSample2
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSample2
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInsufficientData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInsufficientData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSample
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSample
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleNullData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleNullData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testXSampleDataNull
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testXSampleDataNull
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInvalidData
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInvalidData
+* Started org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testYSampleDataNull
+* Finished org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest#testYSampleDataNull
+* Started org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testMath789
+* Failure: expected:<0.0> but was:<0.0180652917341963> | testMath789(org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest)
+java.lang.AssertionError: expected:<0.0> but was:<0.0180652917341963>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest.testMath789(RectangularCholeskyDecompositionTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testMath789
+* Started org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testDecomposition3x3
+* Finished org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testDecomposition3x3
+* Started org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testFullRank
+* Failure: null | testFullRank(org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest.testFullRank(RectangularCholeskyDecompositionTest.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testFullRank
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/21/Math/developer/0/Math-21b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/21/Math/developer/0/Math-21b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/21/Math/developer/0/Math-21b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

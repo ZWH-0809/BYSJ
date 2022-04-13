@@ -1,0 +1,122 @@
+* Checking out Lang-49 to /scratch/acp13jcd/run_gzoltar_17123_Lang-49
+* Compiling Lang-49
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang.math.FractionTest#testConversions
+* Finished org.apache.commons.lang.math.FractionTest#testConversions
+* Started org.apache.commons.lang.math.FractionTest#testReducedFactory_int_int
+* Finished org.apache.commons.lang.math.FractionTest#testReducedFactory_int_int
+* Started org.apache.commons.lang.math.FractionTest#testAbs
+* Finished org.apache.commons.lang.math.FractionTest#testAbs
+* Started org.apache.commons.lang.math.FractionTest#testAdd
+* Finished org.apache.commons.lang.math.FractionTest#testAdd
+* Started org.apache.commons.lang.math.FractionTest#testPow
+* Finished org.apache.commons.lang.math.FractionTest#testPow
+* Started org.apache.commons.lang.math.FractionTest#testSubtract
+* Finished org.apache.commons.lang.math.FractionTest#testSubtract
+* Started org.apache.commons.lang.math.FractionTest#testGets
+* Finished org.apache.commons.lang.math.FractionTest#testGets
+* Started org.apache.commons.lang.math.FractionTest#testToString
+* Finished org.apache.commons.lang.math.FractionTest#testToString
+* Started org.apache.commons.lang.math.FractionTest#testFactory_String
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_String
+* Started org.apache.commons.lang.math.FractionTest#testFactory_int_int_int
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_int_int_int
+* Started org.apache.commons.lang.math.FractionTest#testCompareTo
+* Finished org.apache.commons.lang.math.FractionTest#testCompareTo
+* Started org.apache.commons.lang.math.FractionTest#testFactory_double
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_double
+* Started org.apache.commons.lang.math.FractionTest#testFactory_String_improper
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_String_improper
+* Started org.apache.commons.lang.math.FractionTest#testConstants
+* Finished org.apache.commons.lang.math.FractionTest#testConstants
+* Started org.apache.commons.lang.math.FractionTest#testToProperString
+* Finished org.apache.commons.lang.math.FractionTest#testToProperString
+* Started org.apache.commons.lang.math.FractionTest#testHashCode
+* Finished org.apache.commons.lang.math.FractionTest#testHashCode
+* Started org.apache.commons.lang.math.FractionTest#testFactory_String_double
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_String_double
+* Started org.apache.commons.lang.math.FractionTest#testDivide
+* Finished org.apache.commons.lang.math.FractionTest#testDivide
+* Started org.apache.commons.lang.math.FractionTest#testEquals
+* Finished org.apache.commons.lang.math.FractionTest#testEquals
+* Started org.apache.commons.lang.math.FractionTest#testMultiply
+* Finished org.apache.commons.lang.math.FractionTest#testMultiply
+* Started org.apache.commons.lang.math.FractionTest#testInvert
+* Finished org.apache.commons.lang.math.FractionTest#testInvert
+* Started org.apache.commons.lang.math.FractionTest#testFactory_String_proper
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_String_proper
+* Started org.apache.commons.lang.math.FractionTest#testNegate
+* Finished org.apache.commons.lang.math.FractionTest#testNegate
+* Started org.apache.commons.lang.math.FractionTest#testReduce
+* Failure: expected:<1> but was:<100> | testReduce(org.apache.commons.lang.math.FractionTest)
+junit.framework.AssertionFailedError: expected:<1> but was:<100>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:234)
+	at junit.framework.Assert.assertEquals(Assert.java:241)
+	at junit.framework.TestCase.assertEquals(TestCase.java:409)
+	at org.apache.commons.lang.math.FractionTest.testReduce(FractionTest.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang.math.FractionTest#testReduce
+* Started org.apache.commons.lang.math.FractionTest#testFactory_int_int
+* Finished org.apache.commons.lang.math.FractionTest#testFactory_int_int
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Lang/49/Lang/developer/0/Lang-49b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Lang/49/Lang/developer/0/Lang-49b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Lang/49/Lang/developer/0/Lang-49b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

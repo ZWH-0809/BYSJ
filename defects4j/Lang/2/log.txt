@@ -1,0 +1,102 @@
+* Checking out Lang-2 to /scratch/acp13jcd/run_gzoltar_66994_Lang-2
+* Compiling Lang-2
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang3.LocaleUtilsTest#testAvailableLocaleSet
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testAvailableLocaleSet
+* Started org.apache.commons.lang3.LocaleUtilsTest#testIsAvailableLocale
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testIsAvailableLocale
+* Started org.apache.commons.lang3.LocaleUtilsTest#testAvailableLocaleList
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testAvailableLocaleList
+* Started org.apache.commons.lang3.LocaleUtilsTest#testLang328
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testLang328
+* Started org.apache.commons.lang3.LocaleUtilsTest#testLang865
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testLang865
+* Started org.apache.commons.lang3.LocaleUtilsTest#testCountriesByLanguage
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testCountriesByLanguage
+* Started org.apache.commons.lang3.LocaleUtilsTest#testParseAllLocales
+Should not have parsed: ja_JP_JP_#u-ca-japanese
+Should not have parsed: th_TH_TH_#u-nu-thai
+* Failure: Failed 2 test(s) | testParseAllLocales(org.apache.commons.lang3.LocaleUtilsTest)
+java.lang.AssertionError: Failed 2 test(s)
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.commons.lang3.LocaleUtilsTest.testParseAllLocales(LocaleUtilsTest.java:578)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testParseAllLocales
+* Started org.apache.commons.lang3.LocaleUtilsTest#testLocaleLookupList_LocaleLocale
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testLocaleLookupList_LocaleLocale
+* Started org.apache.commons.lang3.LocaleUtilsTest#testLanguagesByCountry
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testLanguagesByCountry
+* Started org.apache.commons.lang3.LocaleUtilsTest#testToLocale_1Part
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testToLocale_1Part
+* Started org.apache.commons.lang3.LocaleUtilsTest#testToLocale_2Part
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testToLocale_2Part
+* Started org.apache.commons.lang3.LocaleUtilsTest#testToLocale_3Part
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testToLocale_3Part
+* Started org.apache.commons.lang3.LocaleUtilsTest#testLocaleLookupList_Locale
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testLocaleLookupList_Locale
+* Started org.apache.commons.lang3.LocaleUtilsTest#testConstructor
+* Finished org.apache.commons.lang3.LocaleUtilsTest#testConstructor
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Lang/2/Lang/developer/0/Lang-2b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Lang/2/Lang/developer/0/Lang-2b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Lang/2/Lang/developer/0/Lang-2b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

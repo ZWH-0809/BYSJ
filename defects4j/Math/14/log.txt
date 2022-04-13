@@ -1,0 +1,266 @@
+* Checking out Math-14 to /scratch/acp13jcd/run_gzoltar_59643_Math-14
+* Compiling Math-14
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_59643_Math-14/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testFit
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testFit
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testMath798WithToleranceTooLowButNoException
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testMath798WithToleranceTooLowButNoException
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testMath798WithToleranceTooLow
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testMath798WithToleranceTooLow
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testMath798
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testMath798
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testSmallError
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testSmallError
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testRedundantSolvable
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testRedundantSolvable
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testNoError
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testNoError
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testLargeSample
+* Failure: Java heap space | testLargeSample(org.apache.commons.math3.fitting.PolynomialFitterTest)
+java.lang.OutOfMemoryError: Java heap space
+	at org.apache.commons.math3.linear.BlockRealMatrix.createBlocksLayout(BlockRealMatrix.java:271)
+	at org.apache.commons.math3.linear.BlockRealMatrix.<init>(BlockRealMatrix.java:107)
+	at org.apache.commons.math3.linear.MatrixUtils.createRealMatrix(MatrixUtils.java:81)
+	at org.apache.commons.math3.optim.nonlinear.vector.Weight.<init>(Weight.java:43)
+	at org.apache.commons.math3.fitting.CurveFitter.fit(CurveFitter.java:172)
+	at org.apache.commons.math3.fitting.CurveFitter.fit(CurveFitter.java:136)
+	at org.apache.commons.math3.fitting.PolynomialFitter.fit(PolynomialFitter.java:68)
+	at org.apache.commons.math3.fitting.PolynomialFitterTest.testLargeSample(PolynomialFitterTest.java:238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testLargeSample
+* Started org.apache.commons.math3.fitting.PolynomialFitterTest#testRedundantUnsolvable
+* Finished org.apache.commons.math3.fitting.PolynomialFitterTest#testRedundantUnsolvable
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit01
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit01
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit02
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit02
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit03
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit03
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit04
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit04
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit05
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit05
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit06
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit06
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testFit07
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testFit07
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testMath519
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testMath519
+* Started org.apache.commons.math3.fitting.GaussianFitterTest#testMath798
+* Finished org.apache.commons.math3.fitting.GaussianFitterTest#testMath798
+* Started org.apache.commons.math3.fitting.CurveFitterTest#testMath303
+* Finished org.apache.commons.math3.fitting.CurveFitterTest#testMath303
+* Started org.apache.commons.math3.fitting.CurveFitterTest#testMath304
+* Finished org.apache.commons.math3.fitting.CurveFitterTest#testMath304
+* Started org.apache.commons.math3.fitting.CurveFitterTest#testMath372
+* Finished org.apache.commons.math3.fitting.CurveFitterTest#testMath372
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#test1PercentError
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#test1PercentError
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#testTinyVariationsData
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#testTinyVariationsData
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#testPreconditions1
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#testPreconditions1
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#testMath844
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#testMath844
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#testInitialGuess
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#testInitialGuess
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#testUnsorted
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#testUnsorted
+* Started org.apache.commons.math3.fitting.HarmonicFitterTest#testNoError
+* Finished org.apache.commons.math3.fitting.HarmonicFitterTest#testNoError
+* Started org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest#testPlane
+* Finished org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest#testPlane
+* Started org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest#testPreconditions
+* Finished org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest#testPreconditions
+* Started org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest#testParaboloid
+* Finished org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolatorTest#testParaboloid
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testHahn1
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testHahn1
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testMoreEstimatedParametersSimple
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testMoreEstimatedParametersUnsorted
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testMaxEvaluations
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testMaxEvaluations
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testCircleFittingBadInit
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testCircleFittingBadInit
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testCircleFittingGoodInit
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testCircleFittingGoodInit
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testNoDependency
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testNoDependency
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testRedundantEquations
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testRedundantEquations
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testTrivial
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testTrivial
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testQRColumnsPermutation
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testQRColumnsPermutation
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testInconsistentSizes1
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testInconsistentSizes1
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testInconsistentSizes2
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testInconsistentSizes2
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testTwoSets
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testTwoSets
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testIllConditioned
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testIllConditioned
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testNonInvertible
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testNonInvertible
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testInconsistentEquations
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testInconsistentEquations
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testCircleFitting
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testCircleFitting
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testKirby2
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testKirby2
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testOneSet
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testOneSet
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackLinearRank1
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackLinearRank1
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBrownDennis
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBrownDennis
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackJennrichSampson
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackJennrichSampson
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackRosenbrok
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackRosenbrok
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBox3Dimensional
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBox3Dimensional
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackHelicalValley
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackHelicalValley
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackMeyer
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackMeyer
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackLinearFullRank
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackLinearFullRank
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackFreudensteinRoth
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackFreudensteinRoth
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackOsborne1
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackOsborne1
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackOsborne2
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackOsborne2
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackWatson
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackWatson
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackKowalikOsborne
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackKowalikOsborne
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackPowellSingular
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackPowellSingular
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackChebyquad
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackChebyquad
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackLinearRank1ZeroColsAndRows
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackLinearRank1ZeroColsAndRows
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBard
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBard
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBrownAlmostLinear
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.MinpackTest#testMinpackBrownAlmostLinear
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testBevington
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testBevington
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testNonInvertible
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testNonInvertible
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFitting2
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFitting2
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testControlParameters
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testControlParameters
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFittingGoodInit
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFittingGoodInit
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testNoDependency
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testNoDependency
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testRedundantEquations
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testRedundantEquations
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testTrivial
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testTrivial
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testQRColumnsPermutation
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testQRColumnsPermutation
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testInconsistentSizes1
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testInconsistentSizes1
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testInconsistentSizes2
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testInconsistentSizes2
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testTwoSets
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testTwoSets
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testHahn1
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testHahn1
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersSimple
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersUnsorted
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testIllConditioned
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testIllConditioned
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testInconsistentEquations
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testInconsistentEquations
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFitting
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFitting
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testKirby2
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testKirby2
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testOneSet
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testOneSet
+* Started org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFittingBadInit
+* Finished org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testCircleFittingBadInit
+* Started org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest#testGetOptimaBeforeOptimize
+* Finished org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest#testGetOptimaBeforeOptimize
+* Started org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest#testTrivial
+* Finished org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest#testTrivial
+* Started org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest#testNoOptimum
+* Finished org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizerTest#testNoOptimum
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/14/Math/developer/0/Math-14b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/14/Math/developer/0/Math-14b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/14/Math/developer/0/Math-14b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

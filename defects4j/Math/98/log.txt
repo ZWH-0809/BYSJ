@@ -1,0 +1,1787 @@
+* Checking out Math-98 to /scratch/acp13jcd/run_gzoltar_88337_Math-98
+* Compiling Math-98
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.optimization.NelderMeadTest#testCostExceptions
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.optimization.CostException.<init>(CostException.java:43)
+	at org.apache.commons.math.optimization.NelderMeadTest$1.cost(NelderMeadTest.java:47)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.evaluateCost(DirectSearchOptimizer.java:536)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.evaluateSimplex(DirectSearchOptimizer.java:549)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:480)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:120)
+	at org.apache.commons.math.optimization.NelderMeadTest.testCostExceptions(NelderMeadTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.optimization.CostException.<init>(CostException.java:43)
+	at org.apache.commons.math.optimization.NelderMeadTest$1.cost(NelderMeadTest.java:47)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.evaluateCost(DirectSearchOptimizer.java:536)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.evaluateSimplex(DirectSearchOptimizer.java:549)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:480)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:120)
+	at org.apache.commons.math.optimization.NelderMeadTest.testCostExceptions(NelderMeadTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.optimization.CostException.<init>(CostException.java:43)
+	at org.apache.commons.math.optimization.NelderMeadTest$1.cost(NelderMeadTest.java:47)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.evaluateCost(DirectSearchOptimizer.java:536)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.evaluateSimplex(DirectSearchOptimizer.java:549)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:480)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:120)
+	at org.apache.commons.math.optimization.NelderMeadTest.testCostExceptions(NelderMeadTest.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.optimization.NelderMeadTest#testCostExceptions
+* Started org.apache.commons.math.optimization.NelderMeadTest#testRosenbrock
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.ConvergenceException.<init>(ConvergenceException.java:45)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:509)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:268)
+	at org.apache.commons.math.optimization.NelderMeadTest.testRosenbrock(NelderMeadTest.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.ConvergenceException.<init>(ConvergenceException.java:45)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:509)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:268)
+	at org.apache.commons.math.optimization.NelderMeadTest.testRosenbrock(NelderMeadTest.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.ConvergenceException.<init>(ConvergenceException.java:45)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:509)
+	at org.apache.commons.math.optimization.DirectSearchOptimizer.minimize(DirectSearchOptimizer.java:268)
+	at org.apache.commons.math.optimization.NelderMeadTest.testRosenbrock(NelderMeadTest.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.optimization.NelderMeadTest#testRosenbrock
+* Started org.apache.commons.math.optimization.NelderMeadTest#testPowell
+* Finished org.apache.commons.math.optimization.NelderMeadTest#testPowell
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testNoDependency
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testNoDependency
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testRedundantEquations
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testRedundantEquations
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testTrivial
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.guessParametersErrors(AbstractEstimator.java:204)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testTrivial(LevenbergMarquardtEstimatorTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.guessParametersErrors(AbstractEstimator.java:204)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testTrivial(LevenbergMarquardtEstimatorTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.guessParametersErrors(AbstractEstimator.java:204)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testTrivial(LevenbergMarquardtEstimatorTest.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testTrivial
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testQRColumnsPermutation
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testQRColumnsPermutation
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testTwoSets
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testTwoSets
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testMoreEstimatedParametersSimple
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testMoreEstimatedParametersUnsorted
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testIllConditioned
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testIllConditioned
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testMath199
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.qrDecomposition(LevenbergMarquardtEstimator.java:765)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.estimate(LevenbergMarquardtEstimator.java:232)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testMath199(LevenbergMarquardtEstimatorTest.java:592)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.qrDecomposition(LevenbergMarquardtEstimator.java:765)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.estimate(LevenbergMarquardtEstimator.java:232)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testMath199(LevenbergMarquardtEstimatorTest.java:592)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.qrDecomposition(LevenbergMarquardtEstimator.java:765)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.estimate(LevenbergMarquardtEstimator.java:232)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testMath199(LevenbergMarquardtEstimatorTest.java:592)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testMath199
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testNonInversible
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.getCovariances(AbstractEstimator.java:184)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testNonInversible(LevenbergMarquardtEstimatorTest.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.getCovariances(AbstractEstimator.java:184)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testNonInversible(LevenbergMarquardtEstimatorTest.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.getCovariances(AbstractEstimator.java:184)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testNonInversible(LevenbergMarquardtEstimatorTest.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testNonInversible
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testInconsistentEquations
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testInconsistentEquations
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testCircleFitting
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testCircleFitting
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testControlParameters
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.estimate(LevenbergMarquardtEstimator.java:406)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.checkEstimate(LevenbergMarquardtEstimatorTest.java:484)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testControlParameters(LevenbergMarquardtEstimatorTest.java:467)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.estimate(LevenbergMarquardtEstimator.java:406)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.checkEstimate(LevenbergMarquardtEstimatorTest.java:484)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testControlParameters(LevenbergMarquardtEstimatorTest.java:467)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimator.estimate(LevenbergMarquardtEstimator.java:406)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.checkEstimate(LevenbergMarquardtEstimatorTest.java:484)
+	at org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest.testControlParameters(LevenbergMarquardtEstimatorTest.java:467)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testControlParameters
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testOneSet
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testOneSet
+* Started org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testCircleFittingBadInit
+* Finished org.apache.commons.math.estimation.LevenbergMarquardtEstimatorTest#testCircleFittingBadInit
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNoDependency
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNoDependency
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testRedundantEquations
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testRedundantEquations
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTrivial
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTrivial
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testQRColumnsPermutation
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testQRColumnsPermutation
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTwoSets
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTwoSets
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMaxIterations
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.updateResidualsAndCost(AbstractEstimator.java:100)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:166)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMaxIterations(GaussNewtonEstimatorTest.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.updateResidualsAndCost(AbstractEstimator.java:100)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:166)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMaxIterations(GaussNewtonEstimatorTest.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.AbstractEstimator.updateResidualsAndCost(AbstractEstimator.java:100)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:166)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMaxIterations(GaussNewtonEstimatorTest.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMaxIterations
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersSimple
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMoreEstimatedParametersSimple(GaussNewtonEstimatorTest.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMoreEstimatedParametersSimple(GaussNewtonEstimatorTest.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMoreEstimatedParametersSimple(GaussNewtonEstimatorTest.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersUnsorted
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMoreEstimatedParametersUnsorted(GaussNewtonEstimatorTest.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMoreEstimatedParametersUnsorted(GaussNewtonEstimatorTest.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testMoreEstimatedParametersUnsorted(GaussNewtonEstimatorTest.java:385)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testIllConditioned
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testIllConditioned
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNonInversible
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testNonInversible(GaussNewtonEstimatorTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testNonInversible(GaussNewtonEstimatorTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testNonInversible(GaussNewtonEstimatorTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNonInversible
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testInconsistentEquations
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testInconsistentEquations
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFitting
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFitting
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testBoundParameters
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testBoundParameters
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testOneSet
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testOneSet
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFittingBadInit
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testCircleFittingBadInit(GaussNewtonEstimatorTest.java:556)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testCircleFittingBadInit(GaussNewtonEstimatorTest.java:556)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.estimation.EstimationException.<init>(EstimationException.java:43)
+	at org.apache.commons.math.estimation.GaussNewtonEstimator.estimate(GaussNewtonEstimator.java:161)
+	at org.apache.commons.math.estimation.GaussNewtonEstimatorTest.testCircleFittingBadInit(GaussNewtonEstimatorTest.java:556)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFittingBadInit
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testOperate
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testOperate
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testAddFail
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testAddFail
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testAdd
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testAdd
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testScalarAdd
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testScalarAdd
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testSolve
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testSolve
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testTrace
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testTrace
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testNorm
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testNorm
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testToString
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testToString
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testIsSingular
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testIsSingular
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testConstructors
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testConstructors
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testPlusMinus
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testPlusMinus
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testDeterminant
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testDeterminant
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testMultiply2
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testMultiply2
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testDimensions
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testDimensions
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testSubMatrix
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testSubMatrix
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testPremultiplyVector
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testPremultiplyVector
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testCopyFunctions
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testCopyFunctions
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testLUDecomposition
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testLUDecomposition
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testMath209
+* Failure: 2 | testMath209(org.apache.commons.math.linear.BigMatrixImplTest)
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.apache.commons.math.linear.BigMatrixImpl.operate(BigMatrixImpl.java:997)
+	at org.apache.commons.math.linear.BigMatrixImplTest.testMath209(BigMatrixImplTest.java:446)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testMath209
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testGetVectors
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testGetVectors
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testGetColumnMatrix
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testGetColumnMatrix
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testMultiply
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testMultiply
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testEqualsAndHashCode
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testInverse
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testInverse
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testTranspose
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testTranspose
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testPremultiply
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testPremultiply
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testGetRowMatrix
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testGetRowMatrix
+* Started org.apache.commons.math.linear.BigMatrixImplTest#testSetSubMatrix
+* Finished org.apache.commons.math.linear.BigMatrixImplTest#testSetSubMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateRealMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateRealMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateRowRealMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateRowRealMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateBigMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateBigMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateColumnBigMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateColumnBigMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateBigIdentityMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateBigIdentityMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateRowBigMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateRowBigMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateIdentityMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateIdentityMatrix
+* Started org.apache.commons.math.linear.MatrixUtilsTest#testCreateColumnRealMatrix
+* Finished org.apache.commons.math.linear.MatrixUtilsTest#testCreateColumnRealMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testOperate
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testOperate
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testExamples
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testExamples
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetEntry
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetEntry
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testAddFail
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testAddFail
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testAdd
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testAdd
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testScalarAdd
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testScalarAdd
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSolve
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSolve
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testTrace
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testTrace
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testNorm
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testNorm
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testToString
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testToString
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testIsSingular
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testIsSingular
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testPlusMinus
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testPlusMinus
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testDeterminant
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testDeterminant
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testMultiply2
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testMultiply2
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testDimensions
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testDimensions
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSubMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSubMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testPremultiplyVector
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testPremultiplyVector
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testCopyFunctions
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testCopyFunctions
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testLUDecomposition
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testLUDecomposition
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testMath209
+* Failure: 2 | testMath209(org.apache.commons.math.linear.RealMatrixImplTest)
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.apache.commons.math.linear.RealMatrixImpl.operate(RealMatrixImpl.java:786)
+	at org.apache.commons.math.linear.RealMatrixImplTest.testMath209(RealMatrixImplTest.java:351)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testMath209
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetVectors
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetVectors
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetColumnMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetColumnMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testMultiply
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testMultiply
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testEqualsAndHashCode
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testInverse
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testInverse
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testTranspose
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testTranspose
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testPremultiply
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testPremultiply
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetRowMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetRowMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetSubMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetSubMatrix
+* Started org.apache.commons.math.linear.QRDecompositionImplTest#testAEqualQR
+* Finished org.apache.commons.math.linear.QRDecompositionImplTest#testAEqualQR
+* Started org.apache.commons.math.linear.QRDecompositionImplTest#testDimensions
+* Finished org.apache.commons.math.linear.QRDecompositionImplTest#testDimensions
+* Started org.apache.commons.math.linear.QRDecompositionImplTest#testRUpperTriangular
+* Finished org.apache.commons.math.linear.QRDecompositionImplTest#testRUpperTriangular
+* Started org.apache.commons.math.linear.QRDecompositionImplTest#testQOrthogonal
+* Finished org.apache.commons.math.linear.QRDecompositionImplTest#testQOrthogonal
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testSwissFertility
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testSwissFertility
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testPerfectFit
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testPerfectFit
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testLongly
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testLongly
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testSerialization
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testStats
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testStats
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testNaNContracts
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testNaNContracts
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testN0andN1Conditions
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testN0andN1Conditions
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testDimension
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.DimensionMismatchException.<init>(DimensionMismatchException.java:36)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.checkDimension(MultivariateSummaryStatistics.java:625)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.addValue(MultivariateSummaryStatistics.java:145)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testDimension(MultivariateSummaryStatisticsTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.DimensionMismatchException.<init>(DimensionMismatchException.java:36)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.checkDimension(MultivariateSummaryStatistics.java:625)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.addValue(MultivariateSummaryStatistics.java:145)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testDimension(MultivariateSummaryStatisticsTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.DimensionMismatchException.<init>(DimensionMismatchException.java:36)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.checkDimension(MultivariateSummaryStatistics.java:625)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatistics.addValue(MultivariateSummaryStatistics.java:145)
+	at org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest.testDimension(MultivariateSummaryStatisticsTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testDimension
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testSetterInjection
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testSetterInjection
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testSetterIllegalState
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testSetterIllegalState
+* Started org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.stat.descriptive.MultivariateSummaryStatisticsTest#testEqualsAndHashCode
+* Started org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest#testSimplistic
+* Finished org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest#testSimplistic
+* Started org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest#testBasicStats
+* Finished org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest#testBasicStats
+* Started org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest#testMismatch
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.DimensionMismatchException.<init>(DimensionMismatchException.java:36)
+	at org.apache.commons.math.stat.descriptive.moment.VectorialCovariance.increment(VectorialCovariance.java:67)
+	at org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest.testMismatch(VectorialCovarianceTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.DimensionMismatchException.<init>(DimensionMismatchException.java:36)
+	at org.apache.commons.math.stat.descriptive.moment.VectorialCovariance.increment(VectorialCovariance.java:67)
+	at org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest.testMismatch(VectorialCovarianceTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:86)
+	at org.apache.commons.math.MathException.buildMessage(MathException.java:114)
+	at org.apache.commons.math.MathException.<init>(MathException.java:138)
+	at org.apache.commons.math.DimensionMismatchException.<init>(DimensionMismatchException.java:36)
+	at org.apache.commons.math.stat.descriptive.moment.VectorialCovariance.increment(VectorialCovariance.java:67)
+	at org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest.testMismatch(VectorialCovarianceTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.descriptive.moment.VectorialCovarianceTest#testMismatch
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/98/Math/developer/0/Math-98b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/98/Math/developer/0/Math-98b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/98/Math/developer/0/Math-98b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

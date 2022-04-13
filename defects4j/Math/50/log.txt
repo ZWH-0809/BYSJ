@@ -1,0 +1,139 @@
+* Checking out Math-50 to /scratch/acp13jcd/run_gzoltar_31416_Math-50
+* Compiling Math-50
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_31416_Math-50/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionRightSide
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionRightSide
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionAboveSide
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionAboveSide
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionBelowSide
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionBelowSide
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionLeftSide
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testSolutionLeftSide
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testBadEndpoints
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testBadEndpoints
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testRootEndpoints
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testRootEndpoints
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testQuinticZero
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testQuinticZero
+* Started org.apache.commons.math.analysis.solvers.SecantSolverTest#testSinZero
+* Finished org.apache.commons.math.analysis.solvers.SecantSolverTest#testSinZero
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testIssue631
+* Failure: Expected exception: org.apache.commons.math.exception.TooManyEvaluationsException | testIssue631(org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest)
+java.lang.AssertionError: Expected exception: org.apache.commons.math.exception.TooManyEvaluationsException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testIssue631
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionRightSide
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionRightSide
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionAboveSide
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionAboveSide
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionBelowSide
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionBelowSide
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionLeftSide
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSolutionLeftSide
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testBadEndpoints
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testBadEndpoints
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testRootEndpoints
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testRootEndpoints
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testQuinticZero
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testQuinticZero
+* Started org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSinZero
+* Finished org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testSinZero
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionRightSide
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionRightSide
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionAboveSide
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionAboveSide
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionBelowSide
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionBelowSide
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionLeftSide
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSolutionLeftSide
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testBadEndpoints
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testBadEndpoints
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testRootEndpoints
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testRootEndpoints
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testQuinticZero
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testQuinticZero
+* Started org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSinZero
+* Finished org.apache.commons.math.analysis.solvers.PegasusSolverTest#testSinZero
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionRightSide
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionRightSide
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionAboveSide
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionAboveSide
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionBelowSide
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionBelowSide
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionLeftSide
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSolutionLeftSide
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testBadEndpoints
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testBadEndpoints
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testRootEndpoints
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testRootEndpoints
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testQuinticZero
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testQuinticZero
+* Started org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSinZero
+* Finished org.apache.commons.math.analysis.solvers.IllinoisSolverTest#testSinZero
+* Started org.apache.commons.math.ode.events.OverlappingEventsTest#testOverlappingEvents0
+* Finished org.apache.commons.math.ode.events.OverlappingEventsTest#testOverlappingEvents0
+* Started org.apache.commons.math.ode.events.OverlappingEventsTest#testOverlappingEvents1
+* Finished org.apache.commons.math.ode.events.OverlappingEventsTest#testOverlappingEvents1
+* Started org.apache.commons.math.ode.events.EventStateTest#closeEvents
+* Finished org.apache.commons.math.ode.events.EventStateTest#closeEvents
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/50/Math/developer/0/Math-50b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/50/Math/developer/0/Math-50b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/50/Math/developer/0/Math-50b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

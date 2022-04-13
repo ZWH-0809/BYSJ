@@ -1,0 +1,151 @@
+* Checking out Math-38 to /scratch/acp13jcd/run_gzoltar_30961_Math-38
+* Compiling Math-38
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_30961_Math-38/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testConstrainedRosen
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testConstrainedRosen
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testElliRotated
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$ElliRotated BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$ElliRotated END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testElliRotated
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testEllipse
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Elli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Elli END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testEllipse
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testInitOutOfBounds
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testInitOutOfBounds
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testTwoAxes
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$TwoAxes BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$TwoAxes END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testTwoAxes
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testProblemDimensionTooSmall
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testProblemDimensionTooSmall
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testCigar
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Cigar BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Cigar END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testCigar
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testRosen
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testRosen
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testRastrigin
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rastrigin BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rastrigin END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testRastrigin
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testSsDiffPow
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$SsDiffPow BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$SsDiffPow END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testSsDiffPow
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testMaximize
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli END
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$MinusElli END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testMaximize
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testAckley
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testAckley
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testConstrainedRosenWithMoreInterpolationPoints
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+* Failure: If this exception is thrown, just remove it from the code prelim (at line 1752) | testConstrainedRosenWithMoreInterpolationPoints(org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest)
+org.apache.commons.math.optimization.direct.BOBYQAOptimizer$PathIsExploredException: If this exception is thrown, just remove it from the code prelim (at line 1752)
+	at org.apache.commons.math.optimization.direct.BOBYQAOptimizer.prelim(BOBYQAOptimizer.java:1752)
+	at org.apache.commons.math.optimization.direct.BOBYQAOptimizer.bobyqb(BOBYQAOptimizer.java:407)
+	at org.apache.commons.math.optimization.direct.BOBYQAOptimizer.bobyqa(BOBYQAOptimizer.java:332)
+	at org.apache.commons.math.optimization.direct.BOBYQAOptimizer.doOptimize(BOBYQAOptimizer.java:244)
+	at org.apache.commons.math.optimization.direct.BaseAbstractMultivariateOptimizer.optimize(BaseAbstractMultivariateOptimizer.java:125)
+	at org.apache.commons.math.optimization.direct.BaseAbstractMultivariateSimpleBoundsOptimizer.optimize(BaseAbstractMultivariateSimpleBoundsOptimizer.java:138)
+	at org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest.doTest(BOBYQAOptimizerTest.java:327)
+	at org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest.testConstrainedRosenWithMoreInterpolationPoints(BOBYQAOptimizerTest.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testConstrainedRosenWithMoreInterpolationPoints
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testCigTab
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$CigTab BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$CigTab END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testCigTab
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testDiffPow
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testDiffPow
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testBoundariesDimensionMismatch
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testBoundariesDimensionMismatch
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testSphere
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Sphere BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Sphere END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testSphere
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testTablet
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Tablet BEGIN
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Tablet END
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testTablet
+* Started org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testMaxEvaluations
+org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest$Rosen BEGIN
+* Finished org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testMaxEvaluations
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/38/Math/developer/0/Math-38b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/38/Math/developer/0/Math-38b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/38/Math/developer/0/Math-38b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

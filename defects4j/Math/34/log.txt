@@ -1,0 +1,115 @@
+* Checking out Math-34 to /scratch/acp13jcd/run_gzoltar_67627_Math-34
+* Compiling Math-34
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_67627_Math-34/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testConstructorPopulationLimitNotPositive
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testConstructorPopulationLimitNotPositive
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testSetPopulationLimit
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testSetPopulationLimit
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testGetFittestChromosome
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testGetFittestChromosome
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testChromosomeListConstructorPopulationLimitNotPositive
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testChromosomeListConstructorPopulationLimitNotPositive
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testAddTooManyChromosomesSingleCall
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testAddTooManyChromosomesSingleCall
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testChromosomes
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testChromosomes
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testAddTooManyChromosomes
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testAddTooManyChromosomes
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testSetPopulationLimitTooSmall
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testSetPopulationLimitTooSmall
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testIterator
+* Failure: Expected exception: java.lang.UnsupportedOperationException | testIterator(org.apache.commons.math3.genetics.ListPopulationTest)
+java.lang.AssertionError: Expected exception: java.lang.UnsupportedOperationException
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:32)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testIterator
+* Started org.apache.commons.math3.genetics.ListPopulationTest#testConstructorListOfChromosomesBiggerThanPopulationSize
+* Finished org.apache.commons.math3.genetics.ListPopulationTest#testConstructorListOfChromosomesBiggerThanPopulationSize
+* Started org.apache.commons.math3.genetics.GeneticAlgorithmTestPermutations#test
+* Finished org.apache.commons.math3.genetics.GeneticAlgorithmTestPermutations#test
+* Started org.apache.commons.math3.genetics.GeneticAlgorithmTestBinary#test
+* Finished org.apache.commons.math3.genetics.GeneticAlgorithmTestBinary#test
+* Started org.apache.commons.math3.genetics.ChromosomeTest#testFindSameChromosome
+* Finished org.apache.commons.math3.genetics.ChromosomeTest#testFindSameChromosome
+* Started org.apache.commons.math3.genetics.ChromosomeTest#testCompareTo
+* Finished org.apache.commons.math3.genetics.ChromosomeTest#testCompareTo
+* Started org.apache.commons.math3.genetics.FitnessCachingTest#testFitnessCaching
+* Finished org.apache.commons.math3.genetics.FitnessCachingTest#testFitnessCaching
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testChromosomeListConstructorTooLow
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testChromosomeListConstructorTooLow
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testSetElitismRateTooLow
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testSetElitismRateTooLow
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testConstructorTooHigh
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testConstructorTooHigh
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testConstructorTooLow
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testConstructorTooLow
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testSetElitismRateTooHigh
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testSetElitismRateTooHigh
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testChromosomeListConstructorTooHigh
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testChromosomeListConstructorTooHigh
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testSetElitismRate
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testSetElitismRate
+* Started org.apache.commons.math3.genetics.ElitisticListPopulationTest#testNextGeneration
+* Finished org.apache.commons.math3.genetics.ElitisticListPopulationTest#testNextGeneration
+* Started org.apache.commons.math3.genetics.TournamentSelectionTest#testSelect
+* Finished org.apache.commons.math3.genetics.TournamentSelectionTest#testSelect
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/34/Math/developer/0/Math-34b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/34/Math/developer/0/Math-34b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/34/Math/developer/0/Math-34b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

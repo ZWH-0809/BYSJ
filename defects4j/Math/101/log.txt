@@ -1,0 +1,232 @@
+* Checking out Math-101 to /scratch/acp13jcd/run_gzoltar_78210_Math-101
+* Compiling Math-101
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseNegativeImaginary
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseNegativeImaginary
+* Started org.apache.commons.math.complex.ComplexFormatTest#testConstructorSingleFormat
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testConstructorSingleFormat
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseSimpleWithDecimals
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseSimpleWithDecimals
+* Started org.apache.commons.math.complex.ComplexFormatTest#testZeroImaginary
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testZeroImaginary
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSetImaginaryFormatNull
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSetImaginaryFormatNull
+* Started org.apache.commons.math.complex.ComplexFormatTest#testDifferentImaginaryChar
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testDifferentImaginaryChar
+* Started org.apache.commons.math.complex.ComplexFormatTest#testFormatNumber
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testFormatNumber
+* Started org.apache.commons.math.complex.ComplexFormatTest#testFormatObject
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testFormatObject
+* Started org.apache.commons.math.complex.ComplexFormatTest#testNan
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testNan
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSetImaginaryCharacterNull
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSetImaginaryCharacterNull
+* Started org.apache.commons.math.complex.ComplexFormatTest#testStaticFormatComplex
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testStaticFormatComplex
+* Started org.apache.commons.math.complex.ComplexFormatTest#testGetRealFormat
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testGetRealFormat
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseNegativeBoth
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseNegativeBoth
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseNegativeReal
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseNegativeReal
+* Started org.apache.commons.math.complex.ComplexFormatTest#testGetImaginaryFormat
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testGetImaginaryFormat
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.complex.ComplexFormatTest#testNegativeInfinity
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testNegativeInfinity
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSetRealFormatNull
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSetRealFormatNull
+* Started org.apache.commons.math.complex.ComplexFormatTest#testPaseNegativeInfinity
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testPaseNegativeInfinity
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseDifferentImaginaryChar
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseDifferentImaginaryChar
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSetImaginaryCharacterEmpty
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSetImaginaryCharacterEmpty
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSimpleNoDecimals
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSimpleNoDecimals
+* Started org.apache.commons.math.complex.ComplexFormatTest#testZeroReal
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testZeroReal
+* Started org.apache.commons.math.complex.ComplexFormatTest#testNegativeBoth
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testNegativeBoth
+* Started org.apache.commons.math.complex.ComplexFormatTest#testNegativeReal
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testNegativeReal
+* Started org.apache.commons.math.complex.ComplexFormatTest#testNegativeImaginary
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testNegativeImaginary
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseSimpleNoDecimals
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseSimpleNoDecimals
+* Started org.apache.commons.math.complex.ComplexFormatTest#testPositiveInfinity
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testPositiveInfinity
+* Started org.apache.commons.math.complex.ComplexFormatTest#testForgottenImaginaryCharacter
+* Failure: String index out of range: 6 | testForgottenImaginaryCharacter(org.apache.commons.math.complex.ComplexFormatTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1907)
+	at org.apache.commons.math.complex.ComplexFormat.parse(ComplexFormat.java:377)
+	at org.apache.commons.math.complex.ComplexFormatAbstractTest.testForgottenImaginaryCharacter(ComplexFormatAbstractTest.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testForgottenImaginaryCharacter
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseZeroReal
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseZeroReal
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseNan
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseNan
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParseZeroImaginary
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParseZeroImaginary
+* Started org.apache.commons.math.complex.ComplexFormatTest#testParsePositiveInfinity
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testParsePositiveInfinity
+* Started org.apache.commons.math.complex.ComplexFormatTest#testSimpleWithDecimals
+* Finished org.apache.commons.math.complex.ComplexFormatTest#testSimpleWithDecimals
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNegativeImaginary
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNegativeImaginary
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testConstructorSingleFormat
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testConstructorSingleFormat
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseSimpleWithDecimals
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseSimpleWithDecimals
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testZeroImaginary
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testZeroImaginary
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSetImaginaryFormatNull
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSetImaginaryFormatNull
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testDifferentImaginaryChar
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testDifferentImaginaryChar
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testFormatNumber
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testFormatNumber
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testFormatObject
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testFormatObject
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testNan
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testNan
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSetImaginaryCharacterNull
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSetImaginaryCharacterNull
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testStaticFormatComplex
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testStaticFormatComplex
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testGetRealFormat
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testGetRealFormat
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNegativeBoth
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNegativeBoth
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNegativeReal
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNegativeReal
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testGetImaginaryFormat
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testGetImaginaryFormat
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeInfinity
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeInfinity
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSetRealFormatNull
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSetRealFormatNull
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testPaseNegativeInfinity
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testPaseNegativeInfinity
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseDifferentImaginaryChar
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseDifferentImaginaryChar
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSetImaginaryCharacterEmpty
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSetImaginaryCharacterEmpty
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSimpleNoDecimals
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSimpleNoDecimals
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testZeroReal
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testZeroReal
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeBoth
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeBoth
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeReal
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeReal
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeImaginary
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testNegativeImaginary
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseSimpleNoDecimals
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseSimpleNoDecimals
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testPositiveInfinity
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testPositiveInfinity
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testForgottenImaginaryCharacter
+* Failure: String index out of range: 6 | testForgottenImaginaryCharacter(org.apache.commons.math.complex.FrenchComplexFormatTest)
+java.lang.StringIndexOutOfBoundsException: String index out of range: 6
+	at java.lang.String.substring(String.java:1907)
+	at org.apache.commons.math.complex.ComplexFormat.parse(ComplexFormat.java:377)
+	at org.apache.commons.math.complex.ComplexFormatAbstractTest.testForgottenImaginaryCharacter(ComplexFormatAbstractTest.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testForgottenImaginaryCharacter
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseZeroReal
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseZeroReal
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNan
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseNan
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParseZeroImaginary
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParseZeroImaginary
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testParsePositiveInfinity
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testParsePositiveInfinity
+* Started org.apache.commons.math.complex.FrenchComplexFormatTest#testSimpleWithDecimals
+* Finished org.apache.commons.math.complex.FrenchComplexFormatTest#testSimpleWithDecimals
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/101/Math/developer/0/Math-101b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/101/Math/developer/0/Math-101b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/101/Math/developer/0/Math-101b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

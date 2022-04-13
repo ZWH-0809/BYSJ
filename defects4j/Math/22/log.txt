@@ -1,0 +1,309 @@
+* Checking out Math-22 to /scratch/acp13jcd/run_gzoltar_35250_Math-22
+* Compiling Math-22
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_35250_Math-22/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math3.util.MathUtilsTest#testNormalizeAngle
+* Finished org.apache.commons.math3.util.MathUtilsTest#testNormalizeAngle
+* Started org.apache.commons.math3.util.MathUtilsTest#testIndicatorInt
+* Finished org.apache.commons.math3.util.MathUtilsTest#testIndicatorInt
+* Started org.apache.commons.math3.util.MathUtilsTest#testReduceComparedWithNormalizeAngle
+* Finished org.apache.commons.math3.util.MathUtilsTest#testReduceComparedWithNormalizeAngle
+* Started org.apache.commons.math3.util.MathUtilsTest#testHash
+* Finished org.apache.commons.math3.util.MathUtilsTest#testHash
+* Started org.apache.commons.math3.util.MathUtilsTest#testPermutedArrayHash
+* Finished org.apache.commons.math3.util.MathUtilsTest#testPermutedArrayHash
+* Started org.apache.commons.math3.util.MathUtilsTest#testCopySignByte
+* Finished org.apache.commons.math3.util.MathUtilsTest#testCopySignByte
+* Started org.apache.commons.math3.util.MathUtilsTest#testArrayHash
+* Finished org.apache.commons.math3.util.MathUtilsTest#testArrayHash
+* Started org.apache.commons.math3.util.MathUtilsTest#testCheckFinite
+* Finished org.apache.commons.math3.util.MathUtilsTest#testCheckFinite
+* Started org.apache.commons.math3.util.MathUtilsTest#testSignByte
+* Finished org.apache.commons.math3.util.MathUtilsTest#testSignByte
+* Started org.apache.commons.math3.util.MathUtilsTest#testSignLong
+* Finished org.apache.commons.math3.util.MathUtilsTest#testSignLong
+* Started org.apache.commons.math3.util.MathUtilsTest#testCopySignByte2
+* Finished org.apache.commons.math3.util.MathUtilsTest#testCopySignByte2
+* Started org.apache.commons.math3.util.MathUtilsTest#testIndicatorShort
+* Finished org.apache.commons.math3.util.MathUtilsTest#testIndicatorShort
+* Started org.apache.commons.math3.util.MathUtilsTest#testIndicatorByte
+* Finished org.apache.commons.math3.util.MathUtilsTest#testIndicatorByte
+* Started org.apache.commons.math3.util.MathUtilsTest#testIndicatorLong
+* Finished org.apache.commons.math3.util.MathUtilsTest#testIndicatorLong
+* Started org.apache.commons.math3.util.MathUtilsTest#testCheckNotNull1
+* Finished org.apache.commons.math3.util.MathUtilsTest#testCheckNotNull1
+* Started org.apache.commons.math3.util.MathUtilsTest#testCheckNotNull2
+* Finished org.apache.commons.math3.util.MathUtilsTest#testCheckNotNull2
+* Started org.apache.commons.math3.util.MathUtilsTest#testReduce
+* Finished org.apache.commons.math3.util.MathUtilsTest#testReduce
+* Started org.apache.commons.math3.util.MathUtilsTest#testSignInt
+* Finished org.apache.commons.math3.util.MathUtilsTest#testSignInt
+* Started org.apache.commons.math3.util.MathUtilsTest#testSignShort
+* Finished org.apache.commons.math3.util.MathUtilsTest#testSignShort
+* Started org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregation
+* Finished org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregation
+* Started org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateSpecialValues
+* Finished org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateSpecialValues
+* Started org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregationConsistency
+* Finished org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregationConsistency
+* Started org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregate
+* Finished org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregate
+* Started org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateDegenerate
+* Finished org.apache.commons.math3.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateDegenerate
+* Started org.apache.commons.math3.stat.inference.OneWayAnovaTest#testAnovaTest
+* Finished org.apache.commons.math3.stat.inference.OneWayAnovaTest#testAnovaTest
+* Started org.apache.commons.math3.stat.inference.OneWayAnovaTest#testAnovaFValue
+* Finished org.apache.commons.math3.stat.inference.OneWayAnovaTest#testAnovaFValue
+* Started org.apache.commons.math3.stat.inference.OneWayAnovaTest#testAnovaPValue
+* Finished org.apache.commons.math3.stat.inference.OneWayAnovaTest#testAnovaPValue
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testOneSampleTTest
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testOneSampleTTest
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquareIndependence
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquareIndependence
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquareZeroCount
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquareZeroCount
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testSmallSamples
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testSmallSamples
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testTwoSampleTHeterscedastic
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testTwoSampleTHeterscedastic
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquareLargeTestStatistic
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquareLargeTestStatistic
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquare
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testChiSquare
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testOneSampleT
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testOneSampleT
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testPaired
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testPaired
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testTwoSampleTHomoscedastic
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testTwoSampleTHomoscedastic
+* Started org.apache.commons.math3.stat.inference.TestUtilsTest#testOneWayAnovaUtils
+* Finished org.apache.commons.math3.stat.inference.TestUtilsTest#testOneWayAnovaUtils
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testBevington
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testBevington
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testMath199
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testMath199
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testNonInvertible
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testNonInvertible
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFitting2
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFitting2
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testControlParameters
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testControlParameters
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFittingGoodInit
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFittingGoodInit
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testNoDependency
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testNoDependency
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testRedundantEquations
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testRedundantEquations
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testTrivial
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testTrivial
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testQRColumnsPermutation
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testQRColumnsPermutation
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentSizes1
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentSizes1
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentSizes2
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentSizes2
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testTwoSets
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testTwoSets
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testHahn1
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testHahn1
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersSimple
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersUnsorted
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testIllConditioned
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testIllConditioned
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentEquations
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentEquations
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFitting
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFitting
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testKirby2
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testKirby2
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testOneSet
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testOneSet
+* Started org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFittingBadInit
+* Finished org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFittingBadInit
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testFit
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testFit
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testMath798WithToleranceTooLow
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testMath798WithToleranceTooLow
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testMath798
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testMath798
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testSmallError
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testSmallError
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testRedundantSolvable
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testRedundantSolvable
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testNoError
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testNoError
+* Started org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testRedundantUnsolvable
+* Finished org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testRedundantUnsolvable
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testGetLowerBound
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testGetLowerBound
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testGetUpperBound
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testGetUpperBound
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testPreconditions1
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testPreconditions1
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testPreconditions2
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testPreconditions2
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testMeanVariance
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testMeanVariance
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testIsSupportLowerBoundInclusive
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testIsSupportLowerBoundInclusive
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testDensities
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testDensities
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testInverseCumulativeProbabilities
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testSampling
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testSampling
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testIllegalArguments
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testDensityIntegrals
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testDensityIntegrals
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testConsistency
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testConsistency
+* Started org.apache.commons.math3.distribution.UniformRealDistributionTest#testIsSupportUpperBoundInclusive
+* Failure: expected:<true> but was:<false> | testIsSupportUpperBoundInclusive(org.apache.commons.math3.distribution.UniformRealDistributionTest)
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.math3.distribution.RealDistributionAbstractTest.testIsSupportUpperBoundInclusive(RealDistributionAbstractTest.java:367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.distribution.UniformRealDistributionTest#testIsSupportUpperBoundInclusive
+* Started org.apache.commons.math3.distribution.FDistributionTest#testSmallDegreesOfFreedom
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testSmallDegreesOfFreedom
+* Started org.apache.commons.math3.distribution.FDistributionTest#testPreconditions
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testPreconditions
+* Started org.apache.commons.math3.distribution.FDistributionTest#testCumulativeProbabilityExtremes
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testCumulativeProbabilityExtremes
+* Started org.apache.commons.math3.distribution.FDistributionTest#testLargeDegreesOfFreedom
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testLargeDegreesOfFreedom
+* Started org.apache.commons.math3.distribution.FDistributionTest#testMath785
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testMath785
+* Started org.apache.commons.math3.distribution.FDistributionTest#testMoments
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testMoments
+* Started org.apache.commons.math3.distribution.FDistributionTest#testDfAccessors
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testDfAccessors
+* Started org.apache.commons.math3.distribution.FDistributionTest#testInverseCumulativeProbabilityExtremes
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testInverseCumulativeProbabilityExtremes
+* Started org.apache.commons.math3.distribution.FDistributionTest#testIsSupportLowerBoundInclusive
+* Failure: expected:<false> but was:<true> | testIsSupportLowerBoundInclusive(org.apache.commons.math3.distribution.FDistributionTest)
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.math3.distribution.RealDistributionAbstractTest.testIsSupportLowerBoundInclusive(RealDistributionAbstractTest.java:351)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testIsSupportLowerBoundInclusive
+* Started org.apache.commons.math3.distribution.FDistributionTest#testDensities
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testDensities
+* Started org.apache.commons.math3.distribution.FDistributionTest#testInverseCumulativeProbabilities
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math3.distribution.FDistributionTest#testSampling
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testSampling
+* Started org.apache.commons.math3.distribution.FDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math3.distribution.FDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testIllegalArguments
+* Started org.apache.commons.math3.distribution.FDistributionTest#testDensityIntegrals
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testDensityIntegrals
+* Started org.apache.commons.math3.distribution.FDistributionTest#testConsistency
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testConsistency
+* Started org.apache.commons.math3.distribution.FDistributionTest#testIsSupportUpperBoundInclusive
+* Finished org.apache.commons.math3.distribution.FDistributionTest#testIsSupportUpperBoundInclusive
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/22/Math/developer/0/Math-22b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/22/Math/developer/0/Math-22b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/22/Math/developer/0/Math-22b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

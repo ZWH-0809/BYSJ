@@ -1,0 +1,135 @@
+* Checking out Math-69 to /scratch/acp13jcd/run_gzoltar_10301_Math-69
+* Compiling Math-69
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_10301_Math-69/lib/junit-4.4.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testInsufficientData
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testInsufficientData
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testStdErrorConsistency
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testStdErrorConsistency
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testSwissFertility
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testSwissFertility
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testPValueNearZero
+* Failure: null | testPValueNearZero(org.apache.commons.math.stat.correlation.PearsonsCorrelationTest)
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at junit.framework.TestCase.assertTrue(TestCase.java:201)
+	at org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testPValueNearZero(PearsonsCorrelationTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testPValueNearZero
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConstant
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConstant
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testCovarianceConsistency
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testCovarianceConsistency
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConsistency
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConsistency
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testLongly
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testLongly
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testInsufficientData
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testInsufficientData
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testStdErrorConsistency
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testStdErrorConsistency
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testSwiss
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testSwiss
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testConstant
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testConstant
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testCovarianceConsistency
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testCovarianceConsistency
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testConsistency
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testConsistency
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testLongly
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testLongly
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testSwissFertility
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testSwissFertility
+* Started org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testPValueNearZero
+* Failure: null | testPValueNearZero(org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest)
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at junit.framework.TestCase.assertTrue(TestCase.java:201)
+	at org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testPValueNearZero(PearsonsCorrelationTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testPValueNearZero
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/69/Math/developer/0/Math-69b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/69/Math/developer/0/Math-69b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/69/Math/developer/0/Math-69b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

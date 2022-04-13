@@ -1,0 +1,5 @@
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Chart/24
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Chart/10
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Chart/14
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Chart/18
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Chart/19

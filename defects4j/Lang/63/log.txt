@@ -1,0 +1,101 @@
+* Checking out Lang-63 to /scratch/acp13jcd/run_gzoltar_20785_Lang-63
+* Compiling Lang-63
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatPeriod
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatPeriod
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testLexx
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testLexx
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationHMS
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationHMS
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationISO
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationISO
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatPeriodISO
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatPeriodISO
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationPluralWords
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationPluralWords
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testBugzilla38401
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testBugzilla38401
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDuration
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDuration
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationWords
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testFormatDurationWords
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testJiraLang281
+* Failure: expected:<[09]> but was:<[-2]> | testJiraLang281(org.apache.commons.lang.time.DurationFormatUtilsTest)
+junit.framework.ComparisonFailure: expected:<[09]> but was:<[-2]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at org.apache.commons.lang.time.DurationFormatUtilsTest.testJiraLang281(DurationFormatUtilsTest.java:436)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testJiraLang281
+* Started org.apache.commons.lang.time.DurationFormatUtilsTest#testConstructor
+* Finished org.apache.commons.lang.time.DurationFormatUtilsTest#testConstructor
+* Started org.apache.commons.lang.time.StopWatchTest#testBadStates
+* Finished org.apache.commons.lang.time.StopWatchTest#testBadStates
+* Started org.apache.commons.lang.time.StopWatchTest#testStopWatchSimpleGet
+* Finished org.apache.commons.lang.time.StopWatchTest#testStopWatchSimpleGet
+* Started org.apache.commons.lang.time.StopWatchTest#testStopWatchSimple
+* Finished org.apache.commons.lang.time.StopWatchTest#testStopWatchSimple
+* Started org.apache.commons.lang.time.StopWatchTest#testStopWatchSplit
+* Finished org.apache.commons.lang.time.StopWatchTest#testStopWatchSplit
+* Started org.apache.commons.lang.time.StopWatchTest#testStopWatchSuspend
+* Finished org.apache.commons.lang.time.StopWatchTest#testStopWatchSuspend
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Lang/63/Lang/developer/0/Lang-63b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Lang/63/Lang/developer/0/Lang-63b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Lang/63/Lang/developer/0/Lang-63b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

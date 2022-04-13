@@ -1,0 +1,255 @@
+* Checking out Math-17 to /scratch/acp13jcd/run_gzoltar_47878_Math-17
+* Compiling Math-17
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_47878_Math-17/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math3.analysis.function.SincTest#testDerivativeShortcut
+* Finished org.apache.commons.math3.analysis.function.SincTest#testDerivativeShortcut
+* Started org.apache.commons.math3.analysis.function.SincTest#testDerivatives1Dot2Unnormalized
+* Finished org.apache.commons.math3.analysis.function.SincTest#testDerivatives1Dot2Unnormalized
+* Started org.apache.commons.math3.analysis.function.SincTest#testEuler
+* Finished org.apache.commons.math3.analysis.function.SincTest#testEuler
+* Started org.apache.commons.math3.analysis.function.SincTest#testZero
+* Finished org.apache.commons.math3.analysis.function.SincTest#testZero
+* Started org.apache.commons.math3.analysis.function.SincTest#testDerivativeZero
+* Finished org.apache.commons.math3.analysis.function.SincTest#testDerivativeZero
+* Started org.apache.commons.math3.analysis.function.SincTest#testShortcut
+* Finished org.apache.commons.math3.analysis.function.SincTest#testShortcut
+* Started org.apache.commons.math3.analysis.function.SincTest#testDerivatives1Dot2Normalized
+* Finished org.apache.commons.math3.analysis.function.SincTest#testDerivatives1Dot2Normalized
+* Started org.apache.commons.math3.analysis.function.SincTest#testCrossings
+* Finished org.apache.commons.math3.analysis.function.SincTest#testCrossings
+* Started org.apache.commons.math3.dfp.DfpTest#testAdd
+* Finished org.apache.commons.math3.dfp.DfpTest#testAdd
+* Started org.apache.commons.math3.dfp.DfpTest#testFloor
+* Finished org.apache.commons.math3.dfp.DfpTest#testFloor
+* Started org.apache.commons.math3.dfp.DfpTest#testLog10
+* Finished org.apache.commons.math3.dfp.DfpTest#testLog10
+* Started org.apache.commons.math3.dfp.DfpTest#testRound
+* Finished org.apache.commons.math3.dfp.DfpTest#testRound
+* Started org.apache.commons.math3.dfp.DfpTest#testCeil
+* Finished org.apache.commons.math3.dfp.DfpTest#testCeil
+* Started org.apache.commons.math3.dfp.DfpTest#testRint
+* Finished org.apache.commons.math3.dfp.DfpTest#testRint
+* Started org.apache.commons.math3.dfp.DfpTest#testSqrt
+* Finished org.apache.commons.math3.dfp.DfpTest#testSqrt
+* Started org.apache.commons.math3.dfp.DfpTest#testToString
+* Finished org.apache.commons.math3.dfp.DfpTest#testToString
+* Started org.apache.commons.math3.dfp.DfpTest#testReciprocal
+* Finished org.apache.commons.math3.dfp.DfpTest#testReciprocal
+* Started org.apache.commons.math3.dfp.DfpTest#testDivideInt
+* Finished org.apache.commons.math3.dfp.DfpTest#testDivideInt
+* Started org.apache.commons.math3.dfp.DfpTest#testSignPredicates
+* Finished org.apache.commons.math3.dfp.DfpTest#testSignPredicates
+* Started org.apache.commons.math3.dfp.DfpTest#testPower10
+* Finished org.apache.commons.math3.dfp.DfpTest#testPower10
+* Started org.apache.commons.math3.dfp.DfpTest#testCopySign
+* Finished org.apache.commons.math3.dfp.DfpTest#testCopySign
+* Started org.apache.commons.math3.dfp.DfpTest#testCompare
+* Finished org.apache.commons.math3.dfp.DfpTest#testCompare
+* Started org.apache.commons.math3.dfp.DfpTest#testByteConstructor
+* Finished org.apache.commons.math3.dfp.DfpTest#testByteConstructor
+* Started org.apache.commons.math3.dfp.DfpTest#testIntValue
+* Finished org.apache.commons.math3.dfp.DfpTest#testIntValue
+* Started org.apache.commons.math3.dfp.DfpTest#testDivide
+* Finished org.apache.commons.math3.dfp.DfpTest#testDivide
+* Started org.apache.commons.math3.dfp.DfpTest#testMultiply
+* Failure: assersion failed Multiply #37 x = NaN flags = 1 | testMultiply(org.apache.commons.math3.dfp.DfpTest)
+java.lang.AssertionError: assersion failed Multiply #37 x = NaN flags = 1
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.apache.commons.math3.dfp.DfpTest.test(DfpTest.java:74)
+	at org.apache.commons.math3.dfp.DfpTest.testMultiply(DfpTest.java:909)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.dfp.DfpTest#testMultiply
+* Started org.apache.commons.math3.dfp.DfpTest#testIssue567
+* Finished org.apache.commons.math3.dfp.DfpTest#testIssue567
+* Started org.apache.commons.math3.dfp.DfpTest#testIsZero
+* Finished org.apache.commons.math3.dfp.DfpTest#testIsZero
+* Started org.apache.commons.math3.dfp.DfpTest#testIntConstructor
+* Finished org.apache.commons.math3.dfp.DfpTest#testIntConstructor
+* Started org.apache.commons.math3.dfp.DfpTest#testLog10K
+* Finished org.apache.commons.math3.dfp.DfpTest#testLog10K
+* Started org.apache.commons.math3.dfp.DfpTest#testRemainder
+* Finished org.apache.commons.math3.dfp.DfpTest#testRemainder
+* Started org.apache.commons.math3.dfp.DfpTest#testPower10K
+* Finished org.apache.commons.math3.dfp.DfpTest#testPower10K
+* Started org.apache.commons.math3.dfp.DfpTest#testLongConstructor
+* Finished org.apache.commons.math3.dfp.DfpTest#testLongConstructor
+* Started org.apache.commons.math3.dfp.DfpTest#testNextAfter
+* Finished org.apache.commons.math3.dfp.DfpTest#testNextAfter
+* Started org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testConvergenceOnFunctionAccuracy
+* Finished org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testConvergenceOnFunctionAccuracy
+* Started org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testNeta
+* Finished org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testNeta
+* Started org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testInsufficientOrder3
+* Finished org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testInsufficientOrder3
+* Started org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testConstructorOK
+* Finished org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest#testConstructorOK
+* Started org.apache.commons.math3.dfp.DfpMathTest#testPow
+* Finished org.apache.commons.math3.dfp.DfpMathTest#testPow
+* Started org.apache.commons.math3.dfp.DfpMathTest#testSin
+* Finished org.apache.commons.math3.dfp.DfpMathTest#testSin
+* Started org.apache.commons.math3.dfp.DfpDecTest#testRound
+* Finished org.apache.commons.math3.dfp.DfpDecTest#testRound
+* Started org.apache.commons.math3.dfp.DfpDecTest#testRoundDecimal10
+* Finished org.apache.commons.math3.dfp.DfpDecTest#testRoundDecimal10
+* Started org.apache.commons.math3.dfp.DfpDecTest#testNextAfter
+* Finished org.apache.commons.math3.dfp.DfpDecTest#testNextAfter
+* Started org.apache.commons.math3.util.FastMathTest#testLogSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testLogSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testDoubleNextAfterSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testDoubleNextAfterSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testIndicatorDouble
+* Finished org.apache.commons.math3.util.FastMathTest#testIndicatorDouble
+* Started org.apache.commons.math3.util.FastMathTest#testAtan2SpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testAtan2SpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testCbrtAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testCbrtAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testAtan2
+* Finished org.apache.commons.math3.util.FastMathTest#testAtan2
+* Started org.apache.commons.math3.util.FastMathTest#checkMissingFastMathClasses
+* Finished org.apache.commons.math3.util.FastMathTest#checkMissingFastMathClasses
+* Started org.apache.commons.math3.util.FastMathTest#testLogAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testLogAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testLog1pSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testLog1pSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testAcosAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testAcosAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testMinMaxDouble
+* Finished org.apache.commons.math3.util.FastMathTest#testMinMaxDouble
+* Started org.apache.commons.math3.util.FastMathTest#testAcosSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testAcosSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testPowSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testPowSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testDoubleScalbSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testDoubleScalbSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testTanhAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testTanhAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testToRadians
+* Finished org.apache.commons.math3.util.FastMathTest#testToRadians
+* Started org.apache.commons.math3.util.FastMathTest#testLogWithBase
+* Finished org.apache.commons.math3.util.FastMathTest#testLogWithBase
+* Started org.apache.commons.math3.util.FastMathTest#testConstants
+* Finished org.apache.commons.math3.util.FastMathTest#testConstants
+* Started org.apache.commons.math3.util.FastMathTest#testTanAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testTanAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testFloatScalbSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testFloatScalbSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testToDegrees
+* Finished org.apache.commons.math3.util.FastMathTest#testToDegrees
+* Started org.apache.commons.math3.util.FastMathTest#testSignumFloat
+* Finished org.apache.commons.math3.util.FastMathTest#testSignumFloat
+* Started org.apache.commons.math3.util.FastMathTest#testSinAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testSinAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testAtan2Accuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testAtan2Accuracy
+* Started org.apache.commons.math3.util.FastMathTest#testFloatNextAfterSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testFloatNextAfterSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testExpm1Accuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testExpm1Accuracy
+* Started org.apache.commons.math3.util.FastMathTest#testSignumDouble
+* Finished org.apache.commons.math3.util.FastMathTest#testSignumDouble
+* Started org.apache.commons.math3.util.FastMathTest#testMinMaxFloat
+* Finished org.apache.commons.math3.util.FastMathTest#testMinMaxFloat
+* Started org.apache.commons.math3.util.FastMathTest#testHyperbolic
+* Finished org.apache.commons.math3.util.FastMathTest#testHyperbolic
+* Started org.apache.commons.math3.util.FastMathTest#testCoshAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testCoshAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testIntPow
+* Finished org.apache.commons.math3.util.FastMathTest#testIntPow
+* Started org.apache.commons.math3.util.FastMathTest#testIndicatorFloat
+* Finished org.apache.commons.math3.util.FastMathTest#testIndicatorFloat
+* Started org.apache.commons.math3.util.FastMathTest#testPowAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testPowAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testExpSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testExpSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testLog10Accuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testLog10Accuracy
+* Started org.apache.commons.math3.util.FastMathTest#testAtanAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testAtanAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testNextAfter
+* Finished org.apache.commons.math3.util.FastMathTest#testNextAfter
+* Started org.apache.commons.math3.util.FastMathTest#testLog1pAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testLog1pAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testHyperbolicInverses
+* Finished org.apache.commons.math3.util.FastMathTest#testHyperbolicInverses
+* Ignored: org.apache.commons.math3.util.FastMathTest#checkExtraFastMathClasses
+* Started org.apache.commons.math3.util.FastMathTest#testAsinSpecialCases
+* Finished org.apache.commons.math3.util.FastMathTest#testAsinSpecialCases
+* Started org.apache.commons.math3.util.FastMathTest#testAsinAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testAsinAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testCosAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testCosAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testExpAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testExpAccuracy
+* Started org.apache.commons.math3.util.FastMathTest#testSinhAccuracy
+* Finished org.apache.commons.math3.util.FastMathTest#testSinhAccuracy
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/17/Math/developer/0/Math-17b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/17/Math/developer/0/Math-17b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/17/Math/developer/0/Math-17b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

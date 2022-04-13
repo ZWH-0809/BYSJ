@@ -1,0 +1,120 @@
+* Checking out Math-8 to /scratch/acp13jcd/run_gzoltar_39874_Math-8
+* Compiling Math-8
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_39874_Math-8/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testExceptions
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testExceptions
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testProbability
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testProbability
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetSupportUpperBound
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetSupportUpperBound
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetNumericalVariance
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetNumericalVariance
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetNumericalMean
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetNumericalMean
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testCumulativeProbability
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testCumulativeProbability
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testSample
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testSample
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetSupportLowerBound
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testGetSupportLowerBound
+* Started org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testIsSupportConnected
+* Finished org.apache.commons.math3.distribution.DiscreteIntegerDistributionTest#testIsSupportConnected
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIsSupportLowerBoundInclusive
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIsSupportLowerBoundInclusive
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testExceptions
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testExceptions
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testProbability
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testProbability
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetSupportUpperBound
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetSupportUpperBound
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetNumericalVariance
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetNumericalVariance
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetNumericalMean
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetNumericalMean
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testCumulativeProbability
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testCumulativeProbability
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testDensity
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testDensity
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIsSupportUpperBoundInclusive
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIsSupportUpperBoundInclusive
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIssue942
+* Failure: org.apache.commons.math3.distribution.DiscreteRealDistributionTest$2 | testIssue942(org.apache.commons.math3.distribution.DiscreteRealDistributionTest)
+java.lang.ArrayStoreException: org.apache.commons.math3.distribution.DiscreteRealDistributionTest$2
+	at org.apache.commons.math3.distribution.DiscreteDistribution.sample(DiscreteDistribution.java:190)
+	at org.apache.commons.math3.distribution.DiscreteRealDistributionTest.testIssue942(DiscreteRealDistributionTest.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIssue942
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testSample
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testSample
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetSupportLowerBound
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testGetSupportLowerBound
+* Started org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIsSupportConnected
+* Finished org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIsSupportConnected
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/8/Math/developer/0/Math-8b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/8/Math/developer/0/Math-8b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/8/Math/developer/0/Math-8b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

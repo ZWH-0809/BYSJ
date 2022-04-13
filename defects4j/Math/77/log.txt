@@ -1,0 +1,1609 @@
+* Checking out Math-77 to /scratch/acp13jcd/run_gzoltar_76608_Math-77
+* Compiling Math-77
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_76608_Math-77/lib/junit-4.4.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest#testLinearFunction2D
+* Finished org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest#testLinearFunction2D
+* Started org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest#testParaboloid2D
+* Finished org.apache.commons.math.analysis.interpolation.MicrosphereInterpolatorTest#testParaboloid2D
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNoDependency
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNoDependency
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testRedundantEquations
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testRedundantEquations
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTrivial
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTrivial
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testQRColumnsPermutation
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testQRColumnsPermutation
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTwoSets
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testTwoSets
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMaxIterations
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMaxIterations
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersSimple
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersUnsorted
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testIllConditioned
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testIllConditioned
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNonInversible
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testNonInversible
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testInconsistentEquations
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testInconsistentEquations
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFitting
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFitting
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testBoundParameters
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testBoundParameters
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testOneSet
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testOneSet
+* Started org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFittingBadInit
+* Finished org.apache.commons.math.estimation.GaussNewtonEstimatorTest#testCircleFittingBadInit
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArrayPatternArgumentsCause
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArgumentsCause(FunctionEvaluationExceptionTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArgumentsCause(FunctionEvaluationExceptionTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArgumentsCause(FunctionEvaluationExceptionTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArrayPatternArgumentsCause
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArgumentCause
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArgumentCause(FunctionEvaluationExceptionTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArgumentCause(FunctionEvaluationExceptionTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArgumentCause(FunctionEvaluationExceptionTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArgumentCause
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorPatternArgumentsCause
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArgumentsCause(FunctionEvaluationExceptionTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArgumentsCause(FunctionEvaluationExceptionTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArgumentsCause(FunctionEvaluationExceptionTest.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorPatternArgumentsCause
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorPatternArguments
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArguments(FunctionEvaluationExceptionTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArguments(FunctionEvaluationExceptionTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorPatternArguments(FunctionEvaluationExceptionTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorPatternArguments
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArray
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArray(FunctionEvaluationExceptionTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArray(FunctionEvaluationExceptionTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArray(FunctionEvaluationExceptionTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArray
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArrayPatternArguments
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArguments(FunctionEvaluationExceptionTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArguments(FunctionEvaluationExceptionTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayPatternArguments(FunctionEvaluationExceptionTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArrayPatternArguments
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArrayArgumentCause
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayArgumentCause(FunctionEvaluationExceptionTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayArgumentCause(FunctionEvaluationExceptionTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructorArrayArgumentCause(FunctionEvaluationExceptionTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructorArrayArgumentCause
+* Started org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructor
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructor(FunctionEvaluationExceptionTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructor(FunctionEvaluationExceptionTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:159)
+	at org.apache.commons.math.FunctionEvaluationExceptionTest.testConstructor(FunctionEvaluationExceptionTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.FunctionEvaluationExceptionTest#testConstructor
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testHat
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testHat
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testSwissFertility
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testSwissFertility
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testPerfectFit
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testPerfectFit
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testLongly
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testLongly
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#notEnoughData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#notEnoughData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math.optimization.linear.SimplexTableauTest#testInitialization
+* Finished org.apache.commons.math.optimization.linear.SimplexTableauTest#testInitialization
+* Started org.apache.commons.math.optimization.linear.SimplexTableauTest#testTableauWithNoArtificialVars
+* Finished org.apache.commons.math.optimization.linear.SimplexTableauTest#testTableauWithNoArtificialVars
+* Started org.apache.commons.math.optimization.linear.SimplexTableauTest#testSerial
+* Finished org.apache.commons.math.optimization.linear.SimplexTableauTest#testSerial
+* Started org.apache.commons.math.optimization.linear.SimplexTableauTest#testDropPhase1Objective
+* Finished org.apache.commons.math.optimization.linear.SimplexTableauTest#testDropPhase1Objective
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testRestrictVariablesToNonNegative
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testRestrictVariablesToNonNegative
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testEpsilon
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testEpsilon
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testUnboundedSolution
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testUnboundedSolution
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testSingleVariableAndConstraint
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testSingleVariableAndConstraint
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testSimplexSolver
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testSimplexSolver
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath290GEQ
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath290GEQ
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath290LEQ
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath290LEQ
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testTrivialModel
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testTrivialModel
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testInfeasibleSolution
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testInfeasibleSolution
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath272
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath272
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath286
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath286
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath288
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath288
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath293
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath293
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testModelWithNoArtificialVars
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testModelWithNoArtificialVars
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testMinimization
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testMinimization
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testDegeneracy
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testDegeneracy
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testLargeModel
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testLargeModel
+* Started org.apache.commons.math.optimization.linear.SimplexSolverTest#testSolutionWithNegativeDecisionVariable
+* Finished org.apache.commons.math.optimization.linear.SimplexSolverTest#testSolutionWithNegativeDecisionVariable
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testFrobeniusNorm
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testFrobeniusNorm
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testOperate
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testOperate
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testExamples
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testExamples
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetEntry
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetEntry
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testAddFail
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testAddFail
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testAdd
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testAdd
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testScalarAdd
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testScalarAdd
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testTrace
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testTrace
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testNorm
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testNorm
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testWalk
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testWalk
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testToString
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testToString
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetRowMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetRowMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testPlusMinus
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testPlusMinus
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetRowVector
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetRowVector
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testMultiply2
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testMultiply2
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testDimensions
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testDimensions
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testCopySubMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testCopySubMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testPremultiplyVector
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testPremultiplyVector
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testCopyFunctions
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testCopyFunctions
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetSubMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetSubMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testMath209
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testMath209
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetVectors
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetVectors
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetColumn
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetColumn
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetColumnMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetColumnMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetColumn
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetColumn
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetColumnVector
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetColumnVector
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testMultiply
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testMultiply
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetRow
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetRow
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testEqualsAndHashCode
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSerial
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSerial
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetRow
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetRow
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testTranspose
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testTranspose
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetColumnMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetColumnMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testPremultiply
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testPremultiply
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetRowMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetRowMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetColumnVector
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetColumnVector
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetSubMatrix
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testSetSubMatrix
+* Started org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetRowVector
+* Finished org.apache.commons.math.linear.Array2DRowRealMatrixTest#testGetRowVector
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testOperatePremultiplyLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testOperatePremultiplyLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetRowMatrixLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetRowMatrixLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testFrobeniusNorm
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testFrobeniusNorm
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testOperate
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testOperate
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testExamples
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testExamples
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetEntry
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetEntry
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testAddFail
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testAddFail
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetColumnLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetColumnLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testAdd
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testAdd
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testScalarAdd
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testScalarAdd
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testTrace
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testTrace
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testNorm
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testNorm
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testWalk
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testWalk
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testToString
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testToString
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetMatrixLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetMatrixLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetRowVectorLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetRowVectorLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetRowMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetRowMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSeveralBlocks
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSeveralBlocks
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testPlusMinus
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testPlusMinus
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetRowVector
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetRowVector
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testMultiply2
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testMultiply2
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testDimensions
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testDimensions
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testCopySubMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testCopySubMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetRowLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetRowLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testPremultiplyVector
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testPremultiplyVector
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testCopyFunctions
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testCopyFunctions
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSubMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSubMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testMath209
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testMath209
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testOperateLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testOperateLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetVectors
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetVectors
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetColumnMatrixLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetColumnMatrixLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetColumn
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetColumn
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetColumnMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetColumnMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetColumn
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetColumn
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetColumnVector
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetColumnVector
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testMultiply
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testMultiply
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetRow
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetRow
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testEqualsAndHashCode
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetColumnVectorLarge
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetSetColumnVectorLarge
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSerial
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSerial
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetRow
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetRow
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testTranspose
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testTranspose
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetColumnMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetColumnMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testPremultiply
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testPremultiply
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetRowMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetRowMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetColumnVector
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetColumnVector
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testSetSubMatrix
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testSetSubMatrix
+* Started org.apache.commons.math.linear.BlockRealMatrixTest#testGetRowVector
+* Finished org.apache.commons.math.linear.BlockRealMatrixTest#testGetRowVector
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testMisc
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testMisc
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testConstructors
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testConstructors
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testBasicFunctions
+* Failure: compare values   expected:<6.0> but was:<-3.0> | testBasicFunctions(org.apache.commons.math.linear.SparseRealVectorTest)
+junit.framework.AssertionFailedError: compare values   expected:<6.0> but was:<-3.0>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.TestCase.assertEquals(TestCase.java:244)
+	at org.apache.commons.math.linear.SparseRealVectorTest.testBasicFunctions(SparseRealVectorTest.java:968)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testBasicFunctions
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testDataInOut
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testDataInOut
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testPredicates
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testPredicates
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testMapFunctions
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testMapFunctions
+* Started org.apache.commons.math.linear.SparseRealVectorTest#testSerial
+* Finished org.apache.commons.math.linear.SparseRealVectorTest#testSerial
+* Started org.apache.commons.math.linear.SingularValueSolverTest#testSolve
+* Finished org.apache.commons.math.linear.SingularValueSolverTest#testSolve
+* Started org.apache.commons.math.linear.SingularValueSolverTest#testSolveDimensionErrors
+* Finished org.apache.commons.math.linear.SingularValueSolverTest#testSolveDimensionErrors
+* Started org.apache.commons.math.linear.SingularValueSolverTest#testSolveSingularityErrors
+* Finished org.apache.commons.math.linear.SingularValueSolverTest#testSolveSingularityErrors
+* Started org.apache.commons.math.linear.SingularValueSolverTest#testConditionNumber
+* Finished org.apache.commons.math.linear.SingularValueSolverTest#testConditionNumber
+* Started org.apache.commons.math.linear.LUSolverTest#testSolve
+* Finished org.apache.commons.math.linear.LUSolverTest#testSolve
+* Started org.apache.commons.math.linear.LUSolverTest#testThreshold
+* Finished org.apache.commons.math.linear.LUSolverTest#testThreshold
+* Started org.apache.commons.math.linear.LUSolverTest#testDeterminant
+* Finished org.apache.commons.math.linear.LUSolverTest#testDeterminant
+* Started org.apache.commons.math.linear.LUSolverTest#testSolveDimensionErrors
+* Finished org.apache.commons.math.linear.LUSolverTest#testSolveDimensionErrors
+* Started org.apache.commons.math.linear.LUSolverTest#testSolveSingularityErrors
+* Finished org.apache.commons.math.linear.LUSolverTest#testSolveSingularityErrors
+* Started org.apache.commons.math.linear.LUSolverTest#testSingular
+* Finished org.apache.commons.math.linear.LUSolverTest#testSingular
+* Started org.apache.commons.math.linear.EigenSolverTest#testSolve
+* Finished org.apache.commons.math.linear.EigenSolverTest#testSolve
+* Started org.apache.commons.math.linear.EigenSolverTest#testSolveDimensionErrors
+* Finished org.apache.commons.math.linear.EigenSolverTest#testSolveDimensionErrors
+* Started org.apache.commons.math.linear.EigenSolverTest#testNonInvertible
+* Finished org.apache.commons.math.linear.EigenSolverTest#testNonInvertible
+* Started org.apache.commons.math.linear.EigenSolverTest#testInvertible
+* Finished org.apache.commons.math.linear.EigenSolverTest#testInvertible
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testFrobeniusNorm
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testFrobeniusNorm
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testOperate
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testOperate
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testExamples
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testExamples
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetEntry
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetEntry
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testAddFail
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testAddFail
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testAdd
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testAdd
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testScalarAdd
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testScalarAdd
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testTrace
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testTrace
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testNorm
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testNorm
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testWalk
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testWalk
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testToString
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testToString
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetRowMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetRowMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testPlusMinus
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testPlusMinus
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetRowVector
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetRowVector
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testMultiply2
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testMultiply2
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testDimensions
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testDimensions
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testCopySubMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testCopySubMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testPremultiplyVector
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testPremultiplyVector
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testCopyFunctions
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testCopyFunctions
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetSubMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetSubMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testMath209
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testMath209
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetVectors
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetVectors
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetColumn
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetColumn
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetColumnMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetColumnMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetColumn
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetColumn
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetColumnVector
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetColumnVector
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testMultiply
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testMultiply
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetRow
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetRow
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testEqualsAndHashCode
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSerial
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSerial
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetRow
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetRow
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testTranspose
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testTranspose
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetColumnMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetColumnMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testPremultiply
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testPremultiply
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetRowMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetRowMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetColumnVector
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetColumnVector
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testSetSubMatrix
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testSetSubMatrix
+* Started org.apache.commons.math.linear.RealMatrixImplTest#testGetRowVector
+* Finished org.apache.commons.math.linear.RealMatrixImplTest#testGetRowVector
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testConstructorSingleFormat
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testConstructorSingleFormat
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseSimpleWithDecimals
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseSimpleWithDecimals
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testForgottenSeparator
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testForgottenSeparator
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseZeroX
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseZeroX
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testStaticFormatRealVectorImpl
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testStaticFormatRealVectorImpl
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testFormatObject
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testFormatObject
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNan
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNan
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeX
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeX
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeY
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeY
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeZ
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeZ
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeAll
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeAll
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testForgottenPrefix
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testForgottenPrefix
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testForgottenSuffix
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testForgottenSuffix
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNegativeX
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNegativeX
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNegativeY
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNegativeY
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNegativeZ
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNegativeZ
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseIgnoredWhitespace
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseIgnoredWhitespace
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNoComponents
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNoComponents
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseManyComponents
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseManyComponents
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeInfinity
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNegativeInfinity
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNonDefaultSetting
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testNonDefaultSetting
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testSimpleNoDecimals
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testSimpleNoDecimals
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseSimpleNoDecimals
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseSimpleNoDecimals
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testPositiveInfinity
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testPositiveInfinity
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNonDefaultSetting
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNonDefaultSetting
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNan
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParseNan
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParsePositiveInfinity
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testParsePositiveInfinity
+* Started org.apache.commons.math.linear.FrenchRealVectorFormatTest#testSimpleWithDecimals
+* Finished org.apache.commons.math.linear.FrenchRealVectorFormatTest#testSimpleWithDecimals
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension4WithoutSplit
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension4WithoutSplit
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testEigenvectors
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testEigenvectors
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testTridiagonal
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testTridiagonal
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension1
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension1
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension2
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension2
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension3
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension3
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDimensions
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDimensions
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testEigenvalues
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testEigenvalues
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testRepeatedEigenvalue
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testRepeatedEigenvalue
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testAEqualVDVt
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testAEqualVDVt
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testMath308
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testMath308
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDiagonal
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDiagonal
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDistinctEigenvalues
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDistinctEigenvalues
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testVOrthogonal
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testVOrthogonal
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testMathpbx02
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testMathpbx02
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testMathpbx03
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testMathpbx03
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testBigMatrix
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testBigMatrix
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension4WithSplit
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testDimension4WithSplit
+* Started org.apache.commons.math.linear.EigenDecompositionImplTest#testZeroDivide
+* Finished org.apache.commons.math.linear.EigenDecompositionImplTest#testZeroDivide
+* Started org.apache.commons.math.linear.CholeskySolverTest#testSolve
+* Finished org.apache.commons.math.linear.CholeskySolverTest#testSolve
+* Started org.apache.commons.math.linear.CholeskySolverTest#testDeterminant
+* Finished org.apache.commons.math.linear.CholeskySolverTest#testDeterminant
+* Started org.apache.commons.math.linear.CholeskySolverTest#testSolveDimensionErrors
+* Finished org.apache.commons.math.linear.CholeskySolverTest#testSolveDimensionErrors
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testUOrthogonal
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testUOrthogonal
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMoreColumns
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMoreColumns
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testDimensions
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testDimensions
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testConditionNumber
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testConditionNumber
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testAEqualUSVt
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testAEqualUSVt
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testHadamard
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testHadamard
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMoreRows
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMoreRows
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testVOrthogonal
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testVOrthogonal
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMatricesValues1
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMatricesValues1
+* Started org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMatricesValues2
+* Finished org.apache.commons.math.linear.SingularValueDecompositionImplTest#testMatricesValues2
+* Started org.apache.commons.math.linear.QRSolverTest#testOverdetermined
+* Finished org.apache.commons.math.linear.QRSolverTest#testOverdetermined
+* Started org.apache.commons.math.linear.QRSolverTest#testSolve
+* Finished org.apache.commons.math.linear.QRSolverTest#testSolve
+* Started org.apache.commons.math.linear.QRSolverTest#testRank
+* Finished org.apache.commons.math.linear.QRSolverTest#testRank
+* Started org.apache.commons.math.linear.QRSolverTest#testSolveRankErrors
+* Finished org.apache.commons.math.linear.QRSolverTest#testSolveRankErrors
+* Started org.apache.commons.math.linear.QRSolverTest#testSolveDimensionErrors
+* Finished org.apache.commons.math.linear.QRSolverTest#testSolveDimensionErrors
+* Started org.apache.commons.math.linear.QRSolverTest#testUnderdetermined
+* Finished org.apache.commons.math.linear.QRSolverTest#testUnderdetermined
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testConstructorSingleFormat
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testConstructorSingleFormat
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseSimpleWithDecimals
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseSimpleWithDecimals
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testForgottenSeparator
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testForgottenSeparator
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseZeroX
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseZeroX
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testStaticFormatRealVectorImpl
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testStaticFormatRealVectorImpl
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testFormatObject
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testFormatObject
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testNan
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testNan
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeX
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeX
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeY
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeY
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeZ
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeZ
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeAll
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeAll
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testForgottenPrefix
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testForgottenPrefix
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testForgottenSuffix
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testForgottenSuffix
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testNegativeX
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testNegativeX
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testNegativeY
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testNegativeY
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testNegativeZ
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testNegativeZ
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseIgnoredWhitespace
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseIgnoredWhitespace
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseSimpleWithDecimalsTrunc
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseSimpleWithDecimalsTrunc
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNoComponents
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNoComponents
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseManyComponents
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseManyComponents
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeInfinity
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNegativeInfinity
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testNonDefaultSetting
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testNonDefaultSetting
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testSimpleNoDecimals
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testSimpleNoDecimals
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseSimpleNoDecimals
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseSimpleNoDecimals
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testPositiveInfinity
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testPositiveInfinity
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNonDefaultSetting
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNonDefaultSetting
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParseNan
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParseNan
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testParsePositiveInfinity
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testParsePositiveInfinity
+* Started org.apache.commons.math.linear.RealVectorFormatTest#testSimpleWithDecimals
+* Finished org.apache.commons.math.linear.RealVectorFormatTest#testSimpleWithDecimals
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testMisc
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testMisc
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testConstructors
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testConstructors
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testBasicFunctions
+* Failure: compare values   expected:<6.0> but was:<128.0> | testBasicFunctions(org.apache.commons.math.linear.ArrayRealVectorTest)
+junit.framework.AssertionFailedError: compare values   expected:<6.0> but was:<128.0>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.TestCase.assertEquals(TestCase.java:244)
+	at org.apache.commons.math.linear.ArrayRealVectorTest.testBasicFunctions(ArrayRealVectorTest.java:1098)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testBasicFunctions
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testDataInOut
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testDataInOut
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testPredicates
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testPredicates
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testMapFunctions
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testMapFunctions
+* Started org.apache.commons.math.linear.ArrayRealVectorTest#testSerial
+* Finished org.apache.commons.math.linear.ArrayRealVectorTest#testSerial
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testOperate
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testOperate
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testExamples
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testExamples
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testGetEntry
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testGetEntry
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testAddFail
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testAddFail
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testAdd
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testAdd
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testScalarAdd
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testScalarAdd
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testTrace
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testTrace
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testNorm
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testNorm
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testToString
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testToString
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testPlusMinus
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testPlusMinus
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testMultiply2
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testMultiply2
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testDimensions
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testDimensions
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testSubMatrix
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testSubMatrix
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testPremultiplyVector
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testPremultiplyVector
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testCopyFunctions
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testCopyFunctions
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testMath209
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testMath209
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testGetVectors
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testGetVectors
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testGetColumnMatrix
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testGetColumnMatrix
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testGetColumnVector
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testGetColumnVector
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testMultiply
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testMultiply
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testEqualsAndHashCode
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testSerial
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testSerial
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testTranspose
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testTranspose
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testPremultiply
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testPremultiply
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testGetRowMatrix
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testGetRowMatrix
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testSetSubMatrix
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testSetSubMatrix
+* Started org.apache.commons.math.linear.SparseRealMatrixTest#testGetRowVector
+* Finished org.apache.commons.math.linear.SparseRealMatrixTest#testGetRowVector
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/77/Math/developer/0/Math-77b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/77/Math/developer/0/Math-77b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/77/Math/developer/0/Math-77b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

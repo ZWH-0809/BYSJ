@@ -1,0 +1,100 @@
+* Checking out Math-106 to /scratch/acp13jcd/run_gzoltar_1239_Math-106
+* Compiling Math-106
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.fraction.FractionFormatTest#testNumeratorFormat
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testNumeratorFormat
+* Started org.apache.commons.math.fraction.FractionFormatTest#testFormatImproperNegative
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testFormatImproperNegative
+* Started org.apache.commons.math.fraction.FractionFormatTest#testFormatImproper
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testFormatImproper
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseProper
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseProper
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseProperNegative
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseProperNegative
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParse
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParse
+* Started org.apache.commons.math.fraction.FractionFormatTest#testWholeFormat
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testWholeFormat
+* Started org.apache.commons.math.fraction.FractionFormatTest#testFormatZero
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testFormatZero
+* Started org.apache.commons.math.fraction.FractionFormatTest#testFormatNegative
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testFormatNegative
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseInvalidDenominator
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseInvalidDenominator
+* Started org.apache.commons.math.fraction.FractionFormatTest#testDenominatorFormat
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testDenominatorFormat
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseProperInvalidMinus
+* Failure: invalid minus in improper fraction. | testParseProperInvalidMinus(org.apache.commons.math.fraction.FractionFormatTest)
+junit.framework.AssertionFailedError: invalid minus in improper fraction.
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:227)
+	at org.apache.commons.math.fraction.FractionFormatTest.testParseProperInvalidMinus(FractionFormatTest.java:236)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseProperInvalidMinus
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseInteger
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseInteger
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseInvalid
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseInvalid
+* Started org.apache.commons.math.fraction.FractionFormatTest#testFormat
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testFormat
+* Started org.apache.commons.math.fraction.FractionFormatTest#testParseNegative
+* Finished org.apache.commons.math.fraction.FractionFormatTest#testParseNegative
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/106/Math/developer/0/Math-106b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/106/Math/developer/0/Math-106b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/106/Math/developer/0/Math-106b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

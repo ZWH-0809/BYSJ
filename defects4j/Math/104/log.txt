@@ -1,0 +1,1870 @@
+* Checking out Math-104 to /scratch/acp13jcd/run_gzoltar_28854_Math-104
+* Compiling Math-104
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testClear
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testClear
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testCorr
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testCorr
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testNaNs
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testNaNs
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testPerfect
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testPerfect
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testSSENonNegative
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testSSENonNegative
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testPerfectNegative
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testPerfectNegative
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testNorris
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testNorris
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testInference
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.TDistributionImpl.inverseCumulativeProbability(TDistributionImpl.java:117)
+	at org.apache.commons.math.stat.regression.SimpleRegression.getSlopeConfidenceInterval(SimpleRegression.java:475)
+	at org.apache.commons.math.stat.regression.SimpleRegression.getSlopeConfidenceInterval(SimpleRegression.java:436)
+	at org.apache.commons.math.stat.regression.SimpleRegressionTest.testInference(SimpleRegressionTest.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testInference
+* Started org.apache.commons.math.stat.regression.SimpleRegressionTest#testRandom
+* Finished org.apache.commons.math.stat.regression.SimpleRegressionTest#testRandom
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.<init>(TTestFactoryTest.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.suite(TTestFactoryTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestFactoryTest#testOneSampleTTest
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.setUp(TTestFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TTestFactoryTest#testOneSampleTTest
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.<init>(TTestFactoryTest.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.suite(TTestFactoryTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestFactoryTest#testSmallSamples
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.setUp(TTestFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TTestFactoryTest#testSmallSamples
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.<init>(TTestFactoryTest.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.suite(TTestFactoryTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestFactoryTest#testTwoSampleTHeterscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.setUp(TTestFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TTestFactoryTest#testTwoSampleTHeterscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.<init>(TTestFactoryTest.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.suite(TTestFactoryTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestFactoryTest#testOneSampleT
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.setUp(TTestFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TTestFactoryTest#testOneSampleT
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.<init>(TTestFactoryTest.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.suite(TTestFactoryTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestFactoryTest#testPaired
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.setUp(TTestFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TTestFactoryTest#testPaired
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.<init>(TTestFactoryTest.java:30)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.suite(TTestFactoryTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestFactoryTest#testTwoSampleTHomoscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TTestFactoryTest.setUp(TTestFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TTestFactoryTest#testTwoSampleTHomoscedastic
+* Started org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquareIndependence
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.ChiSquareFactoryTest.setUp(ChiSquareFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquareIndependence
+* Started org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquareZeroCount
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.ChiSquareFactoryTest.setUp(ChiSquareFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquareZeroCount
+* Started org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquareLargeTestStatistic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.ChiSquareFactoryTest.setUp(ChiSquareFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquareLargeTestStatistic
+* Started org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquare
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.ChiSquareFactoryTest.setUp(ChiSquareFactoryTest.java:34)
+	at junit.framework.TestCase.runBare(TestCase.java:139)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.ChiSquareFactoryTest#testChiSquare
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleTTest
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testOneSampleTTest(TestUtilsTest.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleTTest
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareIndependence
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testChiSquareIndependence(TestUtilsTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareIndependence
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareZeroCount
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testChiSquareZeroCount(TestUtilsTest.java:189)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareZeroCount
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testSmallSamples
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testSmallSamples(TestUtilsTest.java:428)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testSmallSamples
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHeterscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testTwoSampleTHeterscedastic(TestUtilsTest.java:327)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHeterscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareLargeTestStatistic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testChiSquareLargeTestStatistic(TestUtilsTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareLargeTestStatistic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquare
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testChiSquare(TestUtilsTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquare
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleT
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testOneSampleT(TestUtilsTest.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleT
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testPaired
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testPaired(TestUtilsTest.java:441)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testPaired
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.<init>(TestUtilsTest.java:198)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.suite(TestUtilsTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHomoscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.inference.TestFactory.newInstance(TestFactory.java:42)
+	at org.apache.commons.math.stat.inference.TestUtils.<clinit>(TestUtils.java:38)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testTwoSampleTHomoscedastic(TestUtilsTest.java:413)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHomoscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestTest.suite(TTestTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestTest#testOneSampleTTest
+* Finished org.apache.commons.math.stat.inference.TTestTest#testOneSampleTTest
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestTest.suite(TTestTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestTest#testSmallSamples
+* Finished org.apache.commons.math.stat.inference.TTestTest#testSmallSamples
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestTest.suite(TTestTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHeterscedastic
+* Finished org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHeterscedastic
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestTest.suite(TTestTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestTest#testOneSampleT
+* Finished org.apache.commons.math.stat.inference.TTestTest#testOneSampleT
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestTest.suite(TTestTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestTest#testPaired
+* Finished org.apache.commons.math.stat.inference.TTestTest#testPaired
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.stat.descriptive.SummaryStatistics.newInstance(SummaryStatistics.java:58)
+	at org.apache.commons.math.stat.inference.TTestTest.<init>(TTestTest.java:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at junit.framework.TestSuite.createTest(TestSuite.java:68)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:310)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:153)
+	at junit.framework.TestSuite.<init>(TestSuite.java:132)
+	at org.apache.commons.math.stat.inference.TTestTest.suite(TTestTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.internal.runners.SuiteMethod.testFromSuiteMethod(SuiteMethod.java:35)
+	at org.junit.internal.runners.SuiteMethod.<init>(SuiteMethod.java:24)
+	at org.junit.internal.builders.SuiteMethodBuilder.runnerForClass(SuiteMethodBuilder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:26)
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:31)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.execute(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.runEachAtomicTestCase(Unknown Source)
+	at com.gzoltar.lib.instrumentation.testing.junit.JUnitRunner.run(Unknown Source)
+	at com.gzoltar.lib.client.Diagnose.main(Unknown Source)
+* Started org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHomoscedastic
+* Finished org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHomoscedastic
+* Started org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquareIndependence
+* Finished org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquareIndependence
+* Started org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquareZeroCount
+* Finished org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquareZeroCount
+* Started org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquareLargeTestStatistic
+* Finished org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquareLargeTestStatistic
+* Started org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquare
+* Finished org.apache.commons.math.stat.inference.ChiSquareTestTest#testChiSquare
+* Started org.apache.commons.math.distribution.TDistributionTest#testCumulativeProbabilityAgaintStackOverflow
+* Finished org.apache.commons.math.distribution.TDistributionTest#testCumulativeProbabilityAgaintStackOverflow
+* Started org.apache.commons.math.distribution.TDistributionTest#testDfAccessors
+* Finished org.apache.commons.math.distribution.TDistributionTest#testDfAccessors
+* Started org.apache.commons.math.distribution.TDistributionTest#testInverseCumulativeProbabilityExtremes
+* Finished org.apache.commons.math.distribution.TDistributionTest#testInverseCumulativeProbabilityExtremes
+* Started org.apache.commons.math.distribution.TDistributionTest#testSmallDf
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.TDistributionImpl.inverseCumulativeProbability(TDistributionImpl.java:117)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.TDistributionTest.testSmallDf(TDistributionTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.TDistributionTest#testSmallDf
+* Started org.apache.commons.math.distribution.TDistributionTest#testInverseCumulativeProbabilities
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.TDistributionImpl.inverseCumulativeProbability(TDistributionImpl.java:117)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.TDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.TDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.TDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.TDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.TDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.TDistributionTest#testConsistency
+* Finished org.apache.commons.math.distribution.TDistributionTest#testConsistency
+* Started org.apache.commons.math.distribution.BinomialDistributionTest#testDegenerate0
+* Finished org.apache.commons.math.distribution.BinomialDistributionTest#testDegenerate0
+* Started org.apache.commons.math.distribution.BinomialDistributionTest#testDegenerate1
+* Finished org.apache.commons.math.distribution.BinomialDistributionTest#testDegenerate1
+* Started org.apache.commons.math.distribution.BinomialDistributionTest#testDensities
+* Finished org.apache.commons.math.distribution.BinomialDistributionTest#testDensities
+* Started org.apache.commons.math.distribution.BinomialDistributionTest#testInverseCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.BinomialDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.BinomialDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.BinomialDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.BinomialDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.BinomialDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testProbabilities
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testProbabilities
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testParameterAccessors
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testParameterAccessors
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testInverseCumulativeProbabilityExtremes
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testInverseCumulativeProbabilityExtremes
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testValues
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.GammaDistributionImpl.inverseCumulativeProbability(GammaDistributionImpl.java:102)
+	at org.apache.commons.math.distribution.GammaDistributionTest.testValue(GammaDistributionTest.java:110)
+	at org.apache.commons.math.distribution.GammaDistributionTest.testValues(GammaDistributionTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testValues
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testInverseCumulativeProbabilities
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.GammaDistributionImpl.inverseCumulativeProbability(GammaDistributionImpl.java:102)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.GammaDistributionTest#testConsistency
+* Finished org.apache.commons.math.distribution.GammaDistributionTest#testConsistency
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testSetStandardDeviation
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testSetStandardDeviation
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testGetStandardDeviation
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testGetStandardDeviation
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testQuantiles
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testQuantiles
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testGetMean
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testGetMean
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testSetMean
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testSetMean
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testInverseCumulativeProbabilityExtremes
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testInverseCumulativeProbabilityExtremes
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testInverseCumulativeProbabilities
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.NormalDistributionImpl.inverseCumulativeProbability(NormalDistributionImpl.java:132)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.NormalDistributionTest#testConsistency
+* Finished org.apache.commons.math.distribution.NormalDistributionTest#testConsistency
+* Started org.apache.commons.math.distribution.ChiSquareDistributionTest#testDfAccessors
+* Finished org.apache.commons.math.distribution.ChiSquareDistributionTest#testDfAccessors
+* Started org.apache.commons.math.distribution.ChiSquareDistributionTest#testSmallDf
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.ChiSquaredDistributionImpl.inverseCumulativeProbability(ChiSquaredDistributionImpl.java:106)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.ChiSquareDistributionTest.testSmallDf(ChiSquareDistributionTest.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.ChiSquareDistributionTest#testSmallDf
+* Started org.apache.commons.math.distribution.ChiSquareDistributionTest#testInverseCumulativeProbabilities
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.ChiSquaredDistributionImpl.inverseCumulativeProbability(ChiSquaredDistributionImpl.java:106)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.ChiSquareDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.ChiSquareDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.ChiSquareDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.ChiSquareDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.ChiSquareDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.ChiSquareDistributionTest#testConsistency
+* Finished org.apache.commons.math.distribution.ChiSquareDistributionTest#testConsistency
+* Started org.apache.commons.math.distribution.FDistributionTest#testCumulativeProbabilityExtremes
+* Finished org.apache.commons.math.distribution.FDistributionTest#testCumulativeProbabilityExtremes
+* Started org.apache.commons.math.distribution.FDistributionTest#testLargeDegreesOfFreedom
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.FDistributionImpl.inverseCumulativeProbability(FDistributionImpl.java:106)
+	at org.apache.commons.math.distribution.FDistributionTest.testLargeDegreesOfFreedom(FDistributionTest.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.FDistributionTest#testLargeDegreesOfFreedom
+* Started org.apache.commons.math.distribution.FDistributionTest#testDfAccessors
+* Finished org.apache.commons.math.distribution.FDistributionTest#testDfAccessors
+* Started org.apache.commons.math.distribution.FDistributionTest#testInverseCumulativeProbabilityExtremes
+* Finished org.apache.commons.math.distribution.FDistributionTest#testInverseCumulativeProbabilityExtremes
+* Started org.apache.commons.math.distribution.FDistributionTest#testInverseCumulativeProbabilities
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.discovery.tools.DiscoverClass
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at org.apache.commons.math.analysis.UnivariateRealSolverFactory.newInstance(UnivariateRealSolverFactory.java:61)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.setup(UnivariateRealSolverUtils.java:235)
+	at org.apache.commons.math.analysis.UnivariateRealSolverUtils.solve(UnivariateRealSolverUtils.java:54)
+	at org.apache.commons.math.distribution.AbstractContinuousDistribution.inverseCumulativeProbability(AbstractContinuousDistribution.java:107)
+	at org.apache.commons.math.distribution.FDistributionImpl.inverseCumulativeProbability(FDistributionImpl.java:106)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.verifyInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:157)
+	at org.apache.commons.math.distribution.ContinuousDistributionAbstractTest.testInverseCumulativeProbabilities(ContinuousDistributionAbstractTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.distribution.FDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.FDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.FDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.FDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.FDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.FDistributionTest#testConsistency
+* Finished org.apache.commons.math.distribution.FDistributionTest#testConsistency
+* Started org.apache.commons.math.distribution.PascalDistributionTest#testDegenerate0
+* Finished org.apache.commons.math.distribution.PascalDistributionTest#testDegenerate0
+* Started org.apache.commons.math.distribution.PascalDistributionTest#testDegenerate1
+* Finished org.apache.commons.math.distribution.PascalDistributionTest#testDegenerate1
+* Started org.apache.commons.math.distribution.PascalDistributionTest#testDensities
+* Finished org.apache.commons.math.distribution.PascalDistributionTest#testDensities
+* Started org.apache.commons.math.distribution.PascalDistributionTest#testInverseCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.PascalDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.PascalDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.PascalDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.PascalDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.PascalDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testDegenerateInverseCumulativeProbability
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testDegenerateInverseCumulativeProbability
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testMean
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testMean
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testLargeMeanInverseCumulativeProbability
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testLargeMeanInverseCumulativeProbability
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testNormalApproximateProbability
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testNormalApproximateProbability
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testLargeMeanCumulativeProbability
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testLargeMeanCumulativeProbability
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testDensities
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testDensities
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testInverseCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testInverseCumulativeProbabilities
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testCumulativeProbabilities
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testCumulativeProbabilities
+* Started org.apache.commons.math.distribution.PoissonDistributionTest#testIllegalArguments
+* Finished org.apache.commons.math.distribution.PoissonDistributionTest#testIllegalArguments
+* Started org.apache.commons.math.special.ErfTest#testErf1960
+* Finished org.apache.commons.math.special.ErfTest#testErf1960
+* Started org.apache.commons.math.special.ErfTest#testErf2576
+* Finished org.apache.commons.math.special.ErfTest#testErf2576
+* Started org.apache.commons.math.special.ErfTest#testErf2807
+* Finished org.apache.commons.math.special.ErfTest#testErf2807
+* Started org.apache.commons.math.special.ErfTest#testErf3291
+* Finished org.apache.commons.math.special.ErfTest#testErf3291
+* Started org.apache.commons.math.special.ErfTest#testErf0
+* Finished org.apache.commons.math.special.ErfTest#testErf0
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositiveNanPositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositiveNanPositive
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositivePositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositivePositive
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositiveNegative
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositiveNegative
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositiveZeroPositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositiveZeroPositive
+* Started org.apache.commons.math.special.BetaTest#testLogBetaPositivePositive
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaPositivePositive
+* Started org.apache.commons.math.special.BetaTest#testLogBetaPositiveNegative
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaPositiveNegative
+* Started org.apache.commons.math.special.BetaTest#testLogBetaPositiveNan
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaPositiveNan
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaNegativePositivePositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaNegativePositivePositive
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositiveNan
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositiveNan
+* Started org.apache.commons.math.special.BetaTest#testLogBetaZeroPositive
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaZeroPositive
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositiveZero
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositivePositiveZero
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaPositiveNegativePositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaPositiveNegativePositive
+* Started org.apache.commons.math.special.BetaTest#testLogBetaNanPositive
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaNanPositive
+* Started org.apache.commons.math.special.BetaTest#testLogBetaNegativePositive
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaNegativePositive
+* Started org.apache.commons.math.special.BetaTest#testLogBetaPositiveZero
+* Finished org.apache.commons.math.special.BetaTest#testLogBetaPositiveZero
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaZeroPositivePositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaZeroPositivePositive
+* Started org.apache.commons.math.special.BetaTest#testRegularizedBetaNanPositivePositive
+* Finished org.apache.commons.math.special.BetaTest#testRegularizedBetaNanPositivePositive
+* Started org.apache.commons.math.special.GammaTest#testLogGammaPositive
+* Finished org.apache.commons.math.special.GammaTest#testLogGammaPositive
+* Started org.apache.commons.math.special.GammaTest#testLogGammaNegative
+* Finished org.apache.commons.math.special.GammaTest#testLogGammaNegative
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaPositivePositive
+* Failure: expected:<0.632120558828558> but was:<0.6321205587649603> | testRegularizedGammaPositivePositive(org.apache.commons.math.special.GammaTest)
+junit.framework.AssertionFailedError: expected:<0.632120558828558> but was:<0.6321205587649603>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:120)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:62)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:49)
+	at org.apache.commons.math.special.GammaTest.testRegularizedGamma(GammaTest.java:40)
+	at org.apache.commons.math.special.GammaTest.testRegularizedGammaPositivePositive(GammaTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaPositivePositive
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaPositiveNegative
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaPositiveNegative
+* Started org.apache.commons.math.special.GammaTest#testLogGammaNan
+* Finished org.apache.commons.math.special.GammaTest#testLogGammaNan
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaNanPositive
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaNanPositive
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaZeroPositive
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaZeroPositive
+* Started org.apache.commons.math.special.GammaTest#testLogGammaZero
+* Finished org.apache.commons.math.special.GammaTest#testLogGammaZero
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaNegativePositive
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaNegativePositive
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaPositiveNan
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaPositiveNan
+* Started org.apache.commons.math.special.GammaTest#testRegularizedGammaPositiveZero
+* Finished org.apache.commons.math.special.GammaTest#testRegularizedGammaPositiveZero
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/104/Math/developer/0/Math-104b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/104/Math/developer/0/Math-104b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/104/Math/developer/0/Math-104b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

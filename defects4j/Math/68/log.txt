@@ -1,0 +1,327 @@
+* Checking out Math-68 to /scratch/acp13jcd/run_gzoltar_76103_Math-68
+* Compiling Math-68
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+* Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /scratch/acp13jcd/run_gzoltar_76103_Math-68/lib/junit-4.4.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.optimization.fitting.HarmonicFitterTest#test1PercentError
+* Finished org.apache.commons.math.optimization.fitting.HarmonicFitterTest#test1PercentError
+* Started org.apache.commons.math.optimization.fitting.HarmonicFitterTest#testInitialGuess
+* Finished org.apache.commons.math.optimization.fitting.HarmonicFitterTest#testInitialGuess
+* Started org.apache.commons.math.optimization.fitting.HarmonicFitterTest#testUnsorted
+* Finished org.apache.commons.math.optimization.fitting.HarmonicFitterTest#testUnsorted
+* Started org.apache.commons.math.optimization.fitting.HarmonicFitterTest#testNoError
+* Finished org.apache.commons.math.optimization.fitting.HarmonicFitterTest#testNoError
+* Started org.apache.commons.math.optimization.fitting.CurveFitterTest#testMath303
+* Finished org.apache.commons.math.optimization.fitting.CurveFitterTest#testMath303
+* Started org.apache.commons.math.optimization.fitting.CurveFitterTest#testMath304
+* Finished org.apache.commons.math.optimization.fitting.CurveFitterTest#testMath304
+* Started org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testSmallError
+* Finished org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testSmallError
+* Started org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testRedundantSolvable
+* Finished org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testRedundantSolvable
+* Started org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testNoError
+* Finished org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testNoError
+* Started org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testRedundantUnsolvable
+* Finished org.apache.commons.math.optimization.fitting.PolynomialFitterTest#testRedundantUnsolvable
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testNoDependency
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testNoDependency
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentSizes
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentSizes
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testRedundantEquations
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testRedundantEquations
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testTrivial
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testTrivial
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testQRColumnsPermutation
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testQRColumnsPermutation
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testTwoSets
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testTwoSets
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersSimple
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersSimple
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersUnsorted
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testMoreEstimatedParametersUnsorted
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testIllConditioned
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testIllConditioned
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testMath199
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testMath199
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testNonInversible
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testNonInversible
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentEquations
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testInconsistentEquations
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFitting
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFitting
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testControlParameters
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testControlParameters
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testOneSet
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testOneSet
+* Started org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFittingBadInit
+* Finished org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest#testCircleFittingBadInit
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackLinearRank1
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackLinearRank1
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackBrownDennis
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackBrownDennis
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackJennrichSampson
+* Failure: expected:<0.2578330049> but was:<0.257819926636807> | testMinpackJennrichSampson(org.apache.commons.math.optimization.general.MinpackTest)
+junit.framework.AssertionFailedError: expected:<0.2578330049> but was:<0.257819926636807>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:120)
+	at junit.framework.Assert.assertEquals(Assert.java:129)
+	at junit.framework.TestCase.assertEquals(TestCase.java:288)
+	at org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction.checkTheoreticalMinParams(MinpackTest.java:575)
+	at org.apache.commons.math.optimization.general.MinpackTest.minpackTest(MinpackTest.java:503)
+	at org.apache.commons.math.optimization.general.MinpackTest.testMinpackJennrichSampson(MinpackTest.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackJennrichSampson
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackRosenbrok
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackRosenbrok
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackBox3Dimensional
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackBox3Dimensional
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackHelicalValley
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackHelicalValley
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackMeyer
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getLocalizedMessage(MathException.java:165)
+	at java.lang.Throwable.toString(Throwable.java:480)
+	at java.lang.Throwable.<init>(Throwable.java:311)
+	at java.lang.Exception.<init>(Exception.java:102)
+	at org.apache.commons.math.MathException.<init>(MathException.java:80)
+	at org.apache.commons.math.ConvergenceException.<init>(ConvergenceException.java:53)
+	at org.apache.commons.math.optimization.OptimizationException.<init>(OptimizationException.java:50)
+	at org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.incrementIterationsCounter(AbstractLeastSquaresOptimizer.java:173)
+	at org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize(LevenbergMarquardtOptimizer.java:249)
+	at org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.optimize(AbstractLeastSquaresOptimizer.java:354)
+	at org.apache.commons.math.optimization.general.MinpackTest.minpackTest(MinpackTest.java:497)
+	at org.apache.commons.math.optimization.general.MinpackTest.testMinpackMeyer(MinpackTest.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1354)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getLocalizedMessage(MathException.java:165)
+	at java.lang.Throwable.toString(Throwable.java:480)
+	at java.lang.Throwable.<init>(Throwable.java:311)
+	at java.lang.Exception.<init>(Exception.java:102)
+	at org.apache.commons.math.MathException.<init>(MathException.java:80)
+	at org.apache.commons.math.ConvergenceException.<init>(ConvergenceException.java:53)
+	at org.apache.commons.math.optimization.OptimizationException.<init>(OptimizationException.java:50)
+	at org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.incrementIterationsCounter(AbstractLeastSquaresOptimizer.java:173)
+	at org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize(LevenbergMarquardtOptimizer.java:249)
+	at org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.optimize(AbstractLeastSquaresOptimizer.java:354)
+	at org.apache.commons.math.optimization.general.MinpackTest.minpackTest(MinpackTest.java:497)
+	at org.apache.commons.math.optimization.general.MinpackTest.testMinpackMeyer(MinpackTest.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: org.apache.commons.math.MessagesResources_en_US
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.util.ResourceBundle$Control.newBundle(ResourceBundle.java:2566)
+	at java.util.ResourceBundle.loadBundle(ResourceBundle.java:1436)
+	at java.util.ResourceBundle.findBundle(ResourceBundle.java:1400)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1296)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.MathException.translate(MathException.java:110)
+	at org.apache.commons.math.MathException.getMessage(MathException.java:153)
+	at org.apache.commons.math.MathException.getLocalizedMessage(MathException.java:165)
+	at java.lang.Throwable.toString(Throwable.java:480)
+	at java.lang.Throwable.<init>(Throwable.java:311)
+	at java.lang.Exception.<init>(Exception.java:102)
+	at org.apache.commons.math.MathException.<init>(MathException.java:80)
+	at org.apache.commons.math.ConvergenceException.<init>(ConvergenceException.java:53)
+	at org.apache.commons.math.optimization.OptimizationException.<init>(OptimizationException.java:50)
+	at org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.incrementIterationsCounter(AbstractLeastSquaresOptimizer.java:173)
+	at org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.doOptimize(LevenbergMarquardtOptimizer.java:249)
+	at org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer.optimize(AbstractLeastSquaresOptimizer.java:354)
+	at org.apache.commons.math.optimization.general.MinpackTest.minpackTest(MinpackTest.java:497)
+	at org.apache.commons.math.optimization.general.MinpackTest.testMinpackMeyer(MinpackTest.java:225)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackMeyer
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackLinearFullRank
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackLinearFullRank
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackFreudensteinRoth
+* Failure: expected:<11.4121122022341> but was:<11.41300466147456> | testMinpackFreudensteinRoth(org.apache.commons.math.optimization.general.MinpackTest)
+junit.framework.AssertionFailedError: expected:<11.4121122022341> but was:<11.41300466147456>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:120)
+	at junit.framework.Assert.assertEquals(Assert.java:129)
+	at junit.framework.TestCase.assertEquals(TestCase.java:288)
+	at org.apache.commons.math.optimization.general.MinpackTest$MinpackFunction.checkTheoreticalMinParams(MinpackTest.java:575)
+	at org.apache.commons.math.optimization.general.MinpackTest.minpackTest(MinpackTest.java:503)
+	at org.apache.commons.math.optimization.general.MinpackTest.testMinpackFreudensteinRoth(MinpackTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackFreudensteinRoth
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackOsborne1
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackOsborne1
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackOsborne2
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackOsborne2
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackWatson
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackWatson
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackKowalikOsborne
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackKowalikOsborne
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackPowellSingular
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackPowellSingular
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackChebyquad
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackChebyquad
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackLinearRank1ZeroColsAndRows
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackLinearRank1ZeroColsAndRows
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackBard
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackBard
+* Started org.apache.commons.math.optimization.general.MinpackTest#testMinpackBrownAlmostLinear
+* Finished org.apache.commons.math.optimization.general.MinpackTest#testMinpackBrownAlmostLinear
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Running Ochiai2
+* Running Tarantula
+* Running Jaccard
+* Running SBI
+* Running Kulczynski2
+* Running Sorensen-Dice
+* Running Anderberg
+* Running Simple-matching
+* Running Rogers and Tanimoto
+* Running Russel and Rao
+* Running Dstar
+* Running Opt
+* Running Barinel
+* Running Ideal
+* Running Naish1
+* Writing coverage matrix to '/fastdata/acp13jcd/GZoltar/Math/68/Math/developer/0/Math-68b-developer.0/matrix'
+* Normalizing spectra, coefficient: DSTAR
+* Normalizing spectra, coefficient: OPT
+* Writing spectra to '/fastdata/acp13jcd/GZoltar/Math/68/Math/developer/0/Math-68b-developer.0/spectra'
+* Metrics
+* Writing statistics to '/fastdata/acp13jcd/GZoltar/Math/68/Math/developer/0/Math-68b-developer.0/statistics.csv'
+* Computation finished
+
+DONE!

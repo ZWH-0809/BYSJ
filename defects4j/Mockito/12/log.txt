@@ -1,0 +1,533 @@
+node150
+[DEBUG] PID: Mockito
+[DEBUG] VID: 12
+[DEBUG] DATA_DIR: /data/acp13jcd/TestGZoltar/Mockito/12/Mockito/developer/0/Mockito-12b-developer.0
+[DEBUG] TOOL: developer
+[DEBUG] TMP_DIR: /tmp/acp13jcd/run_gzoltar_114576_Mockito-12
+[DEBUG] DIR_PROJECT: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito
+[DEBUG] DIR_LOADED_CLASSES: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/relevant_tests
+[DEBUG] DIR_TRIGGER_TESTS: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/trigger_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -Xmx1024m
+java version "1.7.0_111"
+OpenJDK Runtime Environment (rhel-2.6.7.2.el6_8-x86_64 u111-b01)
+OpenJDK 64-Bit Server VM (build 24.111-b01, mixed mode)
+[INFO] Checking out Mockito-12 to /tmp/acp13jcd/run_gzoltar_114576_Mockito-12
+Check out 7a647a70 to /tmp/acp13jcd/run_gzoltar_114576_Mockito-12.......... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Use of implicit split to @_ is deprecated at /data/acp13jcd/FaultLocalization/defects4j/framework/util/rm_broken_tests.pl line 241.
+Use of implicit split to @_ is deprecated at /data/acp13jcd/FaultLocalization/defects4j/framework/util/rm_broken_tests.pl line 241.
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 7a647a70:a154b66c..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Mockito-12b..................................... OK
+[DEBUG] LOADED_CLASSES: org.mockito.internal.creation.jmock.SearchingClassLoader:org.mockito.exceptions.verification.SmartNullPointerException:org.mockito.internal.progress.IOngoingStubbing:org.mockito.exceptions.misusing.MockitoConfigurationException:org.mockito.internal.creation.cglib.CGLIBHacker:org.mockito.exceptions.misusing.UnfinishedStubbingException:org.mockito.exceptions.verification.NoInteractionsWanted:org.mockito.exceptions.misusing.MissingMethodInvocationException:org.mockito.internal.stubbing.InvocationContainer:org.mockito.stubbing.VoidMethodStubbable:org.mockito.internal.verification.checkers.MissingInvocationChecker:org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod:org.mockito.stubbing.Answer:org.mockito.internal.verification.api.VerificationInOrderMode:org.mockito.internal.util.reflection.AccessibilityChanger:org.mockito.internal.exceptions.base.ConditionalStackTraceFilter:org.mockito.exceptions.base.MockitoException:org.mockito.internal.creation.jmock.ClassImposterizer:org.mockito.stubbing.OngoingStubbing:org.mockito.internal.stubbing.answers.CallsRealMethods:org.mockito.internal.invocation.InvocationsFinder:org.mockito.internal.util.MockCreationValidator:org.mockito.exceptions.PrintableInvocation:org.mockito.internal.invocation.realmethod.HasCGLIBMethodProxy:org.mockito.exceptions.misusing.UnfinishedVerificationException:org.mockito.internal.verification.api.VerificationData:org.mockito.internal.debugging.Localized:org.mockito.internal.matchers.CapturingMatcher:org.mockito.internal.verification.api.VerificationDataInOrder:org.mockito.internal.configuration.ClassPathLoader:org.mockito.internal.stubbing.OngoingStubbingImpl:org.mockito.internal.progress.ArgumentMatcherStorage:org.mockito.configuration.AnnotationEngine:org.mockito.internal.stubbing.BaseStubbing:org.mockito.internal.exceptions.base.StackTraceFilter:org.mockito.internal.progress.SequenceNumber:org.mockito.internal.util.MockUtil:org.mockito.internal.verification.checkers.NumberOfInvocationsChecker:org.mockito.internal.util.MockName:org.mockito.MockSettings:org.mockito.internal.configuration.GlobalConfiguration:org.mockito.internal.util.ListUtil:org.mockito.internal.invocation.CapturesArgumensFromInvocation:org.mockito.internal.MockitoInvocationHandler:org.mockito.MockitoDebugger:org.mockito.internal.creation.DelegatingMethod:org.mockito.internal.MockHandlerInterface:org.mockito.internal.matchers.ContainsExtraTypeInformation:org.mockito.verification.VerificationWithTimeout:org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls:org.mockito.internal.configuration.InjectingAnnotationEngine:org.mockito.internal.invocation.InvocationMatcher:org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:org.mockito.stubbing.DeprecatedOngoingStubbing:org.mockito.internal.verification.RegisteredInvocations:org.mockito.Answers:org.mockito.exceptions.verification.ArgumentsAreDifferent:org.mockito.exceptions.misusing.WrongTypeOfReturnValue:org.mockito.internal.matchers.LocalizedMatcher:org.mockito.internal.invocation.ArgumentsComparator:org.mockito.exceptions.base.MockitoAssertionError:org.mockito.configuration.IMockitoConfiguration:org.mockito.exceptions.Reporter:org.mockito.internal.progress.MockingProgressImpl:org.mockito.exceptions.misusing.NotAMockException:org.mockito.verification.VerificationMode:org.mockito.Matchers:org.mockito.internal.verification.VerificationDataImpl:org.mockito.internal.progress.HandyReturnValues:org.mockito.Spy:org.mockito.Mock:org.mockito.exceptions.verification.WantedButNotInvoked:org.mockito.internal.creation.cglib.MockitoNamingPolicy:org.mockito.internal.invocation.MatchersBinder:org.mockito.internal.matchers.CapturesArguments:org.mockito.exceptions.verification.VerificationInOrderFailure:org.mockito.internal.creation.MockSettingsImpl:org.mockito.internal.MockitoCore:org.mockito.internal.stubbing.defaultanswers.ReturnsMocks:org.mockito.internal.util.Primitives:org.mockito.internal.creation.jmock.SerializableNoOp:org.mockito.internal.matchers.MatcherDecorator:org.mockito.configuration.DefaultMockitoConfiguration:org.mockito.exceptions.verification.NeverWantedButInvoked:org.mockito.internal.invocation.realmethod.RealMethod:org.mockito.internal.creation.MethodInterceptorFilter:org.mockito.InjectMocks:org.mockito.internal.invocation.MockitoMethod:org.mockito.internal.invocation.InvocationMarker:org.mockito.exceptions.misusing.InvalidUseOfMatchersException:org.mockito.exceptions.misusing.NullInsteadOfMockException:org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues:org.mockito.invocation.InvocationOnMock:org.mockito.internal.stubbing.InvocationContainerImpl:org.mockito.internal.verification.VerificationModeFactory:org.mockito.internal.reporting.PrintingFriendlyInvocation:org.mockito.exceptions.verification.TooManyActualInvocations:org.mockito.InOrder:org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer:org.mockito.internal.util.ObjectMethodsGuru:org.mockito.Mockito:org.mockito.MockitoAnnotations:org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod:org.mockito.internal.MockHandler:org.mockito.internal.util.reflection.FieldSetter:org.mockito.ArgumentCaptor:org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues:org.mockito.internal.verification.MockAwareVerificationMode:org.mockito.Captor:org.mockito.internal.configuration.SpyAnnotationEngine:org.mockito.internal.creation.DelegatingMockitoMethodProxy:org.mockito.internal.progress.ArgumentMatcherStorageImpl:org.mockito.internal.progress.MockingProgress:org.mockito.internal.creation.MockitoMethodProxy:org.mockito.internal.creation.AbstractMockitoMethodProxy:org.mockito.exceptions.verification.TooLittleActualInvocations:org.mockito.ArgumentMatcher:org.mockito.internal.debugging.Location:org.mockito.internal.invocation.Invocation:org.mockito.internal.progress.ThreadSafeMockingProgress:org.mockito.internal.matchers.Equals:org.mockito.internal.verification.Times:org.mockito.internal.configuration.DefaultAnnotationEngine:org.mockito.internal.util.reflection.GenericMaster:
+[DEBUG] LOADED_SUB_CLASSES: org.mockito.internal.creation.jmock.SearchingClassLoader$*:org.mockito.exceptions.verification.SmartNullPointerException$*:org.mockito.internal.progress.IOngoingStubbing$*:org.mockito.exceptions.misusing.MockitoConfigurationException$*:org.mockito.internal.creation.cglib.CGLIBHacker$*:org.mockito.exceptions.misusing.UnfinishedStubbingException$*:org.mockito.exceptions.verification.NoInteractionsWanted$*:org.mockito.exceptions.misusing.MissingMethodInvocationException$*:org.mockito.internal.stubbing.InvocationContainer$*:org.mockito.stubbing.VoidMethodStubbable$*:org.mockito.internal.verification.checkers.MissingInvocationChecker$*:org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod$*:org.mockito.stubbing.Answer$*:org.mockito.internal.verification.api.VerificationInOrderMode$*:org.mockito.internal.util.reflection.AccessibilityChanger$*:org.mockito.internal.exceptions.base.ConditionalStackTraceFilter$*:org.mockito.exceptions.base.MockitoException$*:org.mockito.internal.creation.jmock.ClassImposterizer$*:org.mockito.stubbing.OngoingStubbing$*:org.mockito.internal.stubbing.answers.CallsRealMethods$*:org.mockito.internal.invocation.InvocationsFinder$*:org.mockito.internal.util.MockCreationValidator$*:org.mockito.exceptions.PrintableInvocation$*:org.mockito.internal.invocation.realmethod.HasCGLIBMethodProxy$*:org.mockito.exceptions.misusing.UnfinishedVerificationException$*:org.mockito.internal.verification.api.VerificationData$*:org.mockito.internal.debugging.Localized$*:org.mockito.internal.matchers.CapturingMatcher$*:org.mockito.internal.verification.api.VerificationDataInOrder$*:org.mockito.internal.configuration.ClassPathLoader$*:org.mockito.internal.stubbing.OngoingStubbingImpl$*:org.mockito.internal.progress.ArgumentMatcherStorage$*:org.mockito.configuration.AnnotationEngine$*:org.mockito.internal.stubbing.BaseStubbing$*:org.mockito.internal.exceptions.base.StackTraceFilter$*:org.mockito.internal.progress.SequenceNumber$*:org.mockito.internal.util.MockUtil$*:org.mockito.internal.verification.checkers.NumberOfInvocationsChecker$*:org.mockito.internal.util.MockName$*:org.mockito.MockSettings$*:org.mockito.internal.configuration.GlobalConfiguration$*:org.mockito.internal.util.ListUtil$*:org.mockito.internal.invocation.CapturesArgumensFromInvocation$*:org.mockito.internal.MockitoInvocationHandler$*:org.mockito.MockitoDebugger$*:org.mockito.internal.creation.DelegatingMethod$*:org.mockito.internal.MockHandlerInterface$*:org.mockito.internal.matchers.ContainsExtraTypeInformation$*:org.mockito.verification.VerificationWithTimeout$*:org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$*:org.mockito.internal.configuration.InjectingAnnotationEngine$*:org.mockito.internal.invocation.InvocationMatcher$*:org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs$*:org.mockito.stubbing.DeprecatedOngoingStubbing$*:org.mockito.internal.verification.RegisteredInvocations$*:org.mockito.Answers$*:org.mockito.exceptions.verification.ArgumentsAreDifferent$*:org.mockito.exceptions.misusing.WrongTypeOfReturnValue$*:org.mockito.internal.matchers.LocalizedMatcher$*:org.mockito.internal.invocation.ArgumentsComparator$*:org.mockito.exceptions.base.MockitoAssertionError$*:org.mockito.configuration.IMockitoConfiguration$*:org.mockito.exceptions.Reporter$*:org.mockito.internal.progress.MockingProgressImpl$*:org.mockito.exceptions.misusing.NotAMockException$*:org.mockito.verification.VerificationMode$*:org.mockito.Matchers$*:org.mockito.internal.verification.VerificationDataImpl$*:org.mockito.internal.progress.HandyReturnValues$*:org.mockito.Spy$*:org.mockito.Mock$*:org.mockito.exceptions.verification.WantedButNotInvoked$*:org.mockito.internal.creation.cglib.MockitoNamingPolicy$*:org.mockito.internal.invocation.MatchersBinder$*:org.mockito.internal.matchers.CapturesArguments$*:org.mockito.exceptions.verification.VerificationInOrderFailure$*:org.mockito.internal.creation.MockSettingsImpl$*:org.mockito.internal.MockitoCore$*:org.mockito.internal.stubbing.defaultanswers.ReturnsMocks$*:org.mockito.internal.util.Primitives$*:org.mockito.internal.creation.jmock.SerializableNoOp$*:org.mockito.internal.matchers.MatcherDecorator$*:org.mockito.configuration.DefaultMockitoConfiguration$*:org.mockito.exceptions.verification.NeverWantedButInvoked$*:org.mockito.internal.invocation.realmethod.RealMethod$*:org.mockito.internal.creation.MethodInterceptorFilter$*:org.mockito.InjectMocks$*:org.mockito.internal.invocation.MockitoMethod$*:org.mockito.internal.invocation.InvocationMarker$*:org.mockito.exceptions.misusing.InvalidUseOfMatchersException$*:org.mockito.exceptions.misusing.NullInsteadOfMockException$*:org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues$*:org.mockito.invocation.InvocationOnMock$*:org.mockito.internal.stubbing.InvocationContainerImpl$*:org.mockito.internal.verification.VerificationModeFactory$*:org.mockito.internal.reporting.PrintingFriendlyInvocation$*:org.mockito.exceptions.verification.TooManyActualInvocations$*:org.mockito.InOrder$*:org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer$*:org.mockito.internal.util.ObjectMethodsGuru$*:org.mockito.Mockito$*:org.mockito.MockitoAnnotations$*:org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod$*:org.mockito.internal.MockHandler$*:org.mockito.internal.util.reflection.FieldSetter$*:org.mockito.ArgumentCaptor$*:org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues$*:org.mockito.internal.verification.MockAwareVerificationMode$*:org.mockito.Captor$*:org.mockito.internal.configuration.SpyAnnotationEngine$*:org.mockito.internal.creation.DelegatingMockitoMethodProxy$*:org.mockito.internal.progress.ArgumentMatcherStorageImpl$*:org.mockito.internal.progress.MockingProgress$*:org.mockito.internal.creation.MockitoMethodProxy$*:org.mockito.internal.creation.AbstractMockitoMethodProxy$*:org.mockito.exceptions.verification.TooLittleActualInvocations$*:org.mockito.ArgumentMatcher$*:org.mockito.internal.debugging.Location$*:org.mockito.internal.invocation.Invocation$*:org.mockito.internal.progress.ThreadSafeMockingProgress$*:org.mockito.internal.matchers.Equals$*:org.mockito.internal.verification.Times$*:org.mockito.internal.configuration.DefaultAnnotationEngine$*:org.mockito.internal.util.reflection.GenericMaster$*:
+[DEBUG] RELEVANT_TESTS: org.mockito.internal.util.reflection.GenericMasterTest:org.mockitousage.annotation.CaptorAnnotationBasicTest:org.mockitousage.annotation.CaptorAnnotationTest:org.mockitousage.annotation.WrongSetOfAnnotationsTest:org.mockitousage.bugs.CaptorAnnotationAutoboxingTest:
+[DEBUG] TRIGGER_TESTS_FILE: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/trigger_tests/12
+[DEBUG] CP: /data/acp13jcd/FaultLocalization/defects4j/framework/projects/lib/junit-4.11.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/lib/junit-4.11.jar:/tmp/acp13jcd/run_gzoltar_114576_Mockito-12/target/classes:/tmp/acp13jcd/run_gzoltar_114576_Mockito-12/target/test-classes:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar:/data/acp13jcd/FaultLocalization/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+[DEBUG] CLASSES_DIR: target/classes
+[DEBUG] DIR_SRC_TESTS: test
+[INFO] Compiling Mockito-12
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running get coverage script to get the list of all test methods (info provided by Cobertura)
+Running ant (compile.tests)................................................ OK
+Running ant (coverage.instrument).......................................... OK
+Running ant (run.dev.tests)................................................ OK
+Running ant (coverage.report).............................................. OK
+WARNING: Some tests failed (see /tmp/acp13jcd/run_gzoltar_114576_Mockito-12/failing_tests)!
+       Lines total: 6
+     Lines covered: 6
+  Conditions total: 4
+Conditions covered: 3
+     Line coverage: 100.0%
+Condition coverage: 75.0%
+[INFO] Running JaCoCo coverage script to get the total number of lines
+[DEBUG] LOADED_CLASSES_FOR_XML: <include name="org/mockito/internal/creation/jmock/SearchingClassLoader.class"/> <include name="org/mockito/exceptions/verification/SmartNullPointerException.class"/> <include name="org/mockito/internal/progress/IOngoingStubbing.class"/> <include name="org/mockito/exceptions/misusing/MockitoConfigurationException.class"/> <include name="org/mockito/internal/creation/cglib/CGLIBHacker.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedStubbingException.class"/> <include name="org/mockito/exceptions/verification/NoInteractionsWanted.class"/> <include name="org/mockito/exceptions/misusing/MissingMethodInvocationException.class"/> <include name="org/mockito/internal/stubbing/InvocationContainer.class"/> <include name="org/mockito/stubbing/VoidMethodStubbable.class"/> <include name="org/mockito/internal/verification/checkers/MissingInvocationChecker.class"/> <include name="org/mockito/internal/invocation/realmethod/FilteredCGLIBProxyRealMethod.class"/> <include name="org/mockito/stubbing/Answer.class"/> <include name="org/mockito/internal/verification/api/VerificationInOrderMode.class"/> <include name="org/mockito/internal/util/reflection/AccessibilityChanger.class"/> <include name="org/mockito/internal/exceptions/base/ConditionalStackTraceFilter.class"/> <include name="org/mockito/exceptions/base/MockitoException.class"/> <include name="org/mockito/internal/creation/jmock/ClassImposterizer.class"/> <include name="org/mockito/stubbing/OngoingStubbing.class"/> <include name="org/mockito/internal/stubbing/answers/CallsRealMethods.class"/> <include name="org/mockito/internal/invocation/InvocationsFinder.class"/> <include name="org/mockito/internal/util/MockCreationValidator.class"/> <include name="org/mockito/exceptions/PrintableInvocation.class"/> <include name="org/mockito/internal/invocation/realmethod/HasCGLIBMethodProxy.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedVerificationException.class"/> <include name="org/mockito/internal/verification/api/VerificationData.class"/> <include name="org/mockito/internal/debugging/Localized.class"/> <include name="org/mockito/internal/matchers/CapturingMatcher.class"/> <include name="org/mockito/internal/verification/api/VerificationDataInOrder.class"/> <include name="org/mockito/internal/configuration/ClassPathLoader.class"/> <include name="org/mockito/internal/stubbing/OngoingStubbingImpl.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorage.class"/> <include name="org/mockito/configuration/AnnotationEngine.class"/> <include name="org/mockito/internal/stubbing/BaseStubbing.class"/> <include name="org/mockito/internal/exceptions/base/StackTraceFilter.class"/> <include name="org/mockito/internal/progress/SequenceNumber.class"/> <include name="org/mockito/internal/util/MockUtil.class"/> <include name="org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.class"/> <include name="org/mockito/internal/util/MockName.class"/> <include name="org/mockito/MockSettings.class"/> <include name="org/mockito/internal/configuration/GlobalConfiguration.class"/> <include name="org/mockito/internal/util/ListUtil.class"/> <include name="org/mockito/internal/invocation/CapturesArgumensFromInvocation.class"/> <include name="org/mockito/internal/MockitoInvocationHandler.class"/> <include name="org/mockito/MockitoDebugger.class"/> <include name="org/mockito/internal/creation/DelegatingMethod.class"/> <include name="org/mockito/internal/MockHandlerInterface.class"/> <include name="org/mockito/internal/matchers/ContainsExtraTypeInformation.class"/> <include name="org/mockito/verification/VerificationWithTimeout.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.class"/> <include name="org/mockito/internal/configuration/InjectingAnnotationEngine.class"/> <include name="org/mockito/internal/invocation/InvocationMatcher.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.class"/> <include name="org/mockito/stubbing/DeprecatedOngoingStubbing.class"/> <include name="org/mockito/internal/verification/RegisteredInvocations.class"/> <include name="org/mockito/Answers.class"/> <include name="org/mockito/exceptions/verification/ArgumentsAreDifferent.class"/> <include name="org/mockito/exceptions/misusing/WrongTypeOfReturnValue.class"/> <include name="org/mockito/internal/matchers/LocalizedMatcher.class"/> <include name="org/mockito/internal/invocation/ArgumentsComparator.class"/> <include name="org/mockito/exceptions/base/MockitoAssertionError.class"/> <include name="org/mockito/configuration/IMockitoConfiguration.class"/> <include name="org/mockito/exceptions/Reporter.class"/> <include name="org/mockito/internal/progress/MockingProgressImpl.class"/> <include name="org/mockito/exceptions/misusing/NotAMockException.class"/> <include name="org/mockito/verification/VerificationMode.class"/> <include name="org/mockito/Matchers.class"/> <include name="org/mockito/internal/verification/VerificationDataImpl.class"/> <include name="org/mockito/internal/progress/HandyReturnValues.class"/> <include name="org/mockito/Spy.class"/> <include name="org/mockito/Mock.class"/> <include name="org/mockito/exceptions/verification/WantedButNotInvoked.class"/> <include name="org/mockito/internal/creation/cglib/MockitoNamingPolicy.class"/> <include name="org/mockito/internal/invocation/MatchersBinder.class"/> <include name="org/mockito/internal/matchers/CapturesArguments.class"/> <include name="org/mockito/exceptions/verification/VerificationInOrderFailure.class"/> <include name="org/mockito/internal/creation/MockSettingsImpl.class"/> <include name="org/mockito/internal/MockitoCore.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.class"/> <include name="org/mockito/internal/util/Primitives.class"/> <include name="org/mockito/internal/creation/jmock/SerializableNoOp.class"/> <include name="org/mockito/internal/matchers/MatcherDecorator.class"/> <include name="org/mockito/configuration/DefaultMockitoConfiguration.class"/> <include name="org/mockito/exceptions/verification/NeverWantedButInvoked.class"/> <include name="org/mockito/internal/invocation/realmethod/RealMethod.class"/> <include name="org/mockito/internal/creation/MethodInterceptorFilter.class"/> <include name="org/mockito/InjectMocks.class"/> <include name="org/mockito/internal/invocation/MockitoMethod.class"/> <include name="org/mockito/internal/invocation/InvocationMarker.class"/> <include name="org/mockito/exceptions/misusing/InvalidUseOfMatchersException.class"/> <include name="org/mockito/exceptions/misusing/NullInsteadOfMockException.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.class"/> <include name="org/mockito/invocation/InvocationOnMock.class"/> <include name="org/mockito/internal/stubbing/InvocationContainerImpl.class"/> <include name="org/mockito/internal/verification/VerificationModeFactory.class"/> <include name="org/mockito/internal/reporting/PrintingFriendlyInvocation.class"/> <include name="org/mockito/exceptions/verification/TooManyActualInvocations.class"/> <include name="org/mockito/InOrder.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.class"/> <include name="org/mockito/internal/util/ObjectMethodsGuru.class"/> <include name="org/mockito/Mockito.class"/> <include name="org/mockito/MockitoAnnotations.class"/> <include name="org/mockito/internal/invocation/realmethod/CGLIBProxyRealMethod.class"/> <include name="org/mockito/internal/MockHandler.class"/> <include name="org/mockito/internal/util/reflection/FieldSetter.class"/> <include name="org/mockito/ArgumentCaptor.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.class"/> <include name="org/mockito/internal/verification/MockAwareVerificationMode.class"/> <include name="org/mockito/Captor.class"/> <include name="org/mockito/internal/configuration/SpyAnnotationEngine.class"/> <include name="org/mockito/internal/creation/DelegatingMockitoMethodProxy.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorageImpl.class"/> <include name="org/mockito/internal/progress/MockingProgress.class"/> <include name="org/mockito/internal/creation/MockitoMethodProxy.class"/> <include name="org/mockito/internal/creation/AbstractMockitoMethodProxy.class"/> <include name="org/mockito/exceptions/verification/TooLittleActualInvocations.class"/> <include name="org/mockito/ArgumentMatcher.class"/> <include name="org/mockito/internal/debugging/Location.class"/> <include name="org/mockito/internal/invocation/Invocation.class"/> <include name="org/mockito/internal/progress/ThreadSafeMockingProgress.class"/> <include name="org/mockito/internal/matchers/Equals.class"/> <include name="org/mockito/internal/verification/Times.class"/> <include name="org/mockito/internal/configuration/DefaultAnnotationEngine.class"/> <include name="org/mockito/internal/util/reflection/GenericMaster.class"/> 
+[DEBUG] LOADED_SUB_CLASSES_FOR_XML: <include name="org/mockito/internal/creation/jmock/SearchingClassLoader$*.class"/> <include name="org/mockito/exceptions/verification/SmartNullPointerException$*.class"/> <include name="org/mockito/internal/progress/IOngoingStubbing$*.class"/> <include name="org/mockito/exceptions/misusing/MockitoConfigurationException$*.class"/> <include name="org/mockito/internal/creation/cglib/CGLIBHacker$*.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedStubbingException$*.class"/> <include name="org/mockito/exceptions/verification/NoInteractionsWanted$*.class"/> <include name="org/mockito/exceptions/misusing/MissingMethodInvocationException$*.class"/> <include name="org/mockito/internal/stubbing/InvocationContainer$*.class"/> <include name="org/mockito/stubbing/VoidMethodStubbable$*.class"/> <include name="org/mockito/internal/verification/checkers/MissingInvocationChecker$*.class"/> <include name="org/mockito/internal/invocation/realmethod/FilteredCGLIBProxyRealMethod$*.class"/> <include name="org/mockito/stubbing/Answer$*.class"/> <include name="org/mockito/internal/verification/api/VerificationInOrderMode$*.class"/> <include name="org/mockito/internal/util/reflection/AccessibilityChanger$*.class"/> <include name="org/mockito/internal/exceptions/base/ConditionalStackTraceFilter$*.class"/> <include name="org/mockito/exceptions/base/MockitoException$*.class"/> <include name="org/mockito/internal/creation/jmock/ClassImposterizer$*.class"/> <include name="org/mockito/stubbing/OngoingStubbing$*.class"/> <include name="org/mockito/internal/stubbing/answers/CallsRealMethods$*.class"/> <include name="org/mockito/internal/invocation/InvocationsFinder$*.class"/> <include name="org/mockito/internal/util/MockCreationValidator$*.class"/> <include name="org/mockito/exceptions/PrintableInvocation$*.class"/> <include name="org/mockito/internal/invocation/realmethod/HasCGLIBMethodProxy$*.class"/> <include name="org/mockito/exceptions/misusing/UnfinishedVerificationException$*.class"/> <include name="org/mockito/internal/verification/api/VerificationData$*.class"/> <include name="org/mockito/internal/debugging/Localized$*.class"/> <include name="org/mockito/internal/matchers/CapturingMatcher$*.class"/> <include name="org/mockito/internal/verification/api/VerificationDataInOrder$*.class"/> <include name="org/mockito/internal/configuration/ClassPathLoader$*.class"/> <include name="org/mockito/internal/stubbing/OngoingStubbingImpl$*.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorage$*.class"/> <include name="org/mockito/configuration/AnnotationEngine$*.class"/> <include name="org/mockito/internal/stubbing/BaseStubbing$*.class"/> <include name="org/mockito/internal/exceptions/base/StackTraceFilter$*.class"/> <include name="org/mockito/internal/progress/SequenceNumber$*.class"/> <include name="org/mockito/internal/util/MockUtil$*.class"/> <include name="org/mockito/internal/verification/checkers/NumberOfInvocationsChecker$*.class"/> <include name="org/mockito/internal/util/MockName$*.class"/> <include name="org/mockito/MockSettings$*.class"/> <include name="org/mockito/internal/configuration/GlobalConfiguration$*.class"/> <include name="org/mockito/internal/util/ListUtil$*.class"/> <include name="org/mockito/internal/invocation/CapturesArgumensFromInvocation$*.class"/> <include name="org/mockito/internal/MockitoInvocationHandler$*.class"/> <include name="org/mockito/MockitoDebugger$*.class"/> <include name="org/mockito/internal/creation/DelegatingMethod$*.class"/> <include name="org/mockito/internal/MockHandlerInterface$*.class"/> <include name="org/mockito/internal/matchers/ContainsExtraTypeInformation$*.class"/> <include name="org/mockito/verification/VerificationWithTimeout$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls$*.class"/> <include name="org/mockito/internal/configuration/InjectingAnnotationEngine$*.class"/> <include name="org/mockito/internal/invocation/InvocationMatcher$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs$*.class"/> <include name="org/mockito/stubbing/DeprecatedOngoingStubbing$*.class"/> <include name="org/mockito/internal/verification/RegisteredInvocations$*.class"/> <include name="org/mockito/Answers$*.class"/> <include name="org/mockito/exceptions/verification/ArgumentsAreDifferent$*.class"/> <include name="org/mockito/exceptions/misusing/WrongTypeOfReturnValue$*.class"/> <include name="org/mockito/internal/matchers/LocalizedMatcher$*.class"/> <include name="org/mockito/internal/invocation/ArgumentsComparator$*.class"/> <include name="org/mockito/exceptions/base/MockitoAssertionError$*.class"/> <include name="org/mockito/configuration/IMockitoConfiguration$*.class"/> <include name="org/mockito/exceptions/Reporter$*.class"/> <include name="org/mockito/internal/progress/MockingProgressImpl$*.class"/> <include name="org/mockito/exceptions/misusing/NotAMockException$*.class"/> <include name="org/mockito/verification/VerificationMode$*.class"/> <include name="org/mockito/Matchers$*.class"/> <include name="org/mockito/internal/verification/VerificationDataImpl$*.class"/> <include name="org/mockito/internal/progress/HandyReturnValues$*.class"/> <include name="org/mockito/Spy$*.class"/> <include name="org/mockito/Mock$*.class"/> <include name="org/mockito/exceptions/verification/WantedButNotInvoked$*.class"/> <include name="org/mockito/internal/creation/cglib/MockitoNamingPolicy$*.class"/> <include name="org/mockito/internal/invocation/MatchersBinder$*.class"/> <include name="org/mockito/internal/matchers/CapturesArguments$*.class"/> <include name="org/mockito/exceptions/verification/VerificationInOrderFailure$*.class"/> <include name="org/mockito/internal/creation/MockSettingsImpl$*.class"/> <include name="org/mockito/internal/MockitoCore$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMocks$*.class"/> <include name="org/mockito/internal/util/Primitives$*.class"/> <include name="org/mockito/internal/creation/jmock/SerializableNoOp$*.class"/> <include name="org/mockito/internal/matchers/MatcherDecorator$*.class"/> <include name="org/mockito/configuration/DefaultMockitoConfiguration$*.class"/> <include name="org/mockito/exceptions/verification/NeverWantedButInvoked$*.class"/> <include name="org/mockito/internal/invocation/realmethod/RealMethod$*.class"/> <include name="org/mockito/internal/creation/MethodInterceptorFilter$*.class"/> <include name="org/mockito/InjectMocks$*.class"/> <include name="org/mockito/internal/invocation/MockitoMethod$*.class"/> <include name="org/mockito/internal/invocation/InvocationMarker$*.class"/> <include name="org/mockito/exceptions/misusing/InvalidUseOfMatchersException$*.class"/> <include name="org/mockito/exceptions/misusing/NullInsteadOfMockException$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues$*.class"/> <include name="org/mockito/invocation/InvocationOnMock$*.class"/> <include name="org/mockito/internal/stubbing/InvocationContainerImpl$*.class"/> <include name="org/mockito/internal/verification/VerificationModeFactory$*.class"/> <include name="org/mockito/internal/reporting/PrintingFriendlyInvocation$*.class"/> <include name="org/mockito/exceptions/verification/TooManyActualInvocations$*.class"/> <include name="org/mockito/InOrder$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer$*.class"/> <include name="org/mockito/internal/util/ObjectMethodsGuru$*.class"/> <include name="org/mockito/Mockito$*.class"/> <include name="org/mockito/MockitoAnnotations$*.class"/> <include name="org/mockito/internal/invocation/realmethod/CGLIBProxyRealMethod$*.class"/> <include name="org/mockito/internal/MockHandler$*.class"/> <include name="org/mockito/internal/util/reflection/FieldSetter$*.class"/> <include name="org/mockito/ArgumentCaptor$*.class"/> <include name="org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues$*.class"/> <include name="org/mockito/internal/verification/MockAwareVerificationMode$*.class"/> <include name="org/mockito/Captor$*.class"/> <include name="org/mockito/internal/configuration/SpyAnnotationEngine$*.class"/> <include name="org/mockito/internal/creation/DelegatingMockitoMethodProxy$*.class"/> <include name="org/mockito/internal/progress/ArgumentMatcherStorageImpl$*.class"/> <include name="org/mockito/internal/progress/MockingProgress$*.class"/> <include name="org/mockito/internal/creation/MockitoMethodProxy$*.class"/> <include name="org/mockito/internal/creation/AbstractMockitoMethodProxy$*.class"/> <include name="org/mockito/exceptions/verification/TooLittleActualInvocations$*.class"/> <include name="org/mockito/ArgumentMatcher$*.class"/> <include name="org/mockito/internal/debugging/Location$*.class"/> <include name="org/mockito/internal/invocation/Invocation$*.class"/> <include name="org/mockito/internal/progress/ThreadSafeMockingProgress$*.class"/> <include name="org/mockito/internal/matchers/Equals$*.class"/> <include name="org/mockito/internal/verification/Times$*.class"/> <include name="org/mockito/internal/configuration/DefaultAnnotationEngine$*.class"/> <include name="org/mockito/internal/util/reflection/GenericMaster$*.class"/> 
+Picked up _JAVA_OPTIONS: -Xmx1024m
+Buildfile: /tmp/acp13jcd/run_gzoltar_114576_Mockito-12/jacoco-build.xml
+
+clean:
+
+test-suite:
+[jacoco:coverage] Enhancing junit with coverage
+    [junit] Picked up _JAVA_OPTIONS: -Xmx1024m
+    [junit] Running org.mockito.internal.util.reflection.GenericMasterTest
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.051 sec
+    [junit] Test org.mockito.internal.util.reflection.GenericMasterTest FAILED
+
+report:
+[jacoco:report] Loading execution data file /tmp/acp13jcd/run_gzoltar_114576_Mockito-12/.jacoco/jacoco.exec
+[jacoco:report] Writing bundle 'JaCoCo Ant Example' with 99 classes
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[INFO] Running GZoltar
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Collecting classes under test
+* Collected 139 classes
+* Collecting test classes
+* Collected 5 test classes
+* Collected 1565 components
+* Performing analysis
+* Number of test cases to execute: 1
+* Started org.mockito.internal.util.reflection.GenericMasterTest#shouldGetObjectForNonGeneric
+* Finished org.mockito.internal.util.reflection.GenericMasterTest#shouldGetObjectForNonGeneric
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.util.reflection.GenericMasterTest#shouldDealWithNestedGenerics
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldDealWithNestedGenerics(org.mockito.internal.util.reflection.GenericMasterTest)
+--- org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.util.reflection.GenericMasterTest.shouldDealWithNestedGenerics(GenericMasterTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockito.internal.util.reflection.GenericMasterTest#shouldDealWithNestedGenerics
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockito.internal.util.reflection.GenericMasterTest#shouldFindGenericClass
+* Finished org.mockito.internal.util.reflection.GenericMasterTest#shouldFindGenericClass
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowCaptorAndInjectMock
+* Finished org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowCaptorAndInjectMock
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowSpyAndInjectMock
+* Finished org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowSpyAndInjectMock
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowMockAndSpy
+* Finished org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowMockAndSpy
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowCaptorAndSpy
+* Finished org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowCaptorAndSpy
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowCaptorAndMock
+* Finished org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowCaptorAndMock
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowMockAndInjectMock
+* Finished org.mockitousage.annotation.WrongSetOfAnnotationsTest#shouldNotAllowMockAndInjectMock
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationTest#testNormalUsage
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | testNormalUsage(org.mockitousage.annotation.CaptorAnnotationTest)
+--- org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationTest#testNormalUsage
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationTest#shouldLookForAnnotatedCaptorsInSuperClasses
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldLookForAnnotatedCaptorsInSuperClasses(org.mockitousage.annotation.CaptorAnnotationTest)
+--- org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationTest#shouldLookForAnnotatedCaptorsInSuperClasses
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationTest#shouldScreamWhenInitializingCaptorsForNullClass
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldScreamWhenInitializingCaptorsForNullClass(org.mockitousage.annotation.CaptorAnnotationTest)
+--- org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationTest#shouldScreamWhenInitializingCaptorsForNullClass
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationTest#shouldScreamWhenWrongTypeForCaptor
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldScreamWhenWrongTypeForCaptor(org.mockitousage.annotation.CaptorAnnotationTest)
+--- org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationTest#shouldScreamWhenWrongTypeForCaptor
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationTest#shouldScreamWhenMoreThanOneMockitoAnnotaton
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldScreamWhenMoreThanOneMockitoAnnotaton(org.mockitousage.annotation.CaptorAnnotationTest)
+--- org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationTest#shouldScreamWhenMoreThanOneMockitoAnnotaton
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldUseAnnotatedCaptor
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldUseAnnotatedCaptor(org.mockitousage.annotation.CaptorAnnotationBasicTest)
+--- org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldUseAnnotatedCaptor
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldUseGenericlessAnnotatedCaptor
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldUseGenericlessAnnotatedCaptor(org.mockitousage.annotation.CaptorAnnotationBasicTest)
+--- org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldUseGenericlessAnnotatedCaptor
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldUseCaptorInOrdinaryWay
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldUseCaptorInOrdinaryWay(org.mockitousage.annotation.CaptorAnnotationBasicTest)
+--- org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldUseCaptorInOrdinaryWay
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldCaptureGenericList
+* Failure: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class | shouldCaptureGenericList(org.mockitousage.annotation.CaptorAnnotationBasicTest)
+--- org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList
+java.lang.ClassCastException: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl cannot be cast to java.lang.Class
+	at org.mockito.internal.util.reflection.GenericMaster.getGenericType(GenericMaster.java:20)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.processAnnotationOn(DefaultAnnotationEngine.java:76)
+	at org.mockito.internal.configuration.DefaultAnnotationEngine.createMockFor(DefaultAnnotationEngine.java:42)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.createMockFor(InjectingAnnotationEngine.java:35)
+	at org.mockito.configuration.MockitoConfiguration$1.createMockFor(MockitoConfiguration.java:56)
+	at org.mockito.MockitoAnnotations.processAnnotationDeprecatedWay(MockitoAnnotations.java:119)
+	at org.mockito.MockitoAnnotations.scan(MockitoAnnotations.java:108)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:95)
+	at org.mockitoutil.TestBase.init(TestBase.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at com.gzoltar.lib.instrumentation.testing.junit.RunJUniTestMethod.main(Unknown Source)
+
+* Finished org.mockitousage.annotation.CaptorAnnotationBasicTest#shouldCaptureGenericList
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.bugs.CaptorAnnotationAutoboxingTest#shouldAutoboxAllPrimitives
+* Finished org.mockitousage.bugs.CaptorAnnotationAutoboxingTest#shouldAutoboxAllPrimitives
+* Number of test cases executed: 1
+* Number of test cases to execute: 1
+* Started org.mockitousage.bugs.CaptorAnnotationAutoboxingTest#shouldAutoboxSafely
+* Finished org.mockitousage.bugs.CaptorAnnotationAutoboxingTest#shouldAutoboxSafely
+* Number of test cases executed: 1
+* Filtering test cases that do not cover any component
+* Writing coverage matrix to '/data/acp13jcd/TestGZoltar/Mockito/12/Mockito/developer/0/Mockito-12b-developer.0/matrix'
+* Performing fault localization
+* Running Ochiai
+* Writing spectra to '/data/acp13jcd/TestGZoltar/Mockito/12/Mockito/developer/0/Mockito-12b-developer.0/spectra'
+* Calculating metrics
+* Sending data to master
+* Closing connection with client
+[INFO] It tooks 00:01:00 to run GZoltar!
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+[DEBUG] TESTS OK
+[DEBUG] Same number of failing test cases reported by GZoltar (10) and by D4J (10)
+[DEBUG] Checking outcome of atomic test 'org.mockito.internal.util.reflection.GenericMasterTest::shouldDealWithNestedGenerics'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationTest::shouldLookForAnnotatedCaptorsInSuperClasses'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenInitializingCaptorsForNullClass'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseGenericlessAnnotatedCaptor'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseCaptorInOrdinaryWay'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldUseAnnotatedCaptor'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationBasicTest::shouldCaptureGenericList'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenMoreThanOneMockitoAnnotaton'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationTest::shouldScreamWhenWrongTypeForCaptor'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] Checking outcome of atomic test 'org.mockitousage.annotation.CaptorAnnotationTest::testNormalUsage'
+[DEBUG] Ok, it is also a failing test reported by D4J
+[DEBUG] total number of atomic test cases reported by GZoltar (20) is equal or greater than the number of tests reported by Cobertura (20). fine.
+A sanity check on passing test cases cannot be performed as GZoltar (1565) and JaCoCo (1571) report different number of lines for the classes under test
+
+DONE!

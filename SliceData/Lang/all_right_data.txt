@@ -1,0 +1,7 @@
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/35
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/24
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/33
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/38
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/43
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/49
+/home/youhuazi/Context_CC/defects4j/ContextData/SliceData/Lang/57
